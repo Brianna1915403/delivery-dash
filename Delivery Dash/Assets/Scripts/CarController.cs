@@ -7,18 +7,13 @@ public class CarController : MonoBehaviour
     public Transform[] wheels;  
     public WheelCollider[] wheelColliders;
     [Space]
-    public float motor = 50f;
+    public float motor = 500f;
     public float brake = 400f;
     public float steeringAngle = 30f;
 
     private float m_verticalInput;
     private float m_horizontalInput;
     private float m_steeringAngle;
-
-    private void Start() 
-    {
-        
-    }
 
     void FixedUpdate()
     {       
@@ -29,7 +24,6 @@ public class CarController : MonoBehaviour
     {
         m_verticalInput = Input.GetAxis("Vertical");
         m_horizontalInput = Input.GetAxis("Horizontal");
-
         Brake(Input.GetButton("Jump"));
 
         Steer();
@@ -66,8 +60,8 @@ public class CarController : MonoBehaviour
 
     void UpdateWheelPlacement(Transform transform, WheelCollider collider)
     {
-        Vector3 position = transform.position;
-        Quaternion rotation = transform.rotation;
+        Vector3 position;
+        Quaternion rotation;
         collider.GetWorldPose(out position, out rotation);
         transform.position = position;
         transform.rotation = rotation;
