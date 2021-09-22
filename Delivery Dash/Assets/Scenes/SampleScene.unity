@@ -196,7 +196,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5737056877485894687, guid: c21eb9257b8b84f41af2c3f7fd499502, type: 3}
       propertyPath: brake
-      value: 400
+      value: 800
+      objectReference: {fileID: 0}
+    - target: {fileID: 5737056877485894687, guid: c21eb9257b8b84f41af2c3f7fd499502, type: 3}
+      propertyPath: motor
+      value: 600
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c21eb9257b8b84f41af2c3f7fd499502, type: 3}

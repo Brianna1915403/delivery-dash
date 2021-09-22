@@ -326,7 +326,7 @@ MonoBehaviour:
   - {fileID: 4486991718996948338}
   - {fileID: 770218954837538739}
   motor: 500
-  brake: 400
+  brake: 800
   steeringAngle: 15
 --- !u!1 &1803382160796180003
 GameObject:

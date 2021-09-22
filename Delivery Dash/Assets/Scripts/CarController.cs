@@ -48,6 +48,8 @@ public class CarController : MonoBehaviour
     {
         wheelColliders[0].brakeTorque = isActive ? brake : 0f;
         wheelColliders[1].brakeTorque = isActive ? brake : 0f;
+        wheelColliders[2].brakeTorque = isActive ? brake : 0f;
+        wheelColliders[3].brakeTorque = isActive ? brake : 0f;
     }
 
     void UpdateWheelPlacement()
