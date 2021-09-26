@@ -18,6 +18,7 @@ public class CarController : MonoBehaviour
     void FixedUpdate()
     {       
         Drive();
+        Debug.Log($"Car's Z axis/front: {transform.forward}");
     }
 
     void Drive()
@@ -67,5 +68,15 @@ public class CarController : MonoBehaviour
         collider.GetWorldPose(out position, out rotation);
         transform.position = position;
         transform.rotation = rotation;
+    }
+
+    private void OnDrawGizmos()
+    {
+        Gizmos.color = Color.blue;
+        Gizmos.DrawRay(transform.position, Vector3.forward);
+        Gizmos.color = Color.red;
+        Gizmos.DrawRay(transform.position, Vector3.right); 
+        Gizmos.color = Color.green;
+        Gizmos.DrawRay(transform.position, Vector3.up);
     }
 }
