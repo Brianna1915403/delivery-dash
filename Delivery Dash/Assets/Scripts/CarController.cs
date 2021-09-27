@@ -18,7 +18,6 @@ public class CarController : MonoBehaviour
     void FixedUpdate()
     {       
         Drive();
-        Debug.Log($"Car's Z axis/front: {transform.forward}");
     }
 
     void Drive()

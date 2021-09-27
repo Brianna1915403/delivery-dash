@@ -4,16 +4,16 @@ using UnityEngine;
 
 public class DropOff : MonoBehaviour
 {
-    public Transform order;
+    public Transform pickUp;
 
     private void OnTriggerEnter(Collider other)
     {
-        if (order == null) return;
+        if (pickUp == null) return;
 
-        if (other.CompareTag("Player") && !order.gameObject.activeSelf)
+        if (other.CompareTag("Player") && !pickUp.gameObject.activeSelf)
         {
             Debug.Log($"Thank you for my order!");
-            Destroy(order.gameObject);
+            Destroy(pickUp.gameObject);
             Destroy(this.gameObject);
         }
     }
