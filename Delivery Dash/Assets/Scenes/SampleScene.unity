@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
+  m_IndirectSpecularColor: {r: 0.4465782, g: 0.49641252, b: 0.5748167, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -458,7 +458,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 316743126}
-  m_LocalRotation: {x: 0.11187599, y: -8.826026e-16, z: 9.936584e-17, w: 0.9937222}
+  m_LocalRotation: {x: 0.11187598, y: 0.0000000074038073, z: -8.33541e-10, w: 0.9937222}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -1028,7 +1028,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0.09383003, y: 0.000000019219652, z: -0.0000000017987042, w: 0.99558824}
+  m_LocalRotation: {x: 0.09383003, y: -0.000000019219653, z: 0.0000000017987042, w: 0.99558824}
   m_LocalPosition: {x: 0, y: 3.6, z: -11.6}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -1135,7 +1135,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 979424907}
-  m_LocalRotation: {x: 0.09383001, y: 0.000000019152447, z: -0.0000000018050375, w: 0.99558824}
+  m_LocalRotation: {x: 0.09383001, y: -0.000000019152449, z: 0.0000000018050376, w: 0.99558824}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -1386,10 +1386,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d1070272d4a02446b238f75290ed3ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pickupPrefab: {fileID: 8861143763601172421, guid: 6be148c8d1e517c42bbcf8c0a86b6e54, type: 3}
-  dropOffPrefab: {fileID: 6031007014127335318, guid: d4f9f03da529dd345abfd65ce50fc163, type: 3}
-  offset: 9.5
-  radius: 50
+  m_PickupPrefab: {fileID: 8861143763601172421, guid: 6be148c8d1e517c42bbcf8c0a86b6e54, type: 3}
+  m_DropOffPrefab: {fileID: 6031007014127335318, guid: d4f9f03da529dd345abfd65ce50fc163, type: 3}
+  m_Offset: 10
+  m_Radius: 30
   buildings: []
 --- !u!1 &1294360406
 GameObject:
@@ -2743,6 +2743,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -8062978093684989004, guid: 00cc56956df847e429e8b81407a4aa84, type: 3}
+      propertyPath: m_DistanceToStreet
+      value: 12
+      objectReference: {fileID: 0}
     - target: {fileID: 7445516495345739646, guid: 00cc56956df847e429e8b81407a4aa84, type: 3}
       propertyPath: m_RootOrder
       value: 8
@@ -2854,11 +2858,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2354928789322888289, guid: 1188992fea43e4040b546aa466db7035, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2354928789322888289, guid: 1188992fea43e4040b546aa466db7035, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2354928789322888289, guid: 1188992fea43e4040b546aa466db7035, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x

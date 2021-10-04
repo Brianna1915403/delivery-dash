@@ -53,12 +53,13 @@
     <UnityVersion>2020.3.16f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Minimap\Minimap.cs" />
+    <Compile Include="Assets\Scripts\Minimap\MinimapIcon.cs" />
     <Compile Include="Assets\Scripts\Car\CarController.cs" />
     <Compile Include="Assets\Scripts\Pickup\Pickup.cs" />
     <Compile Include="Assets\Scripts\Pickup\PickupRadius.cs" />
     <Compile Include="Assets\Scripts\Pickup\DropOff.cs" />
-    <Compile Include="Assets\Scripts\Minimap\Minimap.cs" />
-    <Compile Include="Assets\Scripts\Minimap\MinimapIcon.cs" />
+    <Compile Include="Assets\Scripts\Building\Building.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5953154116131278076}
   - component: {fileID: 8464846904876349494}
   - component: {fileID: 8644527312836942291}
+  - component: {fileID: -6819805057736184000}
   m_Layer: 0
   m_Name: large_buildingC
   m_TagString: Building
@@ -99,3 +100,17 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.9699999, y: 1.6799998, z: 0.8399999}
   m_Center: {x: 0.065, y: 0.8399999, z: 0}
+--- !u!114 &-6819805057736184000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7960623723765537251}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c99630df90b41c4b9fa095f4907c73e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_DistanceToStreet: 0
+  m_ForwardAngle: 0

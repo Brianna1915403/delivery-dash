@@ -6,6 +6,12 @@ public class Pickup : MonoBehaviour
 {
     [SerializeField] private Transform m_DropOff;
 
+    public Transform DropOff
+    {
+        set { m_DropOff = value; }
+        get { return m_DropOff; }
+    }
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))

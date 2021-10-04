@@ -59,7 +59,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a760c85a9ff6a7641b026daa3fed0868, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dropOff: {fileID: 0}
+  m_DropOff: {fileID: 0}
 --- !u!1001 &2415033913191089627
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -239,7 +239,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3615765823107065520, guid: 9675c97d10fd35247ae58dd41e76e9de, type: 3}
       propertyPath: m_Offset
-      value: 15
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 4420321911923393700, guid: 9675c97d10fd35247ae58dd41e76e9de, type: 3}
       propertyPath: m_Sprite
@@ -251,6 +251,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4420321911923393700, guid: 9675c97d10fd35247ae58dd41e76e9de, type: 3}
       propertyPath: m_Color.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4420321911923393700, guid: 9675c97d10fd35247ae58dd41e76e9de, type: 3}
+      propertyPath: m_SortingLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4420321911923393700, guid: 9675c97d10fd35247ae58dd41e76e9de, type: 3}
+      propertyPath: m_SortingLayerID
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4420321911923393700, guid: 9675c97d10fd35247ae58dd41e76e9de, type: 3}

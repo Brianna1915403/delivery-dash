@@ -28,26 +28,25 @@ public class PickupRadius : MonoBehaviour
 
     private void CreatePickup()
     {
-        int random = Random.Range(0, buildings.Count);
-        GameObject building = buildings[random];
-        Debug.Log($"START: {building.name}");
+        GameObject building = buildings[Random.Range(0, buildings.Count)];
+        Vector3 buildingSize = building.GetComponent<BoxCollider>().size;
+        m_Offset = buildingSize.z;
         Vector3 position = GetSpawnLocation(building.transform);
-        Debug.Log($"START: {position}");
         GameObject pickup = Instantiate(m_PickupPrefab, position, Quaternion.identity);
         m_Pickup = pickup.GetComponent<Pickup>();
-        m_Pickup.m_DropOff = null;
+        m_Pickup.DropOff = null;
     }
 
-    private Vector3 GetSpawnLocation(Transform transform)
+    private Vector3 GetSpawnLocation(Transform _transform)
     {
-        Debug.Log($"GET_SPAWN_LOCATION: {transform.rotation.eulerAngles}");
-        Debug.Log($"GET_SPAWN_LOCATION: {transform.transform.position}");
-        return transform.rotation.eulerAngles.y switch
+        Debug.Log($"GET_SPAWN_LOCATION: {_transform.rotation.eulerAngles}");
+        Debug.Log($"GET_SPAWN_LOCATION: {_transform.position}");
+        return _transform.rotation.eulerAngles.y switch
         {
-            0f => new Vector3(transform.position.x, transform.position.y + 0.30f, transform.position.z + -m_Offset),
-            90f => new Vector3(transform.position.x + -m_Offset, transform.position.y + 0.30f, transform.position.z),
-            180f => new Vector3(transform.position.x, transform.position.y + 0.30f, transform.position.z + m_Offset),
-            270f => new Vector3(transform.position.x + m_Offset, transform.position.y + 0.30f, transform.position.z),
+            0f => new Vector3(_transform.position.x, _transform.position.y + 0.30f, _transform.position.z + -m_Offset),
+            90f => new Vector3(_transform.position.x + -m_Offset, _transform.position.y + 0.30f, _transform.position.z),
+            180f => new Vector3(_transform.position.x, _transform.position.y + 0.30f, _transform.position.z + m_Offset),
+            270f => new Vector3(_transform.position.x + m_Offset, _transform.position.y + 0.30f, _transform.position.z),
             _ => new Vector3(),
         };
     }
