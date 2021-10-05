@@ -5,14 +5,13 @@ using UnityEngine;
 public class Building : MonoBehaviour
 {
     [SerializeField] private float m_DistanceToStreet;
-    [SerializeField] private GameObject m_PickupPrefab, m_DropOffPrefab;
 
     private void Start()
     {
 
     }
 
-    public void SpawnPickup()
+    public void SpawnWaypoint(GameObject waypoint)
     {
 
     }

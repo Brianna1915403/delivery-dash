@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8543557976144761096}
   - component: {fileID: 4701488784844218029}
   - component: {fileID: 7411795143999597159}
-  - component: {fileID: 5953252014070677923}
+  - component: {fileID: 1681656007194363238}
   - component: {fileID: 6201186386121761663}
   m_Layer: 0
   m_Name: house_type15
@@ -29,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 9068842387192679346}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 10, y: 10, z: 10}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -87,8 +87,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &5953252014070677923
-BoxCollider:
+--- !u!64 &1681656007194363238
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -97,9 +97,10 @@ BoxCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.9041665, y: 1.149596, z: 0.9}
-  m_Center: {x: 0, y: 0.574798, z: 0}
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -1108398665472106934, guid: 099a7c22398709c4a9aee02e53ecc78b, type: 3}
 --- !u!114 &6201186386121761663
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -112,5 +113,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c99630df90b41c4b9fa095f4907c73e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_DistanceToStreet: 0
-  m_ForwardAngle: 0
+  m_DistanceToStreet: 9
+  m_PickupPrefab: {fileID: 0}
+  m_DropOffPrefab: {fileID: 0}
