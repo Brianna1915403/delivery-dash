@@ -6,11 +6,6 @@ public class Building : MonoBehaviour
 {
     [SerializeField] private float m_DistanceToStreet;
 
-    private void Start()
-    {
-
-    }
-
     public void SpawnWaypoint(GameObject waypoint)
     {
         Instantiate(waypoint, GetPosition(), Quaternion.identity);

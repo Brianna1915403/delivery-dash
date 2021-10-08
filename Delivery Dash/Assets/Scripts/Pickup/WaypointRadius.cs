@@ -18,8 +18,6 @@ public class WaypointRadius : MonoBehaviour
             if (collider.gameObject.CompareTag("Building"))
                 m_Buildings.Add(collider.gameObject);
         }
-        // Choose building and make it spawn the thing...
-        SpawnWaypoint();
     }
 
     public void SpawnWaypoint()

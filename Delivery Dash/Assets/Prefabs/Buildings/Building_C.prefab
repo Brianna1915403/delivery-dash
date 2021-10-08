@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 3510087446360514383}
   - component: {fileID: -6819805057736184000}
   m_Layer: 0
-  m_Name: large_buildingC
+  m_Name: Building_C
   m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
