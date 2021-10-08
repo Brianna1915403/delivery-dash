@@ -276,7 +276,7 @@ GameObject:
   - component: {fileID: 327578082382331651}
   m_Layer: 0
   m_Name: Taxi
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -337,19 +337,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99dda73d894bfd94eaaa967bd2018452, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wheels:
+  m_Wheels:
   - {fileID: 2852779027547895882}
   - {fileID: 5136098526631181684}
   - {fileID: 4227818872122000756}
   - {fileID: 9015306866478126738}
-  wheelColliders:
+  m_WheelColliders:
   - {fileID: 3382349524408131823}
   - {fileID: 2747293479989843884}
   - {fileID: 7707642486941614120}
   - {fileID: 7863108471216706182}
-  motor: 500
-  brake: 800
-  steeringAngle: 15
+  m_Motor: 500
+  m_Brake: 400
+  m_SteeringAngle: 30
 --- !u!1 &3329900154576963334
 GameObject:
   m_ObjectHideFlags: 0

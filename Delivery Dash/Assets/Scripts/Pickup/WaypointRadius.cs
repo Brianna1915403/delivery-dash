@@ -2,32 +2,34 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+public enum RADIUS_TYPE { PICKUP, DROP_OFF }
+
 public class WaypointRadius : MonoBehaviour
 {
-    [SerializeField] private string m_RadiusType;
-    [Space]
-    [SerializeField] private GameObject m_PickupPrefab;
-    [SerializeField] private GameObject m_DropOffPrefab;
+    [SerializeField] private RADIUS_TYPE m_RadiusType;
+    [SerializeField] private GameObject m_WaypointPrefab;
     [Space]
     [SerializeField] private float m_Radius = 5f;
-    [SerializeField] private List<GameObject> buildings;
-
-    private Pickup m_Pickup;
-    private DropOff m_DropOff;
+    [SerializeField] private List<GameObject> m_Buildings;
 
     private void Start() {
         Collider[] colliders = Physics.OverlapSphere(transform.position, m_Radius);
         foreach (Collider collider in colliders) {
             if (collider.gameObject.CompareTag("Building"))
-                buildings.Add(collider.gameObject);
+                m_Buildings.Add(collider.gameObject);
         }
         // Choose building and make it spawn the thing...
+        SpawnWaypoint();
     }
 
-
+    public void SpawnWaypoint()
+    {
+        Building building = m_Buildings[Random.Range(0, m_Buildings.Count)]?.GetComponent<Building>();
+        building.SpawnWaypoint(m_WaypointPrefab);
+    }
 
     private void OnDrawGizmos() {
-        Gizmos.color = Color.green;
+        Gizmos.color = m_RadiusType.Equals(RADIUS_TYPE.PICKUP)? Color.green : Color.red;
         Gizmos.DrawWireSphere(transform.position, m_Radius);
     }
 }

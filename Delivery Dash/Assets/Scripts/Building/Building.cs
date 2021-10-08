@@ -13,7 +13,7 @@ public class Building : MonoBehaviour
 
     public void SpawnWaypoint(GameObject waypoint)
     {
-
+        Instantiate(waypoint, GetPosition(), Quaternion.identity);
     }
 
     private Vector3 GetPosition()
