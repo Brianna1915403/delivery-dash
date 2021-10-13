@@ -114,5 +114,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_DistanceToStreet: 11.7
-  m_PickupPrefab: {fileID: 0}
-  m_DropOffPrefab: {fileID: 0}
+  m_DistanceToSidewalk: 7.23

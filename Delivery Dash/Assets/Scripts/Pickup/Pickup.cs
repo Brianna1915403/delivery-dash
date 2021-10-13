@@ -4,19 +4,20 @@ using UnityEngine;
 
 public class Pickup : MonoBehaviour
 {
-    [SerializeField] private Transform m_DropOff;
+    [SerializeField] private Customer m_Customer;
 
-    public Transform DropOff
+    public Customer Customer
     {
-        set { m_DropOff = value; }
-        get { return m_DropOff; }
+        set { m_Customer = value; }
+        get { return m_Customer; }
     }
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
         {
-            Debug.Log($"Please Drop off to {m_DropOff.name} at {m_DropOff.position}");
+            m_Customer.DirectToDropOff();
+            //Debug.Log($"Please Drop off to {m_DropOff.name} at {m_DropOff.position}");
             gameObject.SetActive(false);
         }
     }

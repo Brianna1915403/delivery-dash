@@ -5,20 +5,27 @@ using UnityEngine;
 public class Building : MonoBehaviour
 {
     [SerializeField] private float m_DistanceToStreet;
+    [SerializeField] private float m_DistanceToSidewalk;
 
-    public void SpawnWaypoint(GameObject waypoint)
+    public GameObject SpawnWaypoint(GameObject waypoint)
     {
-        Instantiate(waypoint, GetPosition(), Quaternion.identity);
+        return Instantiate(waypoint, GetPosition(), Quaternion.identity);
     }
 
-    private Vector3 GetPosition()
+    public Vector3 GetCustomerPosition(out Quaternion rotation)
+    {
+        rotation = transform.rotation;
+        return GetPosition(false);
+    }
+
+    private Vector3 GetPosition(bool isWaypoint = true)
     {
         return transform.rotation.eulerAngles.y switch
         {
-            0f => new Vector3(transform.position.x, transform.position.y, transform.position.z + -m_DistanceToStreet),
-            90f => new Vector3(transform.position.x + -m_DistanceToStreet, transform.position.y, transform.position.z),
-            180f => new Vector3(transform.position.x, transform.position.y + 0.30f, transform.position.z + m_DistanceToStreet),
-            270f => new Vector3(transform.position.x + m_DistanceToStreet, transform.position.y, transform.position.z),
+            0f => new Vector3(transform.position.x, transform.position.y, transform.position.z + -(isWaypoint ? m_DistanceToStreet : m_DistanceToSidewalk)),
+            90f => new Vector3(transform.position.x + -(isWaypoint ? m_DistanceToStreet : m_DistanceToSidewalk), transform.position.y, transform.position.z),
+            180f => new Vector3(transform.position.x, transform.position.y + 0.30f, transform.position.z + (isWaypoint ? m_DistanceToStreet : m_DistanceToSidewalk)),
+            270f => new Vector3(transform.position.x + (isWaypoint ? m_DistanceToStreet : m_DistanceToSidewalk), transform.position.y, transform.position.z),
             _ => new Vector3(),
         };
     }
@@ -27,5 +34,6 @@ public class Building : MonoBehaviour
     {
         Gizmos.color = Color.white;
         Gizmos.DrawCube(GetPosition(), new Vector3(1, 1, 1));
+        Gizmos.DrawSphere(GetPosition(false), 1f);
     }
 }

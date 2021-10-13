@@ -4,17 +4,20 @@ using UnityEngine;
 
 public class DropOff : MonoBehaviour
 {
-    public Transform pickUp;
+    [SerializeField] private Customer m_Customer;
+
+    public Customer Customer
+    {
+        set { m_Customer = value; }
+        get { return m_Customer; }
+    }
 
     private void OnTriggerEnter(Collider other)
     {
-        if (pickUp == null) return;
-
-        if (other.CompareTag("Player") && !pickUp.gameObject.activeSelf)
+        if (other.CompareTag("Player"))
         {
-            Debug.Log($"Thank you for my order!");
-            Destroy(pickUp.gameObject);
-            Destroy(this.gameObject);
+            Debug.Log($"Thank you!");
+            m_Customer.CompleteOrder();
         }
     }
 }
