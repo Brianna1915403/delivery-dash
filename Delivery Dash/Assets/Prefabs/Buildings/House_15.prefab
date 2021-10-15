@@ -113,5 +113,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c99630df90b41c4b9fa095f4907c73e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_DistanceToStreet: 11.42
+  m_DistanceToStreet: 10.6
   m_DistanceToSidewalk: 6.28
