@@ -57,14 +57,15 @@
     <Compile Include="Assets\Scripts\Minimap\MinimapIcon.cs" />
     <Compile Include="Assets\Scripts\Car\CarController.cs" />
     <Compile Include="Assets\Scripts\Pickup\WaypointRadius.cs" />
+    <Compile Include="Assets\Scripts\Customer\Person.cs" />
     <Compile Include="Assets\Scripts\Pickup\Pickup.cs" />
+    <Compile Include="Assets\simple modular human\scripts\Test_script.cs" />
     <Compile Include="Assets\Scripts\Customer\Customer.cs" />
     <Compile Include="Assets\Scripts\Pickup\OrderHandeler.cs" />
     <Compile Include="Assets\Scripts\Pickup\DropOff.cs" />
-    <Compile Include="Assets\Scripts\Building\Building.cs" />
     <Compile Include="Assets\simple modular human\scripts\clothing.cs" />
-    <Compile Include="Assets\simple modular human\scripts\Test_script.cs" />
-    <Compile Include="Assets\Scripts\Customer\Person.cs" />
+    <Compile Include="Assets\Scripts\Building\Building.cs" />
+    <Compile Include="Assets\Scripts\TerrianGizmo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\simple modular human\readMe.txt" />
@@ -673,8 +674,14 @@
     <Reference Include="Unity.Rider.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.ProGrids.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.ProGrids.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProGrids">
+      <HintPath>Library\ScriptAssemblies\Unity.ProGrids.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
