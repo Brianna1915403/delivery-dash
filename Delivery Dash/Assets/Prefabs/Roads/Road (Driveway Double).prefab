@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 1018143946897160821}
   - component: {fileID: 4147523968821884368}
   - component: {fileID: 2191564558724432154}
+  - component: {fileID: -7486623579548702846}
   m_Layer: 0
   m_Name: Road (Driveway Double)
   m_TagString: Untagged
@@ -84,3 +85,17 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &-7486623579548702846
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 390401578927169743}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -6883311590221120416, guid: 2e9384eb23bef7449bc8155d1bb86892, type: 3}
