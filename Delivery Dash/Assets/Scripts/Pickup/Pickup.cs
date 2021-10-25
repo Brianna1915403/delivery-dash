@@ -17,7 +17,6 @@ public class Pickup : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             m_Customer.DirectToDropOff();
-            //Debug.Log($"Please Drop off to {m_DropOff.name} at {m_DropOff.position}");
             gameObject.SetActive(false);
         }
     }

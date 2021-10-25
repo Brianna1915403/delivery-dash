@@ -59,7 +59,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 88306bee1e67eb245aaff44c93cc84a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pickUp: {fileID: 0}
+  m_Customer: {fileID: 0}
 --- !u!1001 &1251927635590782919
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -115,6 +115,14 @@ PrefabInstance:
       propertyPath: ColorModule.gradient.maxGradient.key1.r
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1590020365453918839, guid: e295a1df0a1885c4391337aeee821419, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1897391033511319818, guid: e295a1df0a1885c4391337aeee821419, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 2470613320826219164, guid: e295a1df0a1885c4391337aeee821419, type: 3}
       propertyPath: m_Name
       value: Waypoint
@@ -133,7 +141,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4510992879538435409, guid: e295a1df0a1885c4391337aeee821419, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4510992879538435409, guid: e295a1df0a1885c4391337aeee821419, type: 3}
       propertyPath: m_LocalPosition.z
@@ -207,7 +215,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1799969850680915889, guid: 9675c97d10fd35247ae58dd41e76e9de, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 25
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 1799969850680915889, guid: 9675c97d10fd35247ae58dd41e76e9de, type: 3}
       propertyPath: m_LocalRotation.y

@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1918757605122777617}
   m_Layer: 0
   m_Name: Visuals
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -44,7 +44,7 @@ GameObject:
   - component: {fileID: 5465730256543020849}
   m_Layer: 0
   m_Name: Back Bumper
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -74,8 +74,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.2716827, y: 0.67328316, z: 1}
-  m_Center: {x: -0.009235382, y: 0.47177258, z: 0}
+  m_Size: {x: 1.2716827, y: 0.6041589, z: 0.95498276}
+  m_Center: {x: -0.009235382, y: 0.5063348, z: 0.022508621}
 --- !u!1 &532797841695228855
 GameObject:
   m_ObjectHideFlags: 0
@@ -89,7 +89,7 @@ GameObject:
   - component: {fileID: 8241933353707976486}
   m_Layer: 0
   m_Name: wheel_backLeft
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -169,7 +169,7 @@ GameObject:
   - component: {fileID: 7014549528174716209}
   m_Layer: 0
   m_Name: Body Colliders
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -203,7 +203,7 @@ GameObject:
   - component: {fileID: 3382349524408131823}
   m_Layer: 0
   m_Name: wheel_frontRight
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -265,7 +265,7 @@ GameObject:
   - component: {fileID: 5935938440962304310}
   m_Layer: 0
   m_Name: body
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -349,6 +349,8 @@ GameObject:
   - component: {fileID: 2354928789322888289}
   - component: {fileID: 8425559768388681498}
   - component: {fileID: 327578082382331651}
+  - component: {fileID: 4275443205664054570}
+  - component: {fileID: 8203871651139767193}
   m_Layer: 0
   m_Name: Taxi
   m_TagString: Player
@@ -414,6 +416,38 @@ MonoBehaviour:
   m_Motor: 500
   m_Brake: 400
   m_SteeringAngle: 30
+--- !u!114 &4275443205664054570
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3163132145335938779}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be8cad75fb2004e45aaddbb24d3f9173, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Health: 100
+  m_FrontBumperDamage: 0
+  m_BackBumperDamage: 0
+--- !u!114 &8203871651139767193
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3163132145335938779}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98eb0859f91fc9c4a9e968278140aecb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Size: {x: 1.16, y: 1.34, z: 0.39}
+  m_HeightOffset: 0.76
+  m_CarController: {fileID: 0}
+  m_Car: {fileID: 0}
+  m_IsFrontBumper: 0
 --- !u!1 &3329900154576963334
 GameObject:
   m_ObjectHideFlags: 0
@@ -427,7 +461,7 @@ GameObject:
   - component: {fileID: 3496382712400222840}
   m_Layer: 0
   m_Name: wheel_frontRight
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -508,7 +542,7 @@ GameObject:
   - component: {fileID: 7707642486941614120}
   m_Layer: 0
   m_Name: wheel_backRight
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -568,7 +602,7 @@ GameObject:
   - component: {fileID: 1065743866006599945}
   m_Layer: 0
   m_Name: Wheel Colliders
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -604,7 +638,7 @@ GameObject:
   - component: {fileID: 922419694123984276}
   m_Layer: 0
   m_Name: wheel_frontLeft
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -686,7 +720,7 @@ GameObject:
   - component: {fileID: 2571963563852522988}
   m_Layer: 0
   m_Name: wheel_backRight
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -767,7 +801,7 @@ GameObject:
   - component: {fileID: 2747293479989843884}
   m_Layer: 0
   m_Name: wheel_frontLeft
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -827,7 +861,7 @@ GameObject:
   - component: {fileID: 2800381827605828026}
   m_Layer: 0
   m_Name: Wheels
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -862,7 +896,7 @@ GameObject:
   - component: {fileID: 7863108471216706182}
   m_Layer: 0
   m_Name: wheel_backLeft
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -923,7 +957,7 @@ GameObject:
   - component: {fileID: 1385348348939908127}
   m_Layer: 0
   m_Name: Front Bumper
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -953,8 +987,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.2716827, y: 0.608444, z: 0.9472084}
-  m_Center: {x: -0.009235382, y: 0.50419223, z: -0.026395798}
+  m_Size: {x: 1.2716827, y: 0.608444, z: 0.9146538}
+  m_Center: {x: -0.009235382, y: 0.50419223, z: -0.04267311}
 --- !u!1 &8529008182000320216
 GameObject:
   m_ObjectHideFlags: 0
@@ -967,7 +1001,7 @@ GameObject:
   - component: {fileID: 6258652830594543635}
   m_Layer: 0
   m_Name: Roof Collider
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

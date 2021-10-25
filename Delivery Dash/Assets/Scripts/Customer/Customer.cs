@@ -25,7 +25,7 @@ public class Customer : MonoBehaviour
 
     public void Start()
     {
-        Idle();
+        Wave();
     }
 
     public void OrderPickup()
@@ -50,10 +50,20 @@ public class Customer : MonoBehaviour
         Destroy(m_DropOffWaypoint.Waypoint.gameObject);
     }
 
+    public void GetInCab(Transform car) {
+        Debug.Log("Orphans in my basement");
+        
+    }
+
     private void Idle()
     {
         m_Animator.SetInteger("arms", 5);
         m_Animator.SetInteger("legs", 5);
+    }
+
+    private void Wave() {
+        m_Animator.SetInteger("arms", 16);
+        m_Animator.SetInteger("legs", 16);
     }
 
     private void Walk()

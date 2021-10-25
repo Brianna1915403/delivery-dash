@@ -18,6 +18,9 @@ public class CarController : MonoBehaviour
     void FixedUpdate()
     {       
         Drive();
+        if (Input.GetKeyDown(KeyCode.F)) {
+            Flip();
+        }
     }
 
     void Drive()
@@ -60,8 +63,10 @@ public class CarController : MonoBehaviour
         }
     }
 
-    void HandBrake() {
+    void Flip() {
         Debug.Log("Orphans in my basement");
+        if (transform.rotation.eulerAngles.x > 1 && transform.rotation.eulerAngles.z > 1)
+            transform.rotation = new Quaternion(0, 0, 0, 1);
     }
 
     void UpdateWheelPlacement()
