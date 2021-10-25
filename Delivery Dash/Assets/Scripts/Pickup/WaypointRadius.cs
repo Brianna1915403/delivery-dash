@@ -24,7 +24,7 @@ public class WaypointRadius : MonoBehaviour
         get { return m_Waypoint; }
     }
 
-    private void Start() {
+    private void Awake() {
         Collider[] colliders = Physics.OverlapSphere(transform.position, m_Radius);
         foreach (Collider collider in colliders) {
             if (collider.gameObject.CompareTag("Building"))
@@ -34,8 +34,9 @@ public class WaypointRadius : MonoBehaviour
 
     public void SpawnWaypoint()
     {
-        m_Building = m_Buildings[Random.Range(0, m_Buildings.Count)]?.GetComponent<Building>();
+        m_Building = m_Buildings[Random.Range(0, m_Buildings.Count)].GetComponent<Building>();
         m_Waypoint = m_Building.SpawnWaypoint(m_WaypointPrefab);
+        Debug.Log(m_Building);
     }
 
     private void OnDrawGizmos() {

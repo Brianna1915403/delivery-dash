@@ -9,10 +9,15 @@ public class OrderHandeler : MonoBehaviour
     [Space]
     [SerializeField] private GameObject m_CustomerPrefab;
 
-    void Start()
+    void Awake()
     {
         m_PickupLocations = transform.GetChild(0).GetComponentsInChildren<WaypointRadius>();
-        m_DropOffLocations = transform.GetChild(1).GetComponentsInChildren<WaypointRadius>();
+        m_DropOffLocations = transform.GetChild(1).GetComponentsInChildren<WaypointRadius>();        
+    }
+
+
+    void Start() 
+    {
         SpawnCustomer();
     }
 

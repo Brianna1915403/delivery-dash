@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641258, b: 0.574817, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -281,6 +281,10 @@ PrefabInstance:
     - target: {fileID: 8167552743031168882, guid: bcb894713ce9de34eb261bf73312ca61, type: 3}
       propertyPath: m_Name
       value: Skyscraper_D (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8167552743031168882, guid: bcb894713ce9de34eb261bf73312ca61, type: 3}
+      propertyPath: m_TagString
+      value: Building
       objectReference: {fileID: 0}
     - target: {fileID: 8796419983674672584, guid: bcb894713ce9de34eb261bf73312ca61, type: 3}
       propertyPath: m_RootOrder
@@ -577,6 +581,10 @@ PrefabInstance:
     - target: {fileID: 1588083279173791562, guid: eafff011b0e4c5e46ab3cc26c2a7acc8, type: 3}
       propertyPath: m_Name
       value: House_04 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1588083279173791562, guid: eafff011b0e4c5e46ab3cc26c2a7acc8, type: 3}
+      propertyPath: m_TagString
+      value: Building
       objectReference: {fileID: 0}
     - target: {fileID: 2108196965988988400, guid: eafff011b0e4c5e46ab3cc26c2a7acc8, type: 3}
       propertyPath: m_RootOrder
@@ -1457,6 +1465,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: House_21 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 8636115337778454881, guid: be276adb0730fad4b84c9dbf33b8c202, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     - target: {fileID: 8976366235774499803, guid: be276adb0730fad4b84c9dbf33b8c202, type: 3}
       propertyPath: m_RootOrder
       value: 60
@@ -2302,6 +2314,10 @@ PrefabInstance:
     - target: {fileID: 5883055885372906166, guid: a4ddf0409bd16ef4ca9da32d339de9be, type: 3}
       propertyPath: m_Name
       value: Building_C (Small) (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5883055885372906166, guid: a4ddf0409bd16ef4ca9da32d339de9be, type: 3}
+      propertyPath: m_TagString
+      value: Building
       objectReference: {fileID: 0}
     - target: {fileID: 6552456553740107788, guid: a4ddf0409bd16ef4ca9da32d339de9be, type: 3}
       propertyPath: m_RootOrder
@@ -3498,6 +3514,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: House_04 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1588083279173791562, guid: eafff011b0e4c5e46ab3cc26c2a7acc8, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     - target: {fileID: 2108196965988988400, guid: eafff011b0e4c5e46ab3cc26c2a7acc8, type: 3}
       propertyPath: m_RootOrder
       value: 81
@@ -3934,6 +3954,10 @@ PrefabInstance:
     - target: {fileID: 1226377955505356417, guid: fb3a8f08efa7b2e44acf36544c820c93, type: 3}
       propertyPath: m_Name
       value: Skyscraper_F (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1226377955505356417, guid: fb3a8f08efa7b2e44acf36544c820c93, type: 3}
+      propertyPath: m_TagString
+      value: Building
       objectReference: {fileID: 0}
     - target: {fileID: 1895778962843657275, guid: fb3a8f08efa7b2e44acf36544c820c93, type: 3}
       propertyPath: m_RootOrder
@@ -7766,6 +7790,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: House_21 (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 8636115337778454881, guid: be276adb0730fad4b84c9dbf33b8c202, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     - target: {fileID: 8976366235774499803, guid: be276adb0730fad4b84c9dbf33b8c202, type: 3}
       propertyPath: m_RootOrder
       value: 66
@@ -8986,6 +9014,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: House_21 (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 8636115337778454881, guid: be276adb0730fad4b84c9dbf33b8c202, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     - target: {fileID: 8976366235774499803, guid: be276adb0730fad4b84c9dbf33b8c202, type: 3}
       propertyPath: m_RootOrder
       value: 68
@@ -9534,6 +9566,18 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 4782296503001708263, guid: 1188992fea43e4040b546aa466db7035, type: 3}
+      propertyPath: m_Car
+      value: 
+      objectReference: {fileID: 1307476980}
+    - target: {fileID: 4782296503001708263, guid: 1188992fea43e4040b546aa466db7035, type: 3}
+      propertyPath: m_TriggerDelay
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4782296503001708263, guid: 1188992fea43e4040b546aa466db7035, type: 3}
+      propertyPath: m_CarController
+      value: 
+      objectReference: {fileID: 879345521}
     - target: {fileID: 4962304468236741381, guid: 1188992fea43e4040b546aa466db7035, type: 3}
       propertyPath: m_Car
       value: 
@@ -9546,26 +9590,6 @@ PrefabInstance:
       propertyPath: m_Car
       value: 
       objectReference: {fileID: 1307476980}
-    - target: {fileID: 8203871651139767193, guid: 1188992fea43e4040b546aa466db7035, type: 3}
-      propertyPath: m_Size.x
-      value: 1.28
-      objectReference: {fileID: 0}
-    - target: {fileID: 8203871651139767193, guid: 1188992fea43e4040b546aa466db7035, type: 3}
-      propertyPath: m_Size.y
-      value: 0.57
-      objectReference: {fileID: 0}
-    - target: {fileID: 8203871651139767193, guid: 1188992fea43e4040b546aa466db7035, type: 3}
-      propertyPath: m_Size.z
-      value: 1.04
-      objectReference: {fileID: 0}
-    - target: {fileID: 8203871651139767193, guid: 1188992fea43e4040b546aa466db7035, type: 3}
-      propertyPath: m_YOffset
-      value: 0.49
-      objectReference: {fileID: 0}
-    - target: {fileID: 8203871651139767193, guid: 1188992fea43e4040b546aa466db7035, type: 3}
-      propertyPath: m_ZOffset
-      value: 0.88
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1188992fea43e4040b546aa466db7035, type: 3}
 --- !u!4 &879345520 stripped
@@ -9573,6 +9597,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2354928789322888289, guid: 1188992fea43e4040b546aa466db7035, type: 3}
   m_PrefabInstance: {fileID: 879345519}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &879345521 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 327578082382331651, guid: 1188992fea43e4040b546aa466db7035, type: 3}
+  m_PrefabInstance: {fileID: 879345519}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99dda73d894bfd94eaaa967bd2018452, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &881424024
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9713,7 +9748,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 884574242}
-  m_LocalRotation: {x: 0.12066459, y: -0.0000000042701656, z: 5.1905036e-10, w: 0.99269336}
+  m_LocalRotation: {x: 0.12066459, y: 0.000000004270164, z: -5.190502e-10, w: 0.99269336}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -10225,6 +10260,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: House_11
       objectReference: {fileID: 0}
+    - target: {fileID: 5833506273116156033, guid: 256b6195abbb1784599bcb1d4452ccbe, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     - target: {fileID: 6611028757432609339, guid: 256b6195abbb1784599bcb1d4452ccbe, type: 3}
       propertyPath: m_RootOrder
       value: 35
@@ -10357,6 +10396,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: House_21 (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 8636115337778454881, guid: be276adb0730fad4b84c9dbf33b8c202, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     - target: {fileID: 8976366235774499803, guid: be276adb0730fad4b84c9dbf33b8c202, type: 3}
       propertyPath: m_RootOrder
       value: 67
@@ -10446,6 +10489,10 @@ PrefabInstance:
     - target: {fileID: 8636115337778454881, guid: be276adb0730fad4b84c9dbf33b8c202, type: 3}
       propertyPath: m_Name
       value: House_21 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8636115337778454881, guid: be276adb0730fad4b84c9dbf33b8c202, type: 3}
+      propertyPath: m_TagString
+      value: Building
       objectReference: {fileID: 0}
     - target: {fileID: 8976366235774499803, guid: be276adb0730fad4b84c9dbf33b8c202, type: 3}
       propertyPath: m_RootOrder
@@ -10648,6 +10695,10 @@ PrefabInstance:
     - target: {fileID: 8636115337778454881, guid: be276adb0730fad4b84c9dbf33b8c202, type: 3}
       propertyPath: m_Name
       value: House_21 (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8636115337778454881, guid: be276adb0730fad4b84c9dbf33b8c202, type: 3}
+      propertyPath: m_TagString
+      value: Building
       objectReference: {fileID: 0}
     - target: {fileID: 8976366235774499803, guid: be276adb0730fad4b84c9dbf33b8c202, type: 3}
       propertyPath: m_RootOrder
@@ -10973,6 +11024,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: House_12 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7217670957716905457, guid: 9b8e46f9b496ec040b524c3284625173, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     - target: {fileID: 8025838751486756683, guid: 9b8e46f9b496ec040b524c3284625173, type: 3}
       propertyPath: m_RootOrder
       value: 30
@@ -11256,6 +11311,10 @@ PrefabInstance:
     - target: {fileID: 8444807369602219093, guid: 2678605742609fb4e95efc74ec0f0976, type: 3}
       propertyPath: m_Name
       value: Skyscraper_A (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8444807369602219093, guid: 2678605742609fb4e95efc74ec0f0976, type: 3}
+      propertyPath: m_TagString
+      value: Building
       objectReference: {fileID: 0}
     - target: {fileID: 9113644229540570863, guid: 2678605742609fb4e95efc74ec0f0976, type: 3}
       propertyPath: m_RootOrder
@@ -11948,6 +12007,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: House_21 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 8636115337778454881, guid: be276adb0730fad4b84c9dbf33b8c202, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     - target: {fileID: 8976366235774499803, guid: be276adb0730fad4b84c9dbf33b8c202, type: 3}
       propertyPath: m_RootOrder
       value: 63
@@ -12417,6 +12480,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: House_21 (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 8636115337778454881, guid: be276adb0730fad4b84c9dbf33b8c202, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     - target: {fileID: 8976366235774499803, guid: be276adb0730fad4b84c9dbf33b8c202, type: 3}
       propertyPath: m_RootOrder
       value: 69
@@ -12682,6 +12749,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building_E (Small)
       objectReference: {fileID: 0}
+    - target: {fileID: 7865431706912580087, guid: 9cb44028e0f143d4d8c91b425a2a02f4, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9cb44028e0f143d4d8c91b425a2a02f4, type: 3}
 --- !u!4 &1370381586 stripped
@@ -12851,6 +12922,10 @@ PrefabInstance:
     - target: {fileID: 1588083279173791562, guid: eafff011b0e4c5e46ab3cc26c2a7acc8, type: 3}
       propertyPath: m_Name
       value: House_04 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1588083279173791562, guid: eafff011b0e4c5e46ab3cc26c2a7acc8, type: 3}
+      propertyPath: m_TagString
+      value: Building
       objectReference: {fileID: 0}
     - target: {fileID: 2108196965988988400, guid: eafff011b0e4c5e46ab3cc26c2a7acc8, type: 3}
       propertyPath: m_RootOrder
@@ -13361,9 +13436,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1433829469264695825, guid: 8de54075da6a049419d6f53794152572, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -27.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1433829469264695825, guid: 8de54075da6a049419d6f53794152572, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 10.2
+      objectReference: {fileID: 0}
     - target: {fileID: 1895305636060076591, guid: 8de54075da6a049419d6f53794152572, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 21.7
+      value: 25.6
       objectReference: {fileID: 0}
     - target: {fileID: 1895305636060076591, guid: 8de54075da6a049419d6f53794152572, type: 3}
       propertyPath: m_LocalPosition.z
@@ -13977,6 +14060,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: House_12 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 7217670957716905457, guid: 9b8e46f9b496ec040b524c3284625173, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     - target: {fileID: 8025838751486756683, guid: 9b8e46f9b496ec040b524c3284625173, type: 3}
       propertyPath: m_RootOrder
       value: 31
@@ -14102,6 +14189,10 @@ PrefabInstance:
     - target: {fileID: 3183057014268411369, guid: be04c52978f362f4aba4d98b15701311, type: 3}
       propertyPath: m_Name
       value: Building_F (Small) (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3183057014268411369, guid: be04c52978f362f4aba4d98b15701311, type: 3}
+      propertyPath: m_TagString
+      value: Building
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: be04c52978f362f4aba4d98b15701311, type: 3}
@@ -14560,6 +14651,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: House_21 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 8636115337778454881, guid: be276adb0730fad4b84c9dbf33b8c202, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     - target: {fileID: 8976366235774499803, guid: be276adb0730fad4b84c9dbf33b8c202, type: 3}
       propertyPath: m_RootOrder
       value: 62
@@ -14896,6 +14991,10 @@ PrefabInstance:
     - target: {fileID: 3517552637105655718, guid: 36e56f53067ab0248a078172d1e3e3bf, type: 3}
       propertyPath: m_Name
       value: Building_D (Small) (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3517552637105655718, guid: 36e56f53067ab0248a078172d1e3e3bf, type: 3}
+      propertyPath: m_TagString
+      value: Building
       objectReference: {fileID: 0}
     - target: {fileID: 4295039657875051804, guid: 36e56f53067ab0248a078172d1e3e3bf, type: 3}
       propertyPath: m_RootOrder
@@ -15306,6 +15405,10 @@ PrefabInstance:
     - target: {fileID: 8636115337778454881, guid: be276adb0730fad4b84c9dbf33b8c202, type: 3}
       propertyPath: m_Name
       value: House_21 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8636115337778454881, guid: be276adb0730fad4b84c9dbf33b8c202, type: 3}
+      propertyPath: m_TagString
+      value: Building
       objectReference: {fileID: 0}
     - target: {fileID: 8976366235774499803, guid: be276adb0730fad4b84c9dbf33b8c202, type: 3}
       propertyPath: m_RootOrder
@@ -16459,6 +16562,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: House_20 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5022241109551688783, guid: dd0f36caf7f244343875259d5bf5b5a6, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     - target: {fileID: 5690655481291437813, guid: dd0f36caf7f244343875259d5bf5b5a6, type: 3}
       propertyPath: m_RootOrder
       value: 26
@@ -17136,6 +17243,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1911215966}
     m_Modifications:
     - target: {fileID: 5645095692419482154, guid: 438db51935467e84aafa8125289f707c, type: 3}
+      propertyPath: m_IsInactive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5645095692419482154, guid: 438db51935467e84aafa8125289f707c, type: 3}
       propertyPath: m_DistanceToStreet
       value: 11.4
       objectReference: {fileID: 0}
@@ -17409,6 +17520,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building_E (Small) (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7865431706912580087, guid: 9cb44028e0f143d4d8c91b425a2a02f4, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9cb44028e0f143d4d8c91b425a2a02f4, type: 3}
 --- !u!4 &1755086992 stripped
@@ -17487,7 +17602,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 695953619841813248, guid: 91d11a9608b3f5041ba460acf5d0524b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -42.3
+      value: -35.4
       objectReference: {fileID: 0}
     - target: {fileID: 695953619841813248, guid: 91d11a9608b3f5041ba460acf5d0524b, type: 3}
       propertyPath: m_LocalPosition.y
@@ -17495,7 +17610,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 695953619841813248, guid: 91d11a9608b3f5041ba460acf5d0524b, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 128.6
+      value: 128.7
       objectReference: {fileID: 0}
     - target: {fileID: 695953619841813248, guid: 91d11a9608b3f5041ba460acf5d0524b, type: 3}
       propertyPath: m_LocalRotation.w
@@ -17531,7 +17646,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7191068385779424864, guid: 91d11a9608b3f5041ba460acf5d0524b, type: 3}
       propertyPath: m_Radius
-      value: 28.61
+      value: 22.75
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 91d11a9608b3f5041ba460acf5d0524b, type: 3}
@@ -18430,6 +18545,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Skyscraper_A (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 8444807369602219093, guid: 2678605742609fb4e95efc74ec0f0976, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     - target: {fileID: 9113644229540570863, guid: 2678605742609fb4e95efc74ec0f0976, type: 3}
       propertyPath: m_RootOrder
       value: 77
@@ -19033,6 +19152,10 @@ PrefabInstance:
     - target: {fileID: 8636115337778454881, guid: be276adb0730fad4b84c9dbf33b8c202, type: 3}
       propertyPath: m_Name
       value: House_21 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8636115337778454881, guid: be276adb0730fad4b84c9dbf33b8c202, type: 3}
+      propertyPath: m_TagString
+      value: Building
       objectReference: {fileID: 0}
     - target: {fileID: 8976366235774499803, guid: be276adb0730fad4b84c9dbf33b8c202, type: 3}
       propertyPath: m_RootOrder
@@ -19871,6 +19994,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: House_21 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 8636115337778454881, guid: be276adb0730fad4b84c9dbf33b8c202, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     - target: {fileID: 8976366235774499803, guid: be276adb0730fad4b84c9dbf33b8c202, type: 3}
       propertyPath: m_RootOrder
       value: 64
@@ -20141,6 +20268,10 @@ PrefabInstance:
     - target: {fileID: 1588083279173791562, guid: eafff011b0e4c5e46ab3cc26c2a7acc8, type: 3}
       propertyPath: m_Name
       value: House_04 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1588083279173791562, guid: eafff011b0e4c5e46ab3cc26c2a7acc8, type: 3}
+      propertyPath: m_TagString
+      value: Building
       objectReference: {fileID: 0}
     - target: {fileID: 2108196965988988400, guid: eafff011b0e4c5e46ab3cc26c2a7acc8, type: 3}
       propertyPath: m_RootOrder
@@ -22011,6 +22142,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: House_04
       objectReference: {fileID: 0}
+    - target: {fileID: 1588083279173791562, guid: eafff011b0e4c5e46ab3cc26c2a7acc8, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     - target: {fileID: 2108196965988988400, guid: eafff011b0e4c5e46ab3cc26c2a7acc8, type: 3}
       propertyPath: m_RootOrder
       value: 28
@@ -22117,6 +22252,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: House_06
       objectReference: {fileID: 0}
+    - target: {fileID: 2022206976992206630, guid: 1c3cb4937e2203245b03649d35ecc6c1, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1c3cb4937e2203245b03649d35ecc6c1, type: 3}
 --- !u!4 &988158178683390888 stripped
@@ -22134,6 +22273,10 @@ PrefabInstance:
     - target: {fileID: 7217670957716905457, guid: 9b8e46f9b496ec040b524c3284625173, type: 3}
       propertyPath: m_Name
       value: House_12
+      objectReference: {fileID: 0}
+    - target: {fileID: 7217670957716905457, guid: 9b8e46f9b496ec040b524c3284625173, type: 3}
+      propertyPath: m_TagString
+      value: Building
       objectReference: {fileID: 0}
     - target: {fileID: 8025838751486756683, guid: 9b8e46f9b496ec040b524c3284625173, type: 3}
       propertyPath: m_RootOrder
@@ -22209,6 +22352,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: House_13
       objectReference: {fileID: 0}
+    - target: {fileID: 3876480883739156267, guid: 4f9584e6f085af74ba9fade0bab64471, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     - target: {fileID: 4505805796905125265, guid: 4f9584e6f085af74ba9fade0bab64471, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -22266,6 +22413,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: House_16
       objectReference: {fileID: 0}
+    - target: {fileID: 3822159567852888043, guid: 79c029efc242dd648a92a532eb42f483, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     - target: {fileID: 4485824152758584657, guid: 79c029efc242dd648a92a532eb42f483, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -22322,6 +22473,10 @@ PrefabInstance:
     - target: {fileID: 1594444223715168494, guid: 4a7193142725f6b4295a359b32f43730, type: 3}
       propertyPath: m_Name
       value: Skyscraper_E
+      objectReference: {fileID: 0}
+    - target: {fileID: 1594444223715168494, guid: 4a7193142725f6b4295a359b32f43730, type: 3}
+      propertyPath: m_TagString
+      value: Building
       objectReference: {fileID: 0}
     - target: {fileID: 2119869681803659860, guid: 4a7193142725f6b4295a359b32f43730, type: 3}
       propertyPath: m_RootOrder
@@ -22384,6 +22539,10 @@ PrefabInstance:
     - target: {fileID: 3517552637105655718, guid: 36e56f53067ab0248a078172d1e3e3bf, type: 3}
       propertyPath: m_Name
       value: Building_D (Small)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3517552637105655718, guid: 36e56f53067ab0248a078172d1e3e3bf, type: 3}
+      propertyPath: m_TagString
+      value: Building
       objectReference: {fileID: 0}
     - target: {fileID: 4295039657875051804, guid: 36e56f53067ab0248a078172d1e3e3bf, type: 3}
       propertyPath: m_RootOrder
@@ -22507,6 +22666,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building_F (Small)
       objectReference: {fileID: 0}
+    - target: {fileID: 3183057014268411369, guid: be04c52978f362f4aba4d98b15701311, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: be04c52978f362f4aba4d98b15701311, type: 3}
 --- !u!4 &2755723598218769228 stripped
@@ -22600,6 +22763,10 @@ PrefabInstance:
     - target: {fileID: 8444807369602219093, guid: 2678605742609fb4e95efc74ec0f0976, type: 3}
       propertyPath: m_Name
       value: Skyscraper_A
+      objectReference: {fileID: 0}
+    - target: {fileID: 8444807369602219093, guid: 2678605742609fb4e95efc74ec0f0976, type: 3}
+      propertyPath: m_TagString
+      value: Building
       objectReference: {fileID: 0}
     - target: {fileID: 9113644229540570863, guid: 2678605742609fb4e95efc74ec0f0976, type: 3}
       propertyPath: m_RootOrder
@@ -22707,6 +22874,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building_B (Small)
       objectReference: {fileID: 0}
+    - target: {fileID: 4578726839994810457, guid: 668598b9146553540b4bd1a5f3cb713e, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     - target: {fileID: 7324646528898393866, guid: 668598b9146553540b4bd1a5f3cb713e, type: 3}
       propertyPath: m_DistanceToStreet
       value: 10.98
@@ -22742,6 +22913,10 @@ PrefabInstance:
     - target: {fileID: 5022241109551688783, guid: dd0f36caf7f244343875259d5bf5b5a6, type: 3}
       propertyPath: m_Name
       value: House_20
+      objectReference: {fileID: 0}
+    - target: {fileID: 5022241109551688783, guid: dd0f36caf7f244343875259d5bf5b5a6, type: 3}
+      propertyPath: m_TagString
+      value: Building
       objectReference: {fileID: 0}
     - target: {fileID: 5690655481291437813, guid: dd0f36caf7f244343875259d5bf5b5a6, type: 3}
       propertyPath: m_RootOrder
@@ -22844,6 +23019,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building_E (Small)
       objectReference: {fileID: 0}
+    - target: {fileID: 7865431706912580087, guid: 9cb44028e0f143d4d8c91b425a2a02f4, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9cb44028e0f143d4d8c91b425a2a02f4, type: 3}
 --- !u!1001 &5522477401711814204
@@ -22856,6 +23035,10 @@ PrefabInstance:
     - target: {fileID: 1226377955505356417, guid: fb3a8f08efa7b2e44acf36544c820c93, type: 3}
       propertyPath: m_Name
       value: Skyscraper_F
+      objectReference: {fileID: 0}
+    - target: {fileID: 1226377955505356417, guid: fb3a8f08efa7b2e44acf36544c820c93, type: 3}
+      propertyPath: m_TagString
+      value: Building
       objectReference: {fileID: 0}
     - target: {fileID: 1895778962843657275, guid: fb3a8f08efa7b2e44acf36544c820c93, type: 3}
       propertyPath: m_RootOrder
@@ -22960,6 +23143,10 @@ PrefabInstance:
     - target: {fileID: 6874206271268700955, guid: eb31567f6faf3104e9fe8638028c3c0f, type: 3}
       propertyPath: m_Name
       value: House_9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6874206271268700955, guid: eb31567f6faf3104e9fe8638028c3c0f, type: 3}
+      propertyPath: m_TagString
+      value: Building
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eb31567f6faf3104e9fe8638028c3c0f, type: 3}
@@ -23084,6 +23271,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building_A (Small)
       objectReference: {fileID: 0}
+    - target: {fileID: 6584335128601735231, guid: ff3bbcd5185e9bd43a4fb77327ce36c9, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     - target: {fileID: 6975050044127480732, guid: ff3bbcd5185e9bd43a4fb77327ce36c9, type: 3}
       propertyPath: m_DistanceToStreet
       value: 11.31
@@ -23104,6 +23295,10 @@ PrefabInstance:
     - target: {fileID: 6273916354929558858, guid: c691e67072ace8446ae12e5258d429ea, type: 3}
       propertyPath: m_Name
       value: Skyscraper_C
+      objectReference: {fileID: 0}
+    - target: {fileID: 6273916354929558858, guid: c691e67072ace8446ae12e5258d429ea, type: 3}
+      propertyPath: m_TagString
+      value: Building
       objectReference: {fileID: 0}
     - target: {fileID: 6654839223140966384, guid: c691e67072ace8446ae12e5258d429ea, type: 3}
       propertyPath: m_RootOrder
@@ -23287,6 +23482,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Skyscraper_B
       objectReference: {fileID: 0}
+    - target: {fileID: 7631669522350805534, guid: 14105ca8356af5c4aaa511528c90ad25, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 14105ca8356af5c4aaa511528c90ad25, type: 3}
 --- !u!4 &7455901041457753960 stripped
@@ -23304,6 +23503,10 @@ PrefabInstance:
     - target: {fileID: 360681557844376530, guid: 634cd5552d169e744aa0d5f4ceed8280, type: 3}
       propertyPath: m_Name
       value: House_07
+      objectReference: {fileID: 0}
+    - target: {fileID: 360681557844376530, guid: 634cd5552d169e744aa0d5f4ceed8280, type: 3}
+      propertyPath: m_TagString
+      value: Building
       objectReference: {fileID: 0}
     - target: {fileID: 1029834870994067816, guid: 634cd5552d169e744aa0d5f4ceed8280, type: 3}
       propertyPath: m_RootOrder
@@ -23366,6 +23569,10 @@ PrefabInstance:
     - target: {fileID: 2318891517257406931, guid: 77fdc91e98a2f374e803acf3a263223f, type: 3}
       propertyPath: m_Name
       value: House_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 2318891517257406931, guid: 77fdc91e98a2f374e803acf3a263223f, type: 3}
+      propertyPath: m_TagString
+      value: Building
       objectReference: {fileID: 0}
     - target: {fileID: 3127058486311715689, guid: 77fdc91e98a2f374e803acf3a263223f, type: 3}
       propertyPath: m_RootOrder
@@ -23516,6 +23723,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building_C (Small)
       objectReference: {fileID: 0}
+    - target: {fileID: 5883055885372906166, guid: a4ddf0409bd16ef4ca9da32d339de9be, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     - target: {fileID: 6552456553740107788, guid: a4ddf0409bd16ef4ca9da32d339de9be, type: 3}
       propertyPath: m_RootOrder
       value: 10
@@ -23585,6 +23796,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: House_10
       objectReference: {fileID: 0}
+    - target: {fileID: 2546121226593608560, guid: 385981b7c5c82624c9294b1dc92d30a1, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     - target: {fileID: 2890874903890885066, guid: 385981b7c5c82624c9294b1dc92d30a1, type: 3}
       propertyPath: m_RootOrder
       value: 25
@@ -23641,6 +23856,10 @@ PrefabInstance:
     - target: {fileID: 464722071839185661, guid: 507d7967d9da30548a3ddc40701f02fd, type: 3}
       propertyPath: m_Name
       value: House_18
+      objectReference: {fileID: 0}
+    - target: {fileID: 464722071839185661, guid: 507d7967d9da30548a3ddc40701f02fd, type: 3}
+      propertyPath: m_TagString
+      value: Building
       objectReference: {fileID: 0}
     - target: {fileID: 952747645354524743, guid: 507d7967d9da30548a3ddc40701f02fd, type: 3}
       propertyPath: m_RootOrder
@@ -23808,6 +24027,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: House_17
       objectReference: {fileID: 0}
+    - target: {fileID: 2051175664775206351, guid: 0c3c003df4473e24cb0d5eb8eea4c637, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     - target: {fileID: 5408031053386480574, guid: 0c3c003df4473e24cb0d5eb8eea4c637, type: 3}
       propertyPath: m_Convex
       value: 1
@@ -23824,6 +24047,10 @@ PrefabInstance:
     - target: {fileID: 8167552743031168882, guid: bcb894713ce9de34eb261bf73312ca61, type: 3}
       propertyPath: m_Name
       value: Skyscraper_D
+      objectReference: {fileID: 0}
+    - target: {fileID: 8167552743031168882, guid: bcb894713ce9de34eb261bf73312ca61, type: 3}
+      propertyPath: m_TagString
+      value: Building
       objectReference: {fileID: 0}
     - target: {fileID: 8796419983674672584, guid: bcb894713ce9de34eb261bf73312ca61, type: 3}
       propertyPath: m_RootOrder
@@ -23881,6 +24108,10 @@ PrefabInstance:
     - target: {fileID: 8636115337778454881, guid: be276adb0730fad4b84c9dbf33b8c202, type: 3}
       propertyPath: m_Name
       value: House_21
+      objectReference: {fileID: 0}
+    - target: {fileID: 8636115337778454881, guid: be276adb0730fad4b84c9dbf33b8c202, type: 3}
+      propertyPath: m_TagString
+      value: Building
       objectReference: {fileID: 0}
     - target: {fileID: 8976366235774499803, guid: be276adb0730fad4b84c9dbf33b8c202, type: 3}
       propertyPath: m_RootOrder
