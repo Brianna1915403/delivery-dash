@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 9113644229540570863}
   - component: {fileID: 5320423202386798922}
   - component: {fileID: 7940136411222646144}
+  - component: {fileID: 5097471947848778870}
+  - component: {fileID: 4605487583471273460}
   m_Layer: 0
   m_Name: Skyscraper_A
   m_TagString: Untagged
@@ -85,3 +87,32 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &5097471947848778870
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8444807369602219093}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -7964237394883006775, guid: f9b30fa7e93b8834c86ccd0040f66d39, type: 3}
+--- !u!114 &4605487583471273460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8444807369602219093}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c99630df90b41c4b9fa095f4907c73e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IsInactive: 0
+  m_DistanceToStreet: 11.73
+  m_DistanceToSidewalk: 7.83

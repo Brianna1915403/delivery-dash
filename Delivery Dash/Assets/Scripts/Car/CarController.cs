@@ -25,7 +25,6 @@ public class CarController : MonoBehaviour
         m_verticalInput = Input.GetAxis("Vertical");
         m_horizontalInput = Input.GetAxis("Horizontal");
         Brake(Input.GetButton("Jump"));
-
         Steer();
         Accelerate();
         UpdateWheelPlacement();
@@ -44,12 +43,25 @@ public class CarController : MonoBehaviour
         m_WheelColliders[1].motorTorque = m_verticalInput * m_Motor;
     }
 
-    void Brake(bool isActive = true)
+    public void Brake(bool isActive = true)
     {
-        m_WheelColliders[0].brakeTorque = isActive ? m_Brake : 0f;
-        m_WheelColliders[1].brakeTorque = isActive ? m_Brake : 0f;
-        m_WheelColliders[2].brakeTorque = isActive ? m_Brake : 0f;
-        m_WheelColliders[3].brakeTorque = isActive ? m_Brake : 0f;
+        if (isActive) {
+            m_WheelColliders[0].brakeTorque = m_Brake;
+            m_WheelColliders[1].brakeTorque = m_Brake;
+            m_WheelColliders[2].brakeTorque = m_Brake;
+            m_WheelColliders[3].brakeTorque = m_Brake;
+        }
+        else 
+        {
+            m_WheelColliders[0].brakeTorque = 0f;
+            m_WheelColliders[1].brakeTorque = 0f;
+            m_WheelColliders[2].brakeTorque = 0f;
+            m_WheelColliders[3].brakeTorque = 0f;
+        }
+    }
+
+    void HandBrake() {
+        Debug.Log("Orphans in my basement");
     }
 
     void UpdateWheelPlacement()
@@ -67,15 +79,5 @@ public class CarController : MonoBehaviour
         collider.GetWorldPose(out position, out rotation);
         transform.position = position;
         transform.rotation = rotation;
-    }
-
-    private void OnDrawGizmos()
-    {
-        Gizmos.color = Color.blue;
-        Gizmos.DrawRay(transform.position, Vector3.forward);
-        Gizmos.color = Color.red;
-        Gizmos.DrawRay(transform.position, Vector3.right); 
-        Gizmos.color = Color.green;
-        Gizmos.DrawRay(transform.position, Vector3.up);
     }
 }

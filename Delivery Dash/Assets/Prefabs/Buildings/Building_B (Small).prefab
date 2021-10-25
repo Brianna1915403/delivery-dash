@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 3801380453982690019}
   - component: {fileID: 247395564848633158}
   - component: {fileID: 2632947432658280844}
+  - component: {fileID: 4431483338426161161}
+  - component: {fileID: 7324646528898393866}
   m_Layer: 0
   m_Name: Building_B (Small)
   m_TagString: Untagged
@@ -84,3 +86,31 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &4431483338426161161
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4578726839994810457}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4252203559681067688, guid: 906d41bcb6eb4384b86761d68072f953, type: 3}
+--- !u!114 &7324646528898393866
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4578726839994810457}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c99630df90b41c4b9fa095f4907c73e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_DistanceToStreet: 0
+  m_DistanceToSidewalk: 0

@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Building : MonoBehaviour
 {
+    [SerializeField] private bool m_IsInactive;
     [SerializeField] private float m_DistanceToStreet;
     [SerializeField] private float m_DistanceToSidewalk;
 
@@ -32,6 +33,7 @@ public class Building : MonoBehaviour
 
     private void OnDrawGizmosSelected()
     {
+        if (m_IsInactive) return;
         Gizmos.color = Color.white;
         Gizmos.DrawCube(GetPosition(), new Vector3(1, 1, 1));
         Gizmos.DrawSphere(GetPosition(false), 1f);

@@ -11,6 +11,11 @@ TagManager:
   - MinimapCamera
   - Customer
   - GameManager
+  - stealingpoint
+  - sittingpoint
+  - pickuppoint
+  - waypoint
+  - Water
   layers:
   - Default
   - TransparentFX
