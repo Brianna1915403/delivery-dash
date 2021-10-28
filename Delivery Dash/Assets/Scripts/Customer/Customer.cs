@@ -17,6 +17,10 @@ public class Customer : MonoBehaviour
     private Transform m_Car;
     private CarController m_CarController;
 
+    public CarController CarController {
+        get { return m_CarController; }
+    }
+
     public WaypointRadius PickupWaypoint
     {
         set { m_PickupWaypoint = value; }
@@ -42,6 +46,7 @@ public class Customer : MonoBehaviour
         } 
         else if (m_IsBeingDroppedOff)
         {
+            m_Car.gameObject.SetActive(false);
             transform.position = Vector3.MoveTowards(m_Car.position, m_DropOffWaypoint.Building.transform.position, 0.1f);
         }
     }
@@ -57,6 +62,7 @@ public class Customer : MonoBehaviour
         }
         else if (other.CompareTag("Building"))
         {
+            
             m_CarController.Restart();
             Destroy(gameObject);
         }
@@ -95,6 +101,7 @@ public class Customer : MonoBehaviour
 
     private void CleanUpOrder()
     {
+        m_Car.gameObject.SetActive(true);
         Destroy(m_PickupWaypoint.Waypoint.gameObject);
         Destroy(m_DropOffWaypoint.Waypoint.gameObject);
     }

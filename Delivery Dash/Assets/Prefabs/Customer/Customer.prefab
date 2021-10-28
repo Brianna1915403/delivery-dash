@@ -3445,6 +3445,7 @@ MonoBehaviour:
   m_PickupWaypoint: {fileID: 0}
   m_DropOffWaypoint: {fileID: 0}
   m_Animator: {fileID: 1680524703428023385}
+  m_Trigger: {fileID: 8415873140486867281}
 --- !u!114 &4587989731720476156
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -16,11 +16,10 @@ public class DropOff : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
-        {
-            m_Customer.gameObject.SetActive(true);
-            m_CarController = other.transform.parent.GetComponent<CarController>();
-            m_CarController.FullStop();
+        {            
+            Customer.CarController.FullStop();
             Debug.Log($"Thank you!");
+            m_Customer.gameObject.SetActive(true);
             m_Customer.CompleteOrder();
         }
     }
