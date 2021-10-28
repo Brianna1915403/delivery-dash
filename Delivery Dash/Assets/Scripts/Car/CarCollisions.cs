@@ -28,7 +28,7 @@ public class CarCollisions : MonoBehaviour
     private void OnTriggerEnter(Collider other) {
         if (other.CompareTag("Building") && m_CurrentTime >= m_TargetTime) {
             m_TargetTime = Time.time + m_TriggerDelay;
-            m_Car.Health -= 1f;
+            m_Car.TakeDamage(0.1f);
             Debug.Log($"Target: {m_TargetTime} | Current: {m_CurrentTime}");
         }
     }

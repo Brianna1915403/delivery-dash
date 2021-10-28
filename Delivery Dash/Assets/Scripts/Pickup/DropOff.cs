@@ -5,6 +5,7 @@ using UnityEngine;
 public class DropOff : MonoBehaviour
 {
     [SerializeField] private Customer m_Customer;
+    [SerializeField] private CarController m_CarController;
 
     public Customer Customer
     {
@@ -16,6 +17,9 @@ public class DropOff : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
+            m_Customer.gameObject.SetActive(true);
+            m_CarController = other.transform.parent.GetComponent<CarController>();
+            m_CarController.FullStop();
             Debug.Log($"Thank you!");
             m_Customer.CompleteOrder();
         }

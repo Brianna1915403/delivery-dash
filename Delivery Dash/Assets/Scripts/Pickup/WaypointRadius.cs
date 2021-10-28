@@ -36,7 +36,6 @@ public class WaypointRadius : MonoBehaviour
     {
         m_Building = m_Buildings[Random.Range(0, m_Buildings.Count)].GetComponent<Building>();
         m_Waypoint = m_Building.SpawnWaypoint(m_WaypointPrefab);
-        Debug.Log(m_Building);
     }
 
     private void OnDrawGizmos() {

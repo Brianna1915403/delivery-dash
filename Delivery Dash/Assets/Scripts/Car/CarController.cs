@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class CarController : MonoBehaviour
 {
+    //[SerializeField] private bool m_HasActiveControls = true;
     [SerializeField] private Transform[] m_Wheels;  
     [SerializeField] private WheelCollider[] m_WheelColliders;
     [Space]
@@ -16,11 +17,10 @@ public class CarController : MonoBehaviour
     private float m_steeringAngle;
 
     void FixedUpdate()
-    {       
+    {    
         Drive();
-        if (Input.GetKeyDown(KeyCode.F)) {
+        if (Input.GetKeyDown(KeyCode.F))
             Flip();
-        }
     }
 
     void Drive()
@@ -66,7 +66,7 @@ public class CarController : MonoBehaviour
     void Flip() {
         Debug.Log("Orphans in my basement");
         if (transform.rotation.eulerAngles.x > 1 && transform.rotation.eulerAngles.z > 1)
-            transform.rotation = new Quaternion(0, 0, 0, 1);
+            transform.rotation = new Quaternion(0, transform.rotation.y, 0, 1);
     }
 
     void UpdateWheelPlacement()
@@ -84,5 +84,15 @@ public class CarController : MonoBehaviour
         collider.GetWorldPose(out position, out rotation);
         transform.position = position;
         transform.rotation = rotation;
+    }
+
+    public void FullStop()
+    {
+        GetComponent<Rigidbody>().isKinematic = true;
+    }
+
+    public void Restart()
+    {
+        GetComponent<Rigidbody>().isKinematic = false;
     }
 }

@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5421680966524023934}
   - component: {fileID: 7843398447468757172}
   - component: {fileID: -1928212615553062150}
-  - component: {fileID: 1183694660483360279}
+  - component: {fileID: 2391495008462652042}
   m_Layer: 0
   m_Name: House_21
   m_TagString: Untagged
@@ -101,7 +101,7 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -5884800288571748807, guid: 341ad13eb07286e44899d61c261be007, type: 3}
---- !u!114 &1183694660483360279
+--- !u!114 &2391495008462652042
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -114,5 +114,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_IsInactive: 0
-  m_DistanceToStreet: 0
-  m_DistanceToSidewalk: 0
+  m_DistanceToStreet: 13.12
+  m_DistanceToSidewalk: 8.68

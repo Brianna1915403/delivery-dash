@@ -10,6 +10,12 @@ public class Customer : MonoBehaviour
 
     [Header("Person")]
     [SerializeField] private Animator m_Animator;
+    [SerializeField] private BoxCollider m_Trigger;
+
+    private bool m_IsBeingPickedUp;
+    private bool m_IsBeingDroppedOff;
+    private Transform m_Car;
+    private CarController m_CarController;
 
     public WaypointRadius PickupWaypoint
     {
@@ -25,7 +31,35 @@ public class Customer : MonoBehaviour
 
     public void Start()
     {
-        Wave();
+        Idle();
+    }
+
+    public void Update()
+    {
+        if (m_IsBeingPickedUp)
+        {
+            transform.position = Vector3.MoveTowards(transform.position, m_Car.position, 0.1f);
+        } 
+        else if (m_IsBeingDroppedOff)
+        {
+            transform.position = Vector3.MoveTowards(m_Car.position, m_DropOffWaypoint.Building.transform.position, 0.1f);
+        }
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Player") && m_IsBeingPickedUp)
+        {
+            DirectToDropOff();
+            m_CarController.Restart();
+            m_IsBeingPickedUp = false;
+            gameObject.SetActive(false);
+        }
+        else if (other.CompareTag("Building"))
+        {
+            m_CarController.Restart();
+            Destroy(gameObject);
+        }
     }
 
     public void OrderPickup()
@@ -44,15 +78,25 @@ public class Customer : MonoBehaviour
         m_DropOffWaypoint.Waypoint.GetComponent<DropOff>().Customer = this;
     }
 
+    public void GetInCab(Transform car, CarController carController) {
+        Debug.Log("Orphans in my basement");
+        Walk();
+        m_Car = car;
+        m_CarController = carController;        
+        m_IsBeingPickedUp = true;
+    }
+    
     public void CompleteOrder()
+    {
+        Walk();
+        m_IsBeingDroppedOff = true;
+        Invoke("CleanUpOrder", 2f);
+    }
+
+    private void CleanUpOrder()
     {
         Destroy(m_PickupWaypoint.Waypoint.gameObject);
         Destroy(m_DropOffWaypoint.Waypoint.gameObject);
-    }
-
-    public void GetInCab(Transform car) {
-        Debug.Log("Orphans in my basement");
-        
     }
 
     private void Idle()
