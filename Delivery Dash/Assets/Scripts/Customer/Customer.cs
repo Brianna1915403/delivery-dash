@@ -16,17 +16,19 @@ public class Customer : MonoBehaviour
     [SerializeField] private float m_StoppingDistance = 0.25f;
     [Space]
     [SerializeField] private Animator m_Animator;
-
-    private Transform m_Building;
-    private float m_Offset = 2f;
+    [SerializeField] private BoxCollider m_Trigger;
 
     private bool m_IsBeingPickedUp;
     private bool m_IsBeingDroppedOff;
 
-    private Transform m_Car;
-    [SerializeField] private CarController m_CarController;
+    private int m_Offset = 2;
 
-    public CarController CarController {
+    private Transform m_Car;
+    private CarController m_CarController;
+    private Transform m_Building;
+
+    public CarController CarController 
+    {
         set { m_CarController = value; }
         get { return m_CarController; }
     }
@@ -58,13 +60,12 @@ public class Customer : MonoBehaviour
             m_Agent.SetDestination(m_Target);
             m_Distance = Vector3.Distance(transform.position, m_Target);
             if (m_Distance <= m_StoppingDistance) {
-                Debug.Log("Pick Up!");
                 GetPickedUp();
             }
         } 
         else if (m_IsBeingDroppedOff)
-        {                       
-            m_Target = m_Building.position;
+        {
+            m_Target = m_Building.position;            
             m_Agent.SetDestination(m_Target);
             m_Distance = Vector3.Distance(transform.position, m_Target);
             if (m_Distance <= m_StoppingDistance) {
@@ -72,10 +73,6 @@ public class Customer : MonoBehaviour
             }
         }            
     }
-
-    //private void OnDestroy() {
-    //    m_CarController.ToggleFullStop();
-    //}
 
     // --- OVERRIDES END ---
 
@@ -86,13 +83,12 @@ public class Customer : MonoBehaviour
         m_PickupWaypoint.SpawnWaypoint();
 
         gameObject.transform.position = m_PickupWaypoint.Building.GetCustomerPosition(out Quaternion rotation);
-        gameObject.transform.rotation = rotation;
+        gameObject.transform.eulerAngles = TranslateRotation(rotation);
 
         m_PickupWaypoint.Waypoint.GetComponent<Pickup>().Customer = this;
     }
 
-    private void GetPickedUp() 
-    {
+    private void GetPickedUp() {
         DirectToDropOff();
         m_CarController.ToggleFullStop();
         m_IsBeingPickedUp = false;
@@ -103,18 +99,19 @@ public class Customer : MonoBehaviour
     {
         m_DropOffWaypoint.SpawnWaypoint();
         m_DropOffWaypoint.Waypoint.GetComponent<DropOff>().Customer = this;
+        m_Building = m_DropOffWaypoint.Building.gameObject.transform;
     }    
     
     public void CompleteOrder()
     {
         Walk();
-        m_IsBeingDroppedOff = true;
-        m_Building = m_DropOffWaypoint.Building.gameObject.transform;
+        m_IsBeingDroppedOff = true;        
         transform.position = GetDropOffPosition();
     }
 
     private void CleanUpOrder()
-    {        
+    {
+        m_CarController.ToggleFullStop();
         Destroy(m_PickupWaypoint.Waypoint.gameObject);
         Destroy(m_DropOffWaypoint.Waypoint.gameObject);
         Destroy(this.gameObject);
@@ -154,7 +151,8 @@ public class Customer : MonoBehaviour
 
     // --- POSITIONING START ---
 
-    private Vector3 GetDropOffPosition() {
+    private Vector3 GetDropOffPosition()
+    {
         return m_Building.rotation.eulerAngles.y switch
         {
             0f => new Vector3(m_Car.transform.position.x, m_Car.transform.position.y, m_Car.transform.position.z + m_Offset),

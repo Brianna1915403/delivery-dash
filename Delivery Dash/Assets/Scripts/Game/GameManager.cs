@@ -19,21 +19,42 @@ public class GameManager : MonoBehaviour
     [SerializeField] private float m_AverageRating = 0f;
     [SerializeField] private int m_AmountOfCustomers = 0;
     [SerializeField] private List<float> m_CustomerRatings = new List<float>();
+    [Space]
+    [SerializeField] private float m_Rating;
+
+    public float Rating {
+        get { return m_Rating; }
+        set { m_Rating = value; }
+    }
 
     private void Awake()
     {
         DontDestroyOnLoad(gameObject);
     }
 
-    // --- SCORE KEEPING START ---
-
-    public void InsertRating(float rating)
+    // Start is called before the first frame update
+    void Start()
     {
-        m_CustomerRatings.Add(rating);
-        UpdateAverageRating();
+        
     }
 
-    public void UpdateAverageRating() {
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+
+    // --- SCORE KEEPING START ---
+
+    public void AddRating()
+    {
+        m_CustomerRatings.Add(m_Rating);
+        UpdateAverageRating();
+        ResetRating();
+    }
+
+    public void UpdateAverageRating() 
+    {
         float sum = 0f;
         foreach (float rating in m_CustomerRatings)
         {
@@ -41,7 +62,17 @@ public class GameManager : MonoBehaviour
         }
 
         m_AverageRating = sum / m_CustomerRatings.Count;
+    }
 
+    public void NextClient() 
+    {
+        m_AmountOfCustomers++;
+        AddRating();
+        ResetRating();
+    }
+
+    private void ResetRating() {
+        m_Rating = 5;
     }
 
     // --- SCORE KEEPING END ---

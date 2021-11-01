@@ -7,6 +7,7 @@ public class Car : MonoBehaviour
     [SerializeField] private ParticleSystem m_Smoke;
     private ParticleSystem.EmissionModule m_Emission;
     [SerializeField] private float m_Damage = 0f;
+    [SerializeField] private float m_CrashDamage = 0.1f;
 
     [Header("Customer Satisfaction")]
     [SerializeField] private float m_Rating = 5f;
@@ -46,14 +47,14 @@ public class Car : MonoBehaviour
         }
     }
 
-    public void TakeDamage(float amount)
+    public void TakeCrashDamage()
     {
-        m_Damage += amount;
-        m_Rating -= HasCustomer ? m_CrashPenalty : 0f;
+        m_Damage += m_CrashDamage;
+        GameManager.Instance.Rating -= HasCustomer ? m_CrashPenalty : 0f;
     }
 
     public void UpdatePenalty(float time)
     {
-        m_Rating -= HasCustomer ? m_SurfacePenalty * (time / 10f) : 0f;
+        GameManager.Instance.Rating -= HasCustomer ? m_SurfacePenalty * (time / 10f) : 0f;
     }
 }
