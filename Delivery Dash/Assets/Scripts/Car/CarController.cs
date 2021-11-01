@@ -87,6 +87,7 @@ public class CarController : MonoBehaviour
 
     public void ToggleFullStop()
     {
-        GetComponent<Rigidbody>().isKinematic = !GetComponent<Rigidbody>().isKinematic;
+        bool isKinematic = GetComponent<Rigidbody>().isKinematic;
+        GetComponent<Rigidbody>().isKinematic = !isKinematic;
     }
 }

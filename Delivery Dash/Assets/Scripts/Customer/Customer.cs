@@ -73,9 +73,9 @@ public class Customer : MonoBehaviour
         }            
     }
 
-    private void OnDestroy() {
-        m_CarController.ToggleFullStop();
-    }
+    //private void OnDestroy() {
+    //    m_CarController.ToggleFullStop();
+    //}
 
     // --- OVERRIDES END ---
 
@@ -102,14 +102,14 @@ public class Customer : MonoBehaviour
     public void DirectToDropOff()
     {
         m_DropOffWaypoint.SpawnWaypoint();
-        m_Building = m_DropOffWaypoint.Building.gameObject.transform;
         m_DropOffWaypoint.Waypoint.GetComponent<DropOff>().Customer = this;
     }    
     
     public void CompleteOrder()
     {
         Walk();
-        m_IsBeingDroppedOff = true; 
+        m_IsBeingDroppedOff = true;
+        m_Building = m_DropOffWaypoint.Building.gameObject.transform;
         transform.position = GetDropOffPosition();
     }
 
@@ -117,7 +117,7 @@ public class Customer : MonoBehaviour
     {        
         Destroy(m_PickupWaypoint.Waypoint.gameObject);
         Destroy(m_DropOffWaypoint.Waypoint.gameObject);
-        Destroy(gameObject);
+        Destroy(this.gameObject);
     }
 
     // --- ORDER END ---

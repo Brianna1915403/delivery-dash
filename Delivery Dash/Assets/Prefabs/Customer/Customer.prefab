@@ -3115,7 +3115,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4297886458260520221}
-  m_LocalRotation: {x: 0, y: 0.7071068, z: 0.7071068, w: 0}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_Children:
@@ -3126,7 +3126,7 @@ Transform:
   - {fileID: 3913681522093569611}
   m_Father: {fileID: 7286748721722583092}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -90, y: 180, z: 0}
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!137 &9153062123285038730
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 0
@@ -3441,7 +3441,7 @@ MonoBehaviour:
   m_Distance: 0
   m_StoppingDistance: 0.25
   m_Animator: {fileID: 1680524703428023385}
-  m_Trigger: {fileID: 8415873140486867281}
+  m_CarController: {fileID: 0}
 --- !u!114 &4587989731720476156
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3785,14 +3785,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4844200788609293123}
-  m_LocalRotation: {x: 0, y: 0.7071068, z: 0.7071068, w: 0}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_Children:
   - {fileID: 6631225207962691851}
   m_Father: {fileID: 7286748721722583092}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: -90, y: 180, z: 0}
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!1 &4898508694197050569
 GameObject:
   m_ObjectHideFlags: 0
