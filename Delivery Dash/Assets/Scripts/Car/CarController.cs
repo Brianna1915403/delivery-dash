@@ -4,17 +4,16 @@ using UnityEngine;
 
 public class CarController : MonoBehaviour
 {
-    //[SerializeField] private bool m_HasActiveControls = true;
     [SerializeField] private Transform[] m_Wheels;  
     [SerializeField] private WheelCollider[] m_WheelColliders;
     [Space]
     [SerializeField] private float m_Motor = 500f;
     [SerializeField] private float m_Brake = 400f;
-    [SerializeField] private float m_SteeringAngle = 30f;
+    [SerializeField] private float m_MaxSteeringAngle = 30f;
 
-    private float m_verticalInput;
-    private float m_horizontalInput;
-    private float m_steeringAngle;
+    private float m_VerticalInput;
+    private float m_HorizontalInput;
+    private float m_SteeringAngle;
 
     void FixedUpdate()
     {    
@@ -25,8 +24,8 @@ public class CarController : MonoBehaviour
 
     void Drive()
     {
-        m_verticalInput = Input.GetAxis("Vertical");
-        m_horizontalInput = Input.GetAxis("Horizontal");
+        m_VerticalInput = Input.GetAxis("Vertical");
+        m_HorizontalInput = Input.GetAxis("Horizontal");
         Brake(Input.GetButton("Jump"));
         Steer();
         Accelerate();
@@ -35,15 +34,15 @@ public class CarController : MonoBehaviour
 
     void Steer() 
     {
-        m_steeringAngle = m_SteeringAngle * m_horizontalInput;
-        m_WheelColliders[0].steerAngle = m_steeringAngle;
-        m_WheelColliders[1].steerAngle = m_steeringAngle;
+        m_SteeringAngle = m_MaxSteeringAngle * m_HorizontalInput;
+        m_WheelColliders[0].steerAngle = m_SteeringAngle;
+        m_WheelColliders[1].steerAngle = m_SteeringAngle;
     }
 
     void Accelerate()
     {
-        m_WheelColliders[0].motorTorque = m_verticalInput * m_Motor;
-        m_WheelColliders[1].motorTorque = m_verticalInput * m_Motor;
+        m_WheelColliders[0].motorTorque = m_VerticalInput * m_Motor;
+        m_WheelColliders[1].motorTorque = m_VerticalInput * m_Motor;
     }
 
     public void Brake(bool isActive = true)

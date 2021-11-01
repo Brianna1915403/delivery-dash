@@ -6,6 +6,7 @@ public class DropOff : MonoBehaviour
 {
     [SerializeField] private Customer m_Customer;
     [SerializeField] private CarController m_CarController;
+    [SerializeField] private Car m_Car;
 
     public Customer Customer
     {
@@ -16,10 +17,12 @@ public class DropOff : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
-        {            
-            Customer.CarController.FullStop();
+        {   
             Debug.Log($"Thank you!");
+            m_Car = other.transform.GetComponentInParent<Car>();
+            m_Car.HasCustomer = false;
             m_Customer.gameObject.SetActive(true);
+            m_Customer.CarController.FullStop();
             m_Customer.CompleteOrder();
         }
     }

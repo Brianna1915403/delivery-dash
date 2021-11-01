@@ -122,7 +122,7 @@ NavMeshSettings:
     preserveTilesOutsideBounds: 0
     debug:
       m_Flags: 0
-  m_NavMeshData: {fileID: 0}
+  m_NavMeshData: {fileID: 23800000, guid: b927f74c044f0da4fab31810a9ed9f93, type: 2}
 --- !u!1001 &4593625
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -133,6 +133,14 @@ PrefabInstance:
     - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_Name
       value: Sidewalk (74)
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_TagString
+      value: Sidewalk
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1112898873746797560, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_RootOrder
@@ -211,6 +219,10 @@ PrefabInstance:
     - target: {fileID: 8462136860416363512, guid: ff292cce3d4e10645b3e898d55e3974d, type: 3}
       propertyPath: m_Name
       value: Road (Driveway Single) (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8462136860416363512, guid: ff292cce3d4e10645b3e898d55e3974d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 9089491169572491586, guid: ff292cce3d4e10645b3e898d55e3974d, type: 3}
       propertyPath: m_RootOrder
@@ -368,6 +380,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Road (Straight) (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 5126116886608210477, guid: f9733e1e033039241a78293e8d8edab0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 5505774285653389463, guid: f9733e1e033039241a78293e8d8edab0, type: 3}
       propertyPath: m_RootOrder
       value: 58
@@ -433,6 +449,14 @@ PrefabInstance:
     - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_Name
       value: Sidewalk (33)
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_TagString
+      value: Sidewalk
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1112898873746797560, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_RootOrder
@@ -507,6 +531,14 @@ PrefabInstance:
     - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_Name
       value: Sidewalk (83)
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_TagString
+      value: Sidewalk
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1112898873746797560, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_RootOrder
@@ -789,7 +821,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8062978093684989004, guid: 00cc56956df847e429e8b81407a4aa84, type: 3}
       propertyPath: m_DistanceToSidewalk
-      value: 8.34
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7445516495345739646, guid: 00cc56956df847e429e8b81407a4aa84, type: 3}
       propertyPath: m_RootOrder
@@ -872,6 +904,14 @@ PrefabInstance:
     - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_Name
       value: Sidewalk (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_TagString
+      value: Sidewalk
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1112898873746797560, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_RootOrder
@@ -999,6 +1039,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pavement (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 2973208610395260946, guid: 64a1f58237bffae43983f474e73d3193, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 64a1f58237bffae43983f474e73d3193, type: 3}
 --- !u!4 &58787206 stripped
@@ -1016,6 +1060,10 @@ PrefabInstance:
     - target: {fileID: 5126116886608210477, guid: f9733e1e033039241a78293e8d8edab0, type: 3}
       propertyPath: m_Name
       value: Road (Straight) (35)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5126116886608210477, guid: f9733e1e033039241a78293e8d8edab0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 5505774285653389463, guid: f9733e1e033039241a78293e8d8edab0, type: 3}
       propertyPath: m_RootOrder
@@ -1082,6 +1130,14 @@ PrefabInstance:
     - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_Name
       value: Sidewalk (47)
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_TagString
+      value: Sidewalk
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1112898873746797560, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_RootOrder
@@ -1205,6 +1261,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pavement (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 2973208610395260946, guid: 64a1f58237bffae43983f474e73d3193, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 64a1f58237bffae43983f474e73d3193, type: 3}
 --- !u!4 &65413482 stripped
@@ -1222,6 +1282,14 @@ PrefabInstance:
     - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_Name
       value: Sidewalk (82)
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_TagString
+      value: Sidewalk
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1112898873746797560, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_RootOrder
@@ -1296,6 +1364,14 @@ PrefabInstance:
     - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_Name
       value: Sidewalk (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_TagString
+      value: Sidewalk
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1112898873746797560, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_RootOrder
@@ -1439,6 +1515,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pavement (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 2973208610395260946, guid: 64a1f58237bffae43983f474e73d3193, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 64a1f58237bffae43983f474e73d3193, type: 3}
 --- !u!4 &96737957 stripped
@@ -1460,14 +1540,6 @@ PrefabInstance:
     - target: {fileID: 2391495008462652042, guid: be276adb0730fad4b84c9dbf33b8c202, type: 3}
       propertyPath: m_DistanceToSidewalk
       value: 6.6
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: m_DistanceToStreet
-      value: 10.47
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: m_DistanceToSidewalk
-      value: 6.08
       objectReference: {fileID: 0}
     - target: {fileID: 8636115337778454881, guid: be276adb0730fad4b84c9dbf33b8c202, type: 3}
       propertyPath: m_Name
@@ -1539,6 +1611,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Road (Straight) (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 5126116886608210477, guid: f9733e1e033039241a78293e8d8edab0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 5505774285653389463, guid: f9733e1e033039241a78293e8d8edab0, type: 3}
       propertyPath: m_RootOrder
       value: 30
@@ -1600,6 +1676,10 @@ PrefabInstance:
     - target: {fileID: 5126116886608210477, guid: f9733e1e033039241a78293e8d8edab0, type: 3}
       propertyPath: m_Name
       value: Road (Straight) (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5126116886608210477, guid: f9733e1e033039241a78293e8d8edab0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 5505774285653389463, guid: f9733e1e033039241a78293e8d8edab0, type: 3}
       propertyPath: m_RootOrder
@@ -1666,6 +1746,10 @@ PrefabInstance:
     - target: {fileID: 5126116886608210477, guid: f9733e1e033039241a78293e8d8edab0, type: 3}
       propertyPath: m_Name
       value: Road (Straight) (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5126116886608210477, guid: f9733e1e033039241a78293e8d8edab0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 5505774285653389463, guid: f9733e1e033039241a78293e8d8edab0, type: 3}
       propertyPath: m_RootOrder
@@ -1751,7 +1835,7 @@ Transform:
   m_GameObject: {fileID: 133082894}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: -5, z: 0}
-  m_LocalScale: {x: 50, y: 1, z: 50}
+  m_LocalScale: {x: 70, y: 1, z: 70}
   m_Children: []
   m_Father: {fileID: 628615719}
   m_RootOrder: 2
@@ -1846,6 +1930,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Road (Driveway Single) (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 8462136860416363512, guid: ff292cce3d4e10645b3e898d55e3974d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 9089491169572491586, guid: ff292cce3d4e10645b3e898d55e3974d, type: 3}
       propertyPath: m_RootOrder
       value: 74
@@ -1937,7 +2025,7 @@ Transform:
   - {fileID: 1825392564}
   - {fileID: 1911215966}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &151066786
 PrefabInstance:
@@ -1949,6 +2037,14 @@ PrefabInstance:
     - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_Name
       value: Sidewalk (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_TagString
+      value: Sidewalk
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1112898873746797560, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_RootOrder
@@ -2092,6 +2188,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pavement (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 2973208610395260946, guid: 64a1f58237bffae43983f474e73d3193, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 64a1f58237bffae43983f474e73d3193, type: 3}
 --- !u!4 &170693392 stripped
@@ -2109,6 +2209,14 @@ PrefabInstance:
     - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_Name
       value: Sidewalk (87)
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_TagString
+      value: Sidewalk
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1112898873746797560, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_RootOrder
@@ -2236,6 +2344,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pavement (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 2973208610395260946, guid: 64a1f58237bffae43983f474e73d3193, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 64a1f58237bffae43983f474e73d3193, type: 3}
 --- !u!4 &174749122 stripped
@@ -2253,6 +2365,14 @@ PrefabInstance:
     - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_Name
       value: Sidewalk (52)
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_TagString
+      value: Sidewalk
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1112898873746797560, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_RootOrder
@@ -2414,6 +2534,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sidewalk (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_TagString
+      value: Sidewalk
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1112898873746797560, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_RootOrder
       value: 25
@@ -2549,6 +2677,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Road (Intersection) (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 2798860573833751407, guid: 102678d97b6ac1840ab6d4148390f94f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 3286603466285560277, guid: 102678d97b6ac1840ab6d4148390f94f, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -2650,6 +2782,10 @@ PrefabInstance:
     - target: {fileID: 2973208610395260946, guid: 64a1f58237bffae43983f474e73d3193, type: 3}
       propertyPath: m_Name
       value: Pavement (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2973208610395260946, guid: 64a1f58237bffae43983f474e73d3193, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 64a1f58237bffae43983f474e73d3193, type: 3}
@@ -2799,6 +2935,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PickupRadius (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 695953619841813251, guid: 91d11a9608b3f5041ba460acf5d0524b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7191068385779424864, guid: 91d11a9608b3f5041ba460acf5d0524b, type: 3}
       propertyPath: m_Radius
       value: 20
@@ -2815,6 +2955,10 @@ PrefabInstance:
     - target: {fileID: 5126116886608210477, guid: f9733e1e033039241a78293e8d8edab0, type: 3}
       propertyPath: m_Name
       value: Road (Straight) (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5126116886608210477, guid: f9733e1e033039241a78293e8d8edab0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 5505774285653389463, guid: f9733e1e033039241a78293e8d8edab0, type: 3}
       propertyPath: m_RootOrder
@@ -2882,6 +3026,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Road (Driveway Single) (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8462136860416363512, guid: ff292cce3d4e10645b3e898d55e3974d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 9089491169572491586, guid: ff292cce3d4e10645b3e898d55e3974d, type: 3}
       propertyPath: m_RootOrder
       value: 21
@@ -2947,6 +3095,14 @@ PrefabInstance:
     - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_Name
       value: Sidewalk (86)
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_TagString
+      value: Sidewalk
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1112898873746797560, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_RootOrder
@@ -3022,6 +3178,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sidewalk (36)
       objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_TagString
+      value: Sidewalk
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1112898873746797560, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_RootOrder
       value: 35
@@ -3096,6 +3260,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sidewalk (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_TagString
+      value: Sidewalk
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1112898873746797560, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -3169,6 +3341,14 @@ PrefabInstance:
     - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_Name
       value: Sidewalk (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_TagString
+      value: Sidewalk
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1112898873746797560, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_RootOrder
@@ -3317,6 +3497,10 @@ PrefabInstance:
     - target: {fileID: 5126116886608210477, guid: f9733e1e033039241a78293e8d8edab0, type: 3}
       propertyPath: m_Name
       value: Road (Straight) (44)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5126116886608210477, guid: f9733e1e033039241a78293e8d8edab0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 5505774285653389463, guid: f9733e1e033039241a78293e8d8edab0, type: 3}
       propertyPath: m_RootOrder
@@ -3621,6 +3805,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Road (Straight) (34)
       objectReference: {fileID: 0}
+    - target: {fileID: 5126116886608210477, guid: f9733e1e033039241a78293e8d8edab0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 5505774285653389463, guid: f9733e1e033039241a78293e8d8edab0, type: 3}
       propertyPath: m_RootOrder
       value: 60
@@ -3706,6 +3894,14 @@ PrefabInstance:
     - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_Name
       value: Sidewalk (42)
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_TagString
+      value: Sidewalk
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1112898873746797560, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_RootOrder
@@ -4086,6 +4282,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Road (Bend) (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 7999328644739786581, guid: b784f1d4f15074548a52bd2810bd03f4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b784f1d4f15074548a52bd2810bd03f4, type: 3}
 --- !u!4 &339704250 stripped
@@ -4103,6 +4303,14 @@ PrefabInstance:
     - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_Name
       value: Sidewalk (34)
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_TagString
+      value: Sidewalk
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1112898873746797560, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_RootOrder
@@ -4222,6 +4430,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Road (Crossroad) (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 4514823803489040530, guid: 67304aa162c771d49baae9e690e7da76, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 67304aa162c771d49baae9e690e7da76, type: 3}
 --- !u!4 &347475169 stripped
@@ -4239,6 +4451,14 @@ PrefabInstance:
     - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_Name
       value: Sidewalk (81)
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_TagString
+      value: Sidewalk
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1112898873746797560, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_RootOrder
@@ -4314,6 +4534,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Road (Driveway Double) (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 390401578927169743, guid: fc7f3b41021147b489f235d452c25476, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1018143946897160821, guid: fc7f3b41021147b489f235d452c25476, type: 3}
       propertyPath: m_RootOrder
       value: 42
@@ -4383,6 +4607,10 @@ PrefabInstance:
     - target: {fileID: 8462136860416363512, guid: ff292cce3d4e10645b3e898d55e3974d, type: 3}
       propertyPath: m_Name
       value: Road (Driveway Single) (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8462136860416363512, guid: ff292cce3d4e10645b3e898d55e3974d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 9089491169572491586, guid: ff292cce3d4e10645b3e898d55e3974d, type: 3}
       propertyPath: m_RootOrder
@@ -4474,6 +4702,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sidewalk (65)
       objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_TagString
+      value: Sidewalk
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1112898873746797560, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_RootOrder
       value: 64
@@ -4544,6 +4780,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Road (Straight) (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 5126116886608210477, guid: f9733e1e033039241a78293e8d8edab0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 5505774285653389463, guid: f9733e1e033039241a78293e8d8edab0, type: 3}
       propertyPath: m_RootOrder
       value: 25
@@ -4605,6 +4845,10 @@ PrefabInstance:
     - target: {fileID: 5126116886608210477, guid: f9733e1e033039241a78293e8d8edab0, type: 3}
       propertyPath: m_Name
       value: Road (Straight) (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5126116886608210477, guid: f9733e1e033039241a78293e8d8edab0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 5505774285653389463, guid: f9733e1e033039241a78293e8d8edab0, type: 3}
       propertyPath: m_RootOrder
@@ -4715,6 +4959,10 @@ PrefabInstance:
     - target: {fileID: 2973208610395260946, guid: 64a1f58237bffae43983f474e73d3193, type: 3}
       propertyPath: m_Name
       value: Pavement (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2973208610395260946, guid: 64a1f58237bffae43983f474e73d3193, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 64a1f58237bffae43983f474e73d3193, type: 3}
@@ -4910,6 +5158,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Road (Straight) (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 5126116886608210477, guid: f9733e1e033039241a78293e8d8edab0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 5505774285653389463, guid: f9733e1e033039241a78293e8d8edab0, type: 3}
       propertyPath: m_RootOrder
       value: 29
@@ -5016,6 +5268,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Road (End) (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6650513697642726387, guid: 3949b6413971a4f4aaede37b787bae1e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3949b6413971a4f4aaede37b787bae1e, type: 3}
 --- !u!4 &498766982 stripped
@@ -5033,6 +5289,10 @@ PrefabInstance:
     - target: {fileID: 2798860573833751407, guid: 102678d97b6ac1840ab6d4148390f94f, type: 3}
       propertyPath: m_Name
       value: Road (Intersection) (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798860573833751407, guid: 102678d97b6ac1840ab6d4148390f94f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 3286603466285560277, guid: 102678d97b6ac1840ab6d4148390f94f, type: 3}
       propertyPath: m_RootOrder
@@ -5148,6 +5408,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pavement (30)
       objectReference: {fileID: 0}
+    - target: {fileID: 2973208610395260946, guid: 64a1f58237bffae43983f474e73d3193, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 64a1f58237bffae43983f474e73d3193, type: 3}
 --- !u!4 &510908858 stripped
@@ -5165,6 +5429,10 @@ PrefabInstance:
     - target: {fileID: 5126116886608210477, guid: f9733e1e033039241a78293e8d8edab0, type: 3}
       propertyPath: m_Name
       value: Road (Straight) (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5126116886608210477, guid: f9733e1e033039241a78293e8d8edab0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 5505774285653389463, guid: f9733e1e033039241a78293e8d8edab0, type: 3}
       propertyPath: m_RootOrder
@@ -5232,6 +5500,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Road (Straight) (42)
       objectReference: {fileID: 0}
+    - target: {fileID: 5126116886608210477, guid: f9733e1e033039241a78293e8d8edab0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 5505774285653389463, guid: f9733e1e033039241a78293e8d8edab0, type: 3}
       propertyPath: m_RootOrder
       value: 77
@@ -5297,6 +5569,14 @@ PrefabInstance:
     - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_Name
       value: Sidewalk (60)
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_TagString
+      value: Sidewalk
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1112898873746797560, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_RootOrder
@@ -5416,6 +5696,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Road (Bend) (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 7999328644739786581, guid: b784f1d4f15074548a52bd2810bd03f4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b784f1d4f15074548a52bd2810bd03f4, type: 3}
 --- !u!4 &523782559 stripped
@@ -5433,6 +5717,14 @@ PrefabInstance:
     - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_Name
       value: Sidewalk (44)
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_TagString
+      value: Sidewalk
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1112898873746797560, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_RootOrder
@@ -5508,6 +5800,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sidewalk (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_TagString
+      value: Sidewalk
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1112898873746797560, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -5581,6 +5881,10 @@ PrefabInstance:
     - target: {fileID: 2798860573833751407, guid: 102678d97b6ac1840ab6d4148390f94f, type: 3}
       propertyPath: m_Name
       value: Road (Intersection) (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798860573833751407, guid: 102678d97b6ac1840ab6d4148390f94f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 3286603466285560277, guid: 102678d97b6ac1840ab6d4148390f94f, type: 3}
       propertyPath: m_RootOrder
@@ -5806,6 +6110,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PickupRadius (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 695953619841813251, guid: 91d11a9608b3f5041ba460acf5d0524b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7191068385779424864, guid: 91d11a9608b3f5041ba460acf5d0524b, type: 3}
       propertyPath: m_Radius
       value: 28.61
@@ -5822,6 +6130,14 @@ PrefabInstance:
     - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_Name
       value: Sidewalk (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_TagString
+      value: Sidewalk
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1112898873746797560, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_RootOrder
@@ -5946,6 +6262,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Road (Straight) (32)
       objectReference: {fileID: 0}
+    - target: {fileID: 5126116886608210477, guid: f9733e1e033039241a78293e8d8edab0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 5505774285653389463, guid: f9733e1e033039241a78293e8d8edab0, type: 3}
       propertyPath: m_RootOrder
       value: 54
@@ -6007,6 +6327,14 @@ PrefabInstance:
     - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_Name
       value: Sidewalk (78)
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_TagString
+      value: Sidewalk
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1112898873746797560, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_RootOrder
@@ -6082,6 +6410,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Road (Straight) (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 5126116886608210477, guid: f9733e1e033039241a78293e8d8edab0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 5505774285653389463, guid: f9733e1e033039241a78293e8d8edab0, type: 3}
       propertyPath: m_RootOrder
       value: 31
@@ -6143,6 +6475,14 @@ PrefabInstance:
     - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_Name
       value: Sidewalk (72)
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_TagString
+      value: Sidewalk
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1112898873746797560, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_RootOrder
@@ -6270,6 +6610,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pavement (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 2973208610395260946, guid: 64a1f58237bffae43983f474e73d3193, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 64a1f58237bffae43983f474e73d3193, type: 3}
 --- !u!4 &621952084 stripped
@@ -6286,7 +6630,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 628615719}
-  - component: {fileID: 628615720}
   m_Layer: 0
   m_Name: Terrain
   m_TagString: Untagged
@@ -6309,21 +6652,8 @@ Transform:
   - {fileID: 642556786}
   - {fileID: 133082895}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &628615720
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 628615718}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 30a143128cdc3a74f9076d9f5380b668, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Size: {x: 250, y: 10, z: 250}
 --- !u!1001 &636151918
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6387,6 +6717,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pavement (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 2973208610395260946, guid: 64a1f58237bffae43983f474e73d3193, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 64a1f58237bffae43983f474e73d3193, type: 3}
 --- !u!4 &636151919 stripped
@@ -6404,6 +6738,14 @@ PrefabInstance:
     - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_Name
       value: Sidewalk (61)
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_TagString
+      value: Sidewalk
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1112898873746797560, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_RootOrder
@@ -6496,7 +6838,7 @@ Transform:
   m_GameObject: {fileID: 642556785}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: -5.7, z: 0}
-  m_LocalScale: {x: 500, y: 5, z: 500}
+  m_LocalScale: {x: 700, y: 5, z: 700}
   m_Children: []
   m_Father: {fileID: 628615719}
   m_RootOrder: 1
@@ -6574,6 +6916,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Road (Straight) (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 5126116886608210477, guid: f9733e1e033039241a78293e8d8edab0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 5505774285653389463, guid: f9733e1e033039241a78293e8d8edab0, type: 3}
       propertyPath: m_RootOrder
       value: 13
@@ -6639,6 +6985,14 @@ PrefabInstance:
     - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_Name
       value: Sidewalk (35)
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_TagString
+      value: Sidewalk
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1112898873746797560, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_RootOrder
@@ -6899,6 +7253,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Road (Intersection)
       objectReference: {fileID: 0}
+    - target: {fileID: 2798860573833751407, guid: 102678d97b6ac1840ab6d4148390f94f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 3286603466285560277, guid: 102678d97b6ac1840ab6d4148390f94f, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -6989,6 +7347,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Road (End) (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6650513697642726387, guid: 3949b6413971a4f4aaede37b787bae1e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3949b6413971a4f4aaede37b787bae1e, type: 3}
 --- !u!4 &664766935 stripped
@@ -7006,6 +7368,14 @@ PrefabInstance:
     - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_Name
       value: Sidewalk (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_TagString
+      value: Sidewalk
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1112898873746797560, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_RootOrder
@@ -7080,6 +7450,14 @@ PrefabInstance:
     - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_Name
       value: Sidewalk (63)
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_TagString
+      value: Sidewalk
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1112898873746797560, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_RootOrder
@@ -7207,6 +7585,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pavement (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 2973208610395260946, guid: 64a1f58237bffae43983f474e73d3193, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 64a1f58237bffae43983f474e73d3193, type: 3}
 --- !u!4 &686137256 stripped
@@ -7224,6 +7606,14 @@ PrefabInstance:
     - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_Name
       value: Sidewalk (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_TagString
+      value: Sidewalk
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1112898873746797560, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_RootOrder
@@ -7298,6 +7688,14 @@ PrefabInstance:
     - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_Name
       value: Sidewalk (38)
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_TagString
+      value: Sidewalk
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1112898873746797560, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_RootOrder
@@ -7429,6 +7827,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pavement (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2973208610395260946, guid: 64a1f58237bffae43983f474e73d3193, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 64a1f58237bffae43983f474e73d3193, type: 3}
 --- !u!4 &692198075 stripped
@@ -7446,6 +7848,14 @@ PrefabInstance:
     - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_Name
       value: Sidewalk (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_TagString
+      value: Sidewalk
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1112898873746797560, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_RootOrder
@@ -7565,6 +7975,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Road (End) (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 6650513697642726387, guid: 3949b6413971a4f4aaede37b787bae1e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3949b6413971a4f4aaede37b787bae1e, type: 3}
 --- !u!4 &696408063 stripped
@@ -7582,6 +7996,14 @@ PrefabInstance:
     - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_Name
       value: Sidewalk (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_TagString
+      value: Sidewalk
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1112898873746797560, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_RootOrder
@@ -7657,6 +8079,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sidewalk (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_TagString
+      value: Sidewalk
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1112898873746797560, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -7731,6 +8161,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sidewalk (56)
       objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_TagString
+      value: Sidewalk
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1112898873746797560, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_RootOrder
       value: 54
@@ -7804,6 +8242,10 @@ PrefabInstance:
     - target: {fileID: 5126116886608210477, guid: f9733e1e033039241a78293e8d8edab0, type: 3}
       propertyPath: m_Name
       value: Road (Straight) (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5126116886608210477, guid: f9733e1e033039241a78293e8d8edab0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 5505774285653389463, guid: f9733e1e033039241a78293e8d8edab0, type: 3}
       propertyPath: m_RootOrder
@@ -7954,6 +8396,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sidewalk (66)
       objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_TagString
+      value: Sidewalk
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1112898873746797560, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_RootOrder
       value: 65
@@ -8027,6 +8477,14 @@ PrefabInstance:
     - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_Name
       value: Sidewalk (43)
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_TagString
+      value: Sidewalk
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1112898873746797560, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_RootOrder
@@ -8102,6 +8560,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sidewalk (50)
       objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_TagString
+      value: Sidewalk
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1112898873746797560, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_RootOrder
       value: 49
@@ -8176,6 +8642,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Road (Straight) (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 5126116886608210477, guid: f9733e1e033039241a78293e8d8edab0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 5505774285653389463, guid: f9733e1e033039241a78293e8d8edab0, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -8237,6 +8707,14 @@ PrefabInstance:
     - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_Name
       value: Sidewalk (77)
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_TagString
+      value: Sidewalk
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1112898873746797560, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_RootOrder
@@ -8312,6 +8790,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sidewalk (55)
       objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_TagString
+      value: Sidewalk
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1112898873746797560, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_RootOrder
       value: 53
@@ -8386,6 +8872,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sidewalk (46)
       objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_TagString
+      value: Sidewalk
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1112898873746797560, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_RootOrder
       value: 44
@@ -8459,6 +8953,14 @@ PrefabInstance:
     - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_Name
       value: Sidewalk (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_TagString
+      value: Sidewalk
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1112898873746797560, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_RootOrder
@@ -8586,6 +9088,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pavement (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 2973208610395260946, guid: 64a1f58237bffae43983f474e73d3193, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 64a1f58237bffae43983f474e73d3193, type: 3}
 --- !u!4 &778072366 stripped
@@ -8647,6 +9153,10 @@ PrefabInstance:
     - target: {fileID: 695953619841813251, guid: 91d11a9608b3f5041ba460acf5d0524b, type: 3}
       propertyPath: m_Name
       value: DropOffRadius (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 695953619841813251, guid: 91d11a9608b3f5041ba460acf5d0524b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7191068385779424864, guid: 91d11a9608b3f5041ba460acf5d0524b, type: 3}
       propertyPath: m_Radius
@@ -8786,6 +9296,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Road (Bend) (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 7999328644739786581, guid: b784f1d4f15074548a52bd2810bd03f4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b784f1d4f15074548a52bd2810bd03f4, type: 3}
 --- !u!4 &809278783 stripped
@@ -8823,6 +9337,10 @@ PrefabInstance:
     - target: {fileID: 5126116886608210477, guid: f9733e1e033039241a78293e8d8edab0, type: 3}
       propertyPath: m_Name
       value: Road (Straight) (38)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5126116886608210477, guid: f9733e1e033039241a78293e8d8edab0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 5505774285653389463, guid: f9733e1e033039241a78293e8d8edab0, type: 3}
       propertyPath: m_RootOrder
@@ -8956,6 +9474,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Road (Intersection) (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 2798860573833751407, guid: 102678d97b6ac1840ab6d4148390f94f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 3286603466285560277, guid: 102678d97b6ac1840ab6d4148390f94f, type: 3}
       propertyPath: m_RootOrder
       value: 17
@@ -9017,6 +9539,14 @@ PrefabInstance:
     - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_Name
       value: Sidewalk (67)
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_TagString
+      value: Sidewalk
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1112898873746797560, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_RootOrder
@@ -9179,6 +9709,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sidewalk (41)
       objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_TagString
+      value: Sidewalk
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1112898873746797560, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_RootOrder
       value: 48
@@ -9253,6 +9791,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Road (Straight) (40)
       objectReference: {fileID: 0}
+    - target: {fileID: 5126116886608210477, guid: f9733e1e033039241a78293e8d8edab0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 5505774285653389463, guid: f9733e1e033039241a78293e8d8edab0, type: 3}
       propertyPath: m_RootOrder
       value: 70
@@ -9314,6 +9856,10 @@ PrefabInstance:
     - target: {fileID: 5126116886608210477, guid: f9733e1e033039241a78293e8d8edab0, type: 3}
       propertyPath: m_Name
       value: Road (Straight) (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5126116886608210477, guid: f9733e1e033039241a78293e8d8edab0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 5505774285653389463, guid: f9733e1e033039241a78293e8d8edab0, type: 3}
       propertyPath: m_RootOrder
@@ -9421,6 +9967,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: DropOffRadius (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 695953619841813251, guid: 91d11a9608b3f5041ba460acf5d0524b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7191068385779424864, guid: 91d11a9608b3f5041ba460acf5d0524b, type: 3}
       propertyPath: m_Radius
       value: 26.3
@@ -9445,6 +9995,14 @@ PrefabInstance:
     - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_Name
       value: Sidewalk (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_TagString
+      value: Sidewalk
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1112898873746797560, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_RootOrder
@@ -9564,6 +10122,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: DropOffRadius (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 695953619841813251, guid: 91d11a9608b3f5041ba460acf5d0524b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7191068385779424864, guid: 91d11a9608b3f5041ba460acf5d0524b, type: 3}
       propertyPath: m_Radius
       value: 27.5
@@ -9585,17 +10147,45 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 403106267136982924, guid: 1188992fea43e4040b546aa466db7035, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 498911165913399011, guid: 1188992fea43e4040b546aa466db7035, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 926877007929767029, guid: 1188992fea43e4040b546aa466db7035, type: 3}
+      propertyPath: m_IsWheel
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1013047940325916829, guid: 1188992fea43e4040b546aa466db7035, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1086780755748165076, guid: 1188992fea43e4040b546aa466db7035, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1820776079384334615, guid: 1188992fea43e4040b546aa466db7035, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1841984420019431015, guid: 1188992fea43e4040b546aa466db7035, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.6
       objectReference: {fileID: 0}
     - target: {fileID: 1852131617814127271, guid: 1188992fea43e4040b546aa466db7035, type: 3}
       propertyPath: m_Layer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2327069458890048776, guid: 1188992fea43e4040b546aa466db7035, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2354928789322888289, guid: 1188992fea43e4040b546aa466db7035, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 2354928789322888289, guid: 1188992fea43e4040b546aa466db7035, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9619,11 +10209,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2354928789322888289, guid: 1188992fea43e4040b546aa466db7035, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2354928789322888289, guid: 1188992fea43e4040b546aa466db7035, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2354928789322888289, guid: 1188992fea43e4040b546aa466db7035, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -9641,6 +10231,42 @@ PrefabInstance:
       propertyPath: EmissionModule.m_BurstCount
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2528098965893181362, guid: 1188992fea43e4040b546aa466db7035, type: 3}
+      propertyPath: m_TagString
+      value: Player Wheels
+      objectReference: {fileID: 0}
+    - target: {fileID: 2749742842667996546, guid: 1188992fea43e4040b546aa466db7035, type: 3}
+      propertyPath: m_Size.x
+      value: 1.3162441
+      objectReference: {fileID: 0}
+    - target: {fileID: 2749742842667996546, guid: 1188992fea43e4040b546aa466db7035, type: 3}
+      propertyPath: m_Size.y
+      value: 0.29596412
+      objectReference: {fileID: 0}
+    - target: {fileID: 2749742842667996546, guid: 1188992fea43e4040b546aa466db7035, type: 3}
+      propertyPath: m_Size.z
+      value: 0.48178482
+      objectReference: {fileID: 0}
+    - target: {fileID: 2749742842667996546, guid: 1188992fea43e4040b546aa466db7035, type: 3}
+      propertyPath: m_Center.x
+      value: -0.012734413
+      objectReference: {fileID: 0}
+    - target: {fileID: 2749742842667996546, guid: 1188992fea43e4040b546aa466db7035, type: 3}
+      propertyPath: m_Center.y
+      value: 0.13515693
+      objectReference: {fileID: 0}
+    - target: {fileID: 2749742842667996546, guid: 1188992fea43e4040b546aa466db7035, type: 3}
+      propertyPath: m_Center.z
+      value: 0.7826977
+      objectReference: {fileID: 0}
+    - target: {fileID: 3105078651474580199, guid: 1188992fea43e4040b546aa466db7035, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3125337746237885883, guid: 1188992fea43e4040b546aa466db7035, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 3163132145335938779, guid: 1188992fea43e4040b546aa466db7035, type: 3}
       propertyPath: m_Name
       value: Taxi
@@ -9653,18 +10279,18 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
-    - target: {fileID: 4782296503001708263, guid: 1188992fea43e4040b546aa466db7035, type: 3}
-      propertyPath: m_Car
-      value: 
-      objectReference: {fileID: 1307476980}
-    - target: {fileID: 4782296503001708263, guid: 1188992fea43e4040b546aa466db7035, type: 3}
-      propertyPath: m_TriggerDelay
-      value: 5
+    - target: {fileID: 3645815558753654148, guid: 1188992fea43e4040b546aa466db7035, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 4782296503001708263, guid: 1188992fea43e4040b546aa466db7035, type: 3}
-      propertyPath: m_CarController
-      value: 
-      objectReference: {fileID: 879345521}
+    - target: {fileID: 4284541663816931878, guid: 1188992fea43e4040b546aa466db7035, type: 3}
+      propertyPath: m_TagString
+      value: Player Wheels
+      objectReference: {fileID: 0}
+    - target: {fileID: 4630326263559642264, guid: 1188992fea43e4040b546aa466db7035, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.6
+      objectReference: {fileID: 0}
     - target: {fileID: 4962304468236741381, guid: 1188992fea43e4040b546aa466db7035, type: 3}
       propertyPath: m_Car
       value: 
@@ -9677,24 +10303,29 @@ PrefabInstance:
       propertyPath: m_Car
       value: 
       objectReference: {fileID: 1307476980}
-    m_RemovedComponents: []
+    - target: {fileID: 7446908410827296269, guid: 1188992fea43e4040b546aa466db7035, type: 3}
+      propertyPath: m_Name
+      value: Body Trigger
+      objectReference: {fileID: 0}
+    - target: {fileID: 8693786308159608160, guid: 1188992fea43e4040b546aa466db7035, type: 3}
+      propertyPath: m_TagString
+      value: Player Wheels
+      objectReference: {fileID: 0}
+    - target: {fileID: 8981514202761996225, guid: 1188992fea43e4040b546aa466db7035, type: 3}
+      propertyPath: m_TagString
+      value: Player Wheels
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 1820776079384334615, guid: 1188992fea43e4040b546aa466db7035, type: 3}
+    - {fileID: 498911165913399011, guid: 1188992fea43e4040b546aa466db7035, type: 3}
+    - {fileID: 2327069458890048776, guid: 1188992fea43e4040b546aa466db7035, type: 3}
+    - {fileID: 3645815558753654148, guid: 1188992fea43e4040b546aa466db7035, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1188992fea43e4040b546aa466db7035, type: 3}
 --- !u!4 &879345520 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2354928789322888289, guid: 1188992fea43e4040b546aa466db7035, type: 3}
   m_PrefabInstance: {fileID: 879345519}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &879345521 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 327578082382331651, guid: 1188992fea43e4040b546aa466db7035, type: 3}
-  m_PrefabInstance: {fileID: 879345519}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 99dda73d894bfd94eaaa967bd2018452, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &881424024
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9705,6 +10336,14 @@ PrefabInstance:
     - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_Name
       value: Sidewalk (53)
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_TagString
+      value: Sidewalk
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1112898873746797560, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_RootOrder
@@ -9854,6 +10493,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Road (Intersection) (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 2798860573833751407, guid: 102678d97b6ac1840ab6d4148390f94f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 3286603466285560277, guid: 102678d97b6ac1840ab6d4148390f94f, type: 3}
       propertyPath: m_RootOrder
       value: 65
@@ -9915,6 +10558,14 @@ PrefabInstance:
     - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_Name
       value: Sidewalk (39)
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_TagString
+      value: Sidewalk
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1112898873746797560, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_RootOrder
@@ -9989,6 +10640,10 @@ PrefabInstance:
     - target: {fileID: 2798860573833751407, guid: 102678d97b6ac1840ab6d4148390f94f, type: 3}
       propertyPath: m_Name
       value: Road (Intersection) (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798860573833751407, guid: 102678d97b6ac1840ab6d4148390f94f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 3286603466285560277, guid: 102678d97b6ac1840ab6d4148390f94f, type: 3}
       propertyPath: m_RootOrder
@@ -10099,6 +10754,10 @@ PrefabInstance:
     - target: {fileID: 2973208610395260946, guid: 64a1f58237bffae43983f474e73d3193, type: 3}
       propertyPath: m_Name
       value: Pavement (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2973208610395260946, guid: 64a1f58237bffae43983f474e73d3193, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 64a1f58237bffae43983f474e73d3193, type: 3}
@@ -10574,14 +11233,6 @@ PrefabInstance:
       propertyPath: m_DistanceToSidewalk
       value: 6.6
       objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: m_DistanceToStreet
-      value: 10.47
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: m_DistanceToSidewalk
-      value: 6.08
-      objectReference: {fileID: 0}
     - target: {fileID: 8636115337778454881, guid: be276adb0730fad4b84c9dbf33b8c202, type: 3}
       propertyPath: m_Name
       value: House_21 (1)
@@ -10721,6 +11372,14 @@ PrefabInstance:
     - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_Name
       value: Sidewalk
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_TagString
+      value: Sidewalk
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1112898873746797560, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_RootOrder
@@ -10879,6 +11538,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sidewalk (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_TagString
+      value: Sidewalk
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1112898873746797560, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_RootOrder
       value: 19
@@ -10952,6 +11619,14 @@ PrefabInstance:
     - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_Name
       value: Sidewalk (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_TagString
+      value: Sidewalk
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1112898873746797560, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_RootOrder
@@ -11046,6 +11721,14 @@ PrefabInstance:
     - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_Name
       value: Sidewalk (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_TagString
+      value: Sidewalk
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1112898873746797560, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_RootOrder
@@ -11199,6 +11882,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sidewalk (54)
       objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_TagString
+      value: Sidewalk
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1112898873746797560, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_RootOrder
       value: 52
@@ -11273,6 +11964,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Road (Straight) (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5126116886608210477, guid: f9733e1e033039241a78293e8d8edab0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 5505774285653389463, guid: f9733e1e033039241a78293e8d8edab0, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -11334,6 +12029,14 @@ PrefabInstance:
     - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_Name
       value: Sidewalk (57)
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_TagString
+      value: Sidewalk
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1112898873746797560, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_RootOrder
@@ -11475,6 +12178,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Road (Straight) (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 5126116886608210477, guid: f9733e1e033039241a78293e8d8edab0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 5505774285653389463, guid: f9733e1e033039241a78293e8d8edab0, type: 3}
       propertyPath: m_RootOrder
       value: 34
@@ -11536,6 +12243,14 @@ PrefabInstance:
     - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_Name
       value: Sidewalk (88)
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_TagString
+      value: Sidewalk
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1112898873746797560, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_RootOrder
@@ -11651,6 +12366,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Road (Crosswalk) (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 2269174844648308941, guid: 4e7433a2866b8284c8356f99ad01e6da, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4e7433a2866b8284c8356f99ad01e6da, type: 3}
 --- !u!4 &1207397899 stripped
@@ -11668,6 +12387,14 @@ PrefabInstance:
     - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_Name
       value: Sidewalk (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_TagString
+      value: Sidewalk
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1112898873746797560, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_RootOrder
@@ -11743,6 +12470,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sidewalk (69)
       objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_TagString
+      value: Sidewalk
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1112898873746797560, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_RootOrder
       value: 68
@@ -11816,6 +12551,10 @@ PrefabInstance:
     - target: {fileID: 5126116886608210477, guid: f9733e1e033039241a78293e8d8edab0, type: 3}
       propertyPath: m_Name
       value: Road (Straight) (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5126116886608210477, guid: f9733e1e033039241a78293e8d8edab0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 5505774285653389463, guid: f9733e1e033039241a78293e8d8edab0, type: 3}
       propertyPath: m_RootOrder
@@ -11923,6 +12662,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Road (End) (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 6650513697642726387, guid: 3949b6413971a4f4aaede37b787bae1e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3949b6413971a4f4aaede37b787bae1e, type: 3}
 --- !u!4 &1251260978 stripped
@@ -11984,6 +12727,10 @@ PrefabInstance:
     - target: {fileID: 695953619841813251, guid: 91d11a9608b3f5041ba460acf5d0524b, type: 3}
       propertyPath: m_Name
       value: DropOffRadius (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 695953619841813251, guid: 91d11a9608b3f5041ba460acf5d0524b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7191068385779424864, guid: 91d11a9608b3f5041ba460acf5d0524b, type: 3}
       propertyPath: m_Radius
@@ -12100,14 +12847,6 @@ PrefabInstance:
       propertyPath: m_DistanceToSidewalk
       value: 6.6
       objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: m_DistanceToStreet
-      value: 10.47
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: m_DistanceToSidewalk
-      value: 6.08
-      objectReference: {fileID: 0}
     - target: {fileID: 8636115337778454881, guid: be276adb0730fad4b84c9dbf33b8c202, type: 3}
       propertyPath: m_Name
       value: House_21 (6)
@@ -12177,6 +12916,10 @@ PrefabInstance:
     - target: {fileID: 5126116886608210477, guid: f9733e1e033039241a78293e8d8edab0, type: 3}
       propertyPath: m_Name
       value: Road (Straight) (37)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5126116886608210477, guid: f9733e1e033039241a78293e8d8edab0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 5505774285653389463, guid: f9733e1e033039241a78293e8d8edab0, type: 3}
       propertyPath: m_RootOrder
@@ -12302,6 +13045,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Road (Straight) (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 5126116886608210477, guid: f9733e1e033039241a78293e8d8edab0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 5505774285653389463, guid: f9733e1e033039241a78293e8d8edab0, type: 3}
       propertyPath: m_RootOrder
       value: 47
@@ -12363,6 +13110,14 @@ PrefabInstance:
     - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_Name
       value: Sidewalk (37)
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_TagString
+      value: Sidewalk
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1112898873746797560, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_RootOrder
@@ -12448,6 +13203,14 @@ PrefabInstance:
     - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_Name
       value: Sidewalk (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_TagString
+      value: Sidewalk
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1112898873746797560, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_RootOrder
@@ -12567,6 +13330,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Road (Crossroad) (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4514823803489040530, guid: 67304aa162c771d49baae9e690e7da76, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 67304aa162c771d49baae9e690e7da76, type: 3}
 --- !u!4 &1335773045 stripped
@@ -12671,6 +13438,10 @@ PrefabInstance:
     - target: {fileID: 5126116886608210477, guid: f9733e1e033039241a78293e8d8edab0, type: 3}
       propertyPath: m_Name
       value: Road (Straight) (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5126116886608210477, guid: f9733e1e033039241a78293e8d8edab0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 5505774285653389463, guid: f9733e1e033039241a78293e8d8edab0, type: 3}
       propertyPath: m_RootOrder
@@ -12777,6 +13548,10 @@ PrefabInstance:
     - target: {fileID: 695953619841813251, guid: 91d11a9608b3f5041ba460acf5d0524b, type: 3}
       propertyPath: m_Name
       value: PickupRadius (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 695953619841813251, guid: 91d11a9608b3f5041ba460acf5d0524b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7191068385779424864, guid: 91d11a9608b3f5041ba460acf5d0524b, type: 3}
       propertyPath: m_Radius
@@ -12920,6 +13695,10 @@ PrefabInstance:
     - target: {fileID: 6650513697642726387, guid: 3949b6413971a4f4aaede37b787bae1e, type: 3}
       propertyPath: m_Name
       value: Road (End) (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6650513697642726387, guid: 3949b6413971a4f4aaede37b787bae1e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3949b6413971a4f4aaede37b787bae1e, type: 3}
@@ -13115,6 +13894,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sidewalk (70)
       objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_TagString
+      value: Sidewalk
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1112898873746797560, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_RootOrder
       value: 70
@@ -13232,6 +14019,10 @@ PrefabInstance:
     - target: {fileID: 4514823803489040530, guid: 67304aa162c771d49baae9e690e7da76, type: 3}
       propertyPath: m_Name
       value: Road (Crossroad) (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4514823803489040530, guid: 67304aa162c771d49baae9e690e7da76, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 67304aa162c771d49baae9e690e7da76, type: 3}
@@ -13472,6 +14263,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sidewalk (40)
       objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_TagString
+      value: Sidewalk
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1112898873746797560, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_RootOrder
       value: 39
@@ -13549,6 +14348,14 @@ PrefabInstance:
     - target: {fileID: 1433829469264695825, guid: 8de54075da6a049419d6f53794152572, type: 3}
       propertyPath: m_LocalPosition.z
       value: 10.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1433829469264695826, guid: 8de54075da6a049419d6f53794152572, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1895305636060076588, guid: 8de54075da6a049419d6f53794152572, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1895305636060076591, guid: 8de54075da6a049419d6f53794152572, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13707,6 +14514,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Road (Straight) (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 5126116886608210477, guid: f9733e1e033039241a78293e8d8edab0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 5505774285653389463, guid: f9733e1e033039241a78293e8d8edab0, type: 3}
       propertyPath: m_RootOrder
       value: 19
@@ -13768,6 +14579,14 @@ PrefabInstance:
     - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_Name
       value: Sidewalk (84)
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_TagString
+      value: Sidewalk
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1112898873746797560, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_RootOrder
@@ -13842,6 +14661,14 @@ PrefabInstance:
     - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_Name
       value: Sidewalk (45)
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_TagString
+      value: Sidewalk
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1112898873746797560, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_RootOrder
@@ -13934,7 +14761,7 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
@@ -13993,7 +14820,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1470848254}
   m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
-  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalPosition: {x: -96, y: 340, z: -244}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -14061,6 +14888,10 @@ PrefabInstance:
     - target: {fileID: 2973208610395260946, guid: 64a1f58237bffae43983f474e73d3193, type: 3}
       propertyPath: m_Name
       value: Pavement (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2973208610395260946, guid: 64a1f58237bffae43983f474e73d3193, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 64a1f58237bffae43983f474e73d3193, type: 3}
@@ -14318,6 +15149,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sidewalk (48)
       objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_TagString
+      value: Sidewalk
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1112898873746797560, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_RootOrder
       value: 46
@@ -14436,6 +15275,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Road (Bend) (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 7999328644739786581, guid: b784f1d4f15074548a52bd2810bd03f4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b784f1d4f15074548a52bd2810bd03f4, type: 3}
 --- !u!4 &1495238432 stripped
@@ -14453,6 +15296,14 @@ PrefabInstance:
     - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_Name
       value: Sidewalk (79)
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_TagString
+      value: Sidewalk
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1112898873746797560, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_RootOrder
@@ -14524,6 +15375,38 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 712650008818823961, guid: f40518ddd3c7b8f4295c7afd09e4949d, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 712650008818823961, guid: f40518ddd3c7b8f4295c7afd09e4949d, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 712650008818823961, guid: f40518ddd3c7b8f4295c7afd09e4949d, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 150
+      objectReference: {fileID: 0}
+    - target: {fileID: 712650008818823961, guid: f40518ddd3c7b8f4295c7afd09e4949d, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 712650008818823961, guid: f40518ddd3c7b8f4295c7afd09e4949d, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -7.45
+      objectReference: {fileID: 0}
+    - target: {fileID: 3161331111694777030, guid: f40518ddd3c7b8f4295c7afd09e4949d, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 150
+      objectReference: {fileID: 0}
+    - target: {fileID: 3161331111694777030, guid: f40518ddd3c7b8f4295c7afd09e4949d, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 150
+      objectReference: {fileID: 0}
+    - target: {fileID: 3161331111955332857, guid: f40518ddd3c7b8f4295c7afd09e4949d, type: 3}
+      propertyPath: m_AdditionalShaderChannelsFlag
+      value: 25
+      objectReference: {fileID: 0}
     - target: {fileID: 3161331111955332858, guid: f40518ddd3c7b8f4295c7afd09e4949d, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -14625,6 +15508,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Road (Straight) (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 5126116886608210477, guid: f9733e1e033039241a78293e8d8edab0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 5505774285653389463, guid: f9733e1e033039241a78293e8d8edab0, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -14686,6 +15573,10 @@ PrefabInstance:
     - target: {fileID: 5126116886608210477, guid: f9733e1e033039241a78293e8d8edab0, type: 3}
       propertyPath: m_Name
       value: Road (Straight) (36)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5126116886608210477, guid: f9733e1e033039241a78293e8d8edab0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 5505774285653389463, guid: f9733e1e033039241a78293e8d8edab0, type: 3}
       propertyPath: m_RootOrder
@@ -14752,14 +15643,6 @@ PrefabInstance:
     - target: {fileID: 2391495008462652042, guid: be276adb0730fad4b84c9dbf33b8c202, type: 3}
       propertyPath: m_DistanceToSidewalk
       value: 6.6
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: m_DistanceToStreet
-      value: 10.47
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: m_DistanceToSidewalk
-      value: 6.08
       objectReference: {fileID: 0}
     - target: {fileID: 8636115337778454881, guid: be276adb0730fad4b84c9dbf33b8c202, type: 3}
       propertyPath: m_Name
@@ -14883,6 +15766,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pavement (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 2973208610395260946, guid: 64a1f58237bffae43983f474e73d3193, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 64a1f58237bffae43983f474e73d3193, type: 3}
 --- !u!4 &1539306205 stripped
@@ -14900,6 +15787,10 @@ PrefabInstance:
     - target: {fileID: 5126116886608210477, guid: f9733e1e033039241a78293e8d8edab0, type: 3}
       propertyPath: m_Name
       value: Road (Straight)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5126116886608210477, guid: f9733e1e033039241a78293e8d8edab0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 5505774285653389463, guid: f9733e1e033039241a78293e8d8edab0, type: 3}
       propertyPath: m_RootOrder
@@ -15088,6 +15979,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pavement (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 2973208610395260946, guid: 64a1f58237bffae43983f474e73d3193, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 64a1f58237bffae43983f474e73d3193, type: 3}
 --- !u!4 &1569311317 stripped
@@ -15248,6 +16143,14 @@ PrefabInstance:
     - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_Name
       value: Sidewalk (75)
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_TagString
+      value: Sidewalk
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1112898873746797560, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_RootOrder
@@ -15458,6 +16361,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Road (Straight) (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 5126116886608210477, guid: f9733e1e033039241a78293e8d8edab0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 5505774285653389463, guid: f9733e1e033039241a78293e8d8edab0, type: 3}
       propertyPath: m_RootOrder
       value: 18
@@ -15607,6 +16514,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Road (Intersection) (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 2798860573833751407, guid: 102678d97b6ac1840ab6d4148390f94f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 3286603466285560277, guid: 102678d97b6ac1840ab6d4148390f94f, type: 3}
       propertyPath: m_RootOrder
       value: 37
@@ -15679,11 +16590,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2452533076942541480, guid: 64a1f58237bffae43983f474e73d3193, type: 3}
       propertyPath: m_LocalScale.z
-      value: 24.6
+      value: 24.49
       objectReference: {fileID: 0}
     - target: {fileID: 2452533076942541480, guid: 64a1f58237bffae43983f474e73d3193, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 44.2
+      value: 44.26
       objectReference: {fileID: 0}
     - target: {fileID: 2452533076942541480, guid: 64a1f58237bffae43983f474e73d3193, type: 3}
       propertyPath: m_LocalPosition.y
@@ -15724,6 +16635,10 @@ PrefabInstance:
     - target: {fileID: 2973208610395260946, guid: 64a1f58237bffae43983f474e73d3193, type: 3}
       propertyPath: m_Name
       value: Pavement (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2973208610395260946, guid: 64a1f58237bffae43983f474e73d3193, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 64a1f58237bffae43983f474e73d3193, type: 3}
@@ -15909,6 +16824,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Road (Crosswalk) (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2269174844648308941, guid: 4e7433a2866b8284c8356f99ad01e6da, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4e7433a2866b8284c8356f99ad01e6da, type: 3}
 --- !u!4 &1621940661 stripped
@@ -15926,6 +16845,10 @@ PrefabInstance:
     - target: {fileID: 5126116886608210477, guid: f9733e1e033039241a78293e8d8edab0, type: 3}
       propertyPath: m_Name
       value: Road (Straight) (43)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5126116886608210477, guid: f9733e1e033039241a78293e8d8edab0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 5505774285653389463, guid: f9733e1e033039241a78293e8d8edab0, type: 3}
       propertyPath: m_RootOrder
@@ -15988,6 +16911,14 @@ PrefabInstance:
     - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_Name
       value: Sidewalk (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_TagString
+      value: Sidewalk
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1112898873746797560, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_RootOrder
@@ -16063,6 +16994,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Road (Straight) (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 5126116886608210477, guid: f9733e1e033039241a78293e8d8edab0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 5505774285653389463, guid: f9733e1e033039241a78293e8d8edab0, type: 3}
       propertyPath: m_RootOrder
       value: 16
@@ -16124,6 +17059,10 @@ PrefabInstance:
     - target: {fileID: 5126116886608210477, guid: f9733e1e033039241a78293e8d8edab0, type: 3}
       propertyPath: m_Name
       value: Road (Straight) (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5126116886608210477, guid: f9733e1e033039241a78293e8d8edab0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 5505774285653389463, guid: f9733e1e033039241a78293e8d8edab0, type: 3}
       propertyPath: m_RootOrder
@@ -16239,6 +17178,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pavement (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 2973208610395260946, guid: 64a1f58237bffae43983f474e73d3193, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 64a1f58237bffae43983f474e73d3193, type: 3}
 --- !u!4 &1659071807 stripped
@@ -16256,6 +17199,14 @@ PrefabInstance:
     - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_Name
       value: Sidewalk (76)
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_TagString
+      value: Sidewalk
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1112898873746797560, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_RootOrder
@@ -16331,6 +17282,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sidewalk (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_TagString
+      value: Sidewalk
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1112898873746797560, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_RootOrder
       value: 17
@@ -16404,6 +17363,14 @@ PrefabInstance:
     - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_Name
       value: Sidewalk (58)
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_TagString
+      value: Sidewalk
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1112898873746797560, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_RootOrder
@@ -16479,6 +17446,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Road (Straight) (41)
       objectReference: {fileID: 0}
+    - target: {fileID: 5126116886608210477, guid: f9733e1e033039241a78293e8d8edab0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 5505774285653389463, guid: f9733e1e033039241a78293e8d8edab0, type: 3}
       propertyPath: m_RootOrder
       value: 75
@@ -16544,6 +17515,14 @@ PrefabInstance:
     - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_Name
       value: Sidewalk (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_TagString
+      value: Sidewalk
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1112898873746797560, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_RootOrder
@@ -16659,6 +17638,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Road (Crosswalk) (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 2269174844648308941, guid: 4e7433a2866b8284c8356f99ad01e6da, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4e7433a2866b8284c8356f99ad01e6da, type: 3}
 --- !u!4 &1702695794 stripped
@@ -16735,6 +17718,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Road (Intersection) (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 2798860573833751407, guid: 102678d97b6ac1840ab6d4148390f94f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 3286603466285560277, guid: 102678d97b6ac1840ab6d4148390f94f, type: 3}
       propertyPath: m_RootOrder
       value: 62
@@ -16796,6 +17783,14 @@ PrefabInstance:
     - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_Name
       value: Sidewalk (51)
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_TagString
+      value: Sidewalk
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1112898873746797560, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_RootOrder
@@ -16871,6 +17866,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Road (Straight) (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 5126116886608210477, guid: f9733e1e033039241a78293e8d8edab0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 5505774285653389463, guid: f9733e1e033039241a78293e8d8edab0, type: 3}
       propertyPath: m_RootOrder
       value: 14
@@ -16936,6 +17935,14 @@ PrefabInstance:
     - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_Name
       value: Sidewalk (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_TagString
+      value: Sidewalk
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1112898873746797560, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_RootOrder
@@ -17011,6 +18018,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Road (Straight) (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 5126116886608210477, guid: f9733e1e033039241a78293e8d8edab0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 5505774285653389463, guid: f9733e1e033039241a78293e8d8edab0, type: 3}
       propertyPath: m_RootOrder
       value: 45
@@ -17073,6 +18084,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Road (Straight) (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 5126116886608210477, guid: f9733e1e033039241a78293e8d8edab0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 5505774285653389463, guid: f9733e1e033039241a78293e8d8edab0, type: 3}
       propertyPath: m_RootOrder
       value: 35
@@ -17134,6 +18149,14 @@ PrefabInstance:
     - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_Name
       value: Sidewalk (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_TagString
+      value: Sidewalk
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1112898873746797560, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_RootOrder
@@ -17212,6 +18235,10 @@ PrefabInstance:
     - target: {fileID: 8462136860416363512, guid: ff292cce3d4e10645b3e898d55e3974d, type: 3}
       propertyPath: m_Name
       value: Road (Driveway Single)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8462136860416363512, guid: ff292cce3d4e10645b3e898d55e3974d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 9089491169572491586, guid: ff292cce3d4e10645b3e898d55e3974d, type: 3}
       propertyPath: m_RootOrder
@@ -17435,6 +18462,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sidewalk (89)
       objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_TagString
+      value: Sidewalk
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1112898873746797560, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_RootOrder
       value: 89
@@ -17508,6 +18543,14 @@ PrefabInstance:
     - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_Name
       value: Sidewalk (71)
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_TagString
+      value: Sidewalk
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1112898873746797560, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_RootOrder
@@ -17697,6 +18740,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Road (Crosswalk) (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 2269174844648308941, guid: 4e7433a2866b8284c8356f99ad01e6da, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4e7433a2866b8284c8356f99ad01e6da, type: 3}
 --- !u!4 &1761350993 stripped
@@ -17759,6 +18806,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PickupRadius (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 695953619841813251, guid: 91d11a9608b3f5041ba460acf5d0524b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7191068385779424864, guid: 91d11a9608b3f5041ba460acf5d0524b, type: 3}
       propertyPath: m_Radius
       value: 22.75
@@ -17775,6 +18826,10 @@ PrefabInstance:
     - target: {fileID: 5126116886608210477, guid: f9733e1e033039241a78293e8d8edab0, type: 3}
       propertyPath: m_Name
       value: Road (Straight) (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5126116886608210477, guid: f9733e1e033039241a78293e8d8edab0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 5505774285653389463, guid: f9733e1e033039241a78293e8d8edab0, type: 3}
       propertyPath: m_RootOrder
@@ -17890,6 +18945,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pavement (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 2973208610395260946, guid: 64a1f58237bffae43983f474e73d3193, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 64a1f58237bffae43983f474e73d3193, type: 3}
 --- !u!4 &1777386214 stripped
@@ -17907,6 +18966,10 @@ PrefabInstance:
     - target: {fileID: 5126116886608210477, guid: f9733e1e033039241a78293e8d8edab0, type: 3}
       propertyPath: m_Name
       value: Road (Straight) (33)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5126116886608210477, guid: f9733e1e033039241a78293e8d8edab0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 5505774285653389463, guid: f9733e1e033039241a78293e8d8edab0, type: 3}
       propertyPath: m_RootOrder
@@ -18084,6 +19147,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: DropOffRadius (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 695953619841813251, guid: 91d11a9608b3f5041ba460acf5d0524b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7191068385779424864, guid: 91d11a9608b3f5041ba460acf5d0524b, type: 3}
       propertyPath: m_Radius
       value: 20
@@ -18108,6 +19175,14 @@ PrefabInstance:
     - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_Name
       value: Sidewalk (64)
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_TagString
+      value: Sidewalk
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1112898873746797560, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_RootOrder
@@ -18367,6 +19442,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pavement (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 2973208610395260946, guid: 64a1f58237bffae43983f474e73d3193, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 64a1f58237bffae43983f474e73d3193, type: 3}
 --- !u!4 &1804103586 stripped
@@ -18437,6 +19516,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pavement (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 2973208610395260946, guid: 64a1f58237bffae43983f474e73d3193, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 64a1f58237bffae43983f474e73d3193, type: 3}
 --- !u!4 &1805450790 stripped
@@ -18454,6 +19537,14 @@ PrefabInstance:
     - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_Name
       value: Sidewalk (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_TagString
+      value: Sidewalk
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1112898873746797560, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_RootOrder
@@ -18580,6 +19671,10 @@ PrefabInstance:
     - target: {fileID: 2973208610395260946, guid: 64a1f58237bffae43983f474e73d3193, type: 3}
       propertyPath: m_Name
       value: Pavement (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2973208610395260946, guid: 64a1f58237bffae43983f474e73d3193, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 64a1f58237bffae43983f474e73d3193, type: 3}
@@ -18774,6 +19869,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pavement (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 2973208610395260946, guid: 64a1f58237bffae43983f474e73d3193, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 64a1f58237bffae43983f474e73d3193, type: 3}
 --- !u!4 &1826944219 stripped
@@ -18870,6 +19969,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sidewalk (32)
       objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_TagString
+      value: Sidewalk
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1112898873746797560, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_RootOrder
       value: 30
@@ -18964,6 +20071,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sidewalk (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_TagString
+      value: Sidewalk
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1112898873746797560, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_RootOrder
       value: 10
@@ -19037,6 +20152,14 @@ PrefabInstance:
     - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_Name
       value: Sidewalk (62)
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_TagString
+      value: Sidewalk
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1112898873746797560, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_RootOrder
@@ -19160,6 +20283,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pavement (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 2973208610395260946, guid: 64a1f58237bffae43983f474e73d3193, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 64a1f58237bffae43983f474e73d3193, type: 3}
 --- !u!4 &1851638788 stripped
@@ -19222,6 +20349,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Road (Bend) (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7999328644739786581, guid: b784f1d4f15074548a52bd2810bd03f4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b784f1d4f15074548a52bd2810bd03f4, type: 3}
 --- !u!4 &1852716510 stripped
@@ -19263,14 +20394,6 @@ PrefabInstance:
     - target: {fileID: 2391495008462652042, guid: be276adb0730fad4b84c9dbf33b8c202, type: 3}
       propertyPath: m_DistanceToSidewalk
       value: 6.6
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: m_DistanceToStreet
-      value: 10.47
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: m_DistanceToSidewalk
-      value: 6.08
       objectReference: {fileID: 0}
     - target: {fileID: 8636115337778454881, guid: be276adb0730fad4b84c9dbf33b8c202, type: 3}
       propertyPath: m_Name
@@ -19345,6 +20468,10 @@ PrefabInstance:
     - target: {fileID: 8462136860416363512, guid: ff292cce3d4e10645b3e898d55e3974d, type: 3}
       propertyPath: m_Name
       value: Road (Driveway Single) (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8462136860416363512, guid: ff292cce3d4e10645b3e898d55e3974d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 9089491169572491586, guid: ff292cce3d4e10645b3e898d55e3974d, type: 3}
       propertyPath: m_RootOrder
@@ -19608,6 +20735,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sidewalk (80)
       objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_TagString
+      value: Sidewalk
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1112898873746797560, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_RootOrder
       value: 79
@@ -19751,6 +20886,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Road (Straight) (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 5126116886608210477, guid: f9733e1e033039241a78293e8d8edab0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 5505774285653389463, guid: f9733e1e033039241a78293e8d8edab0, type: 3}
       propertyPath: m_RootOrder
       value: 43
@@ -19865,6 +21004,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pavement (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 2973208610395260946, guid: 64a1f58237bffae43983f474e73d3193, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 64a1f58237bffae43983f474e73d3193, type: 3}
 --- !u!4 &1922437780 stripped
@@ -19959,6 +21102,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pavement (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 2973208610395260946, guid: 64a1f58237bffae43983f474e73d3193, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 64a1f58237bffae43983f474e73d3193, type: 3}
 --- !u!4 &1938160472 stripped
@@ -19976,6 +21123,14 @@ PrefabInstance:
     - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_Name
       value: Sidewalk (49)
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_TagString
+      value: Sidewalk
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1112898873746797560, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_RootOrder
@@ -20091,6 +21246,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Road (Bend)
       objectReference: {fileID: 0}
+    - target: {fileID: 7999328644739786581, guid: b784f1d4f15074548a52bd2810bd03f4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b784f1d4f15074548a52bd2810bd03f4, type: 3}
 --- !u!4 &1955464857 stripped
@@ -20112,14 +21271,6 @@ PrefabInstance:
     - target: {fileID: 2391495008462652042, guid: be276adb0730fad4b84c9dbf33b8c202, type: 3}
       propertyPath: m_DistanceToSidewalk
       value: 6.6
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: m_DistanceToStreet
-      value: 10.47
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: m_DistanceToSidewalk
-      value: 6.08
       objectReference: {fileID: 0}
     - target: {fileID: 8636115337778454881, guid: be276adb0730fad4b84c9dbf33b8c202, type: 3}
       propertyPath: m_Name
@@ -20190,6 +21341,14 @@ PrefabInstance:
     - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_Name
       value: Sidewalk (85)
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_TagString
+      value: Sidewalk
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1112898873746797560, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_RootOrder
@@ -20309,6 +21468,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PickupRadius (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 695953619841813251, guid: 91d11a9608b3f5041ba460acf5d0524b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7191068385779424864, guid: 91d11a9608b3f5041ba460acf5d0524b, type: 3}
       propertyPath: m_Radius
       value: 20
@@ -20325,6 +21488,14 @@ PrefabInstance:
     - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_Name
       value: Sidewalk (68)
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_TagString
+      value: Sidewalk
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1112898873746797560, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_RootOrder
@@ -20534,6 +21705,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pavement (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 2973208610395260946, guid: 64a1f58237bffae43983f474e73d3193, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 64a1f58237bffae43983f474e73d3193, type: 3}
 --- !u!4 &1977268834 stripped
@@ -20551,6 +21726,14 @@ PrefabInstance:
     - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_Name
       value: Sidewalk (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_TagString
+      value: Sidewalk
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1112898873746797560, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_RootOrder
@@ -20630,6 +21813,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Road (Driveway Single) (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 8462136860416363512, guid: ff292cce3d4e10645b3e898d55e3974d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 9089491169572491586, guid: ff292cce3d4e10645b3e898d55e3974d, type: 3}
       propertyPath: m_RootOrder
       value: 44
@@ -20699,6 +21886,14 @@ PrefabInstance:
     - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_Name
       value: Sidewalk (73)
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_TagString
+      value: Sidewalk
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1112898873746797560, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_RootOrder
@@ -20773,6 +21968,14 @@ PrefabInstance:
     - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_Name
       value: Sidewalk (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_TagString
+      value: Sidewalk
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1112898873746797560, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_RootOrder
@@ -20896,6 +22099,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pavement (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 2973208610395260946, guid: 64a1f58237bffae43983f474e73d3193, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 64a1f58237bffae43983f474e73d3193, type: 3}
 --- !u!4 &2004911631 stripped
@@ -20933,6 +22140,14 @@ PrefabInstance:
     - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_Name
       value: Sidewalk (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_TagString
+      value: Sidewalk
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1112898873746797560, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_RootOrder
@@ -21052,6 +22267,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Road (Bend) (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 7999328644739786581, guid: b784f1d4f15074548a52bd2810bd03f4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b784f1d4f15074548a52bd2810bd03f4, type: 3}
 --- !u!4 &2042725161 stripped
@@ -21069,6 +22288,10 @@ PrefabInstance:
     - target: {fileID: 5126116886608210477, guid: f9733e1e033039241a78293e8d8edab0, type: 3}
       propertyPath: m_Name
       value: Road (Straight) (45)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5126116886608210477, guid: f9733e1e033039241a78293e8d8edab0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 5505774285653389463, guid: f9733e1e033039241a78293e8d8edab0, type: 3}
       propertyPath: m_RootOrder
@@ -21175,6 +22398,10 @@ PrefabInstance:
     - target: {fileID: 4514823803489040530, guid: 67304aa162c771d49baae9e690e7da76, type: 3}
       propertyPath: m_Name
       value: Road (Crossroad)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4514823803489040530, guid: 67304aa162c771d49baae9e690e7da76, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 67304aa162c771d49baae9e690e7da76, type: 3}
@@ -21336,6 +22563,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pavement (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 2973208610395260946, guid: 64a1f58237bffae43983f474e73d3193, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 64a1f58237bffae43983f474e73d3193, type: 3}
 --- !u!4 &2065425519 stripped
@@ -21373,6 +22604,14 @@ PrefabInstance:
     - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_Name
       value: Sidewalk (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_TagString
+      value: Sidewalk
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1112898873746797560, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_RootOrder
@@ -21564,6 +22803,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sidewalk (59)
       objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_TagString
+      value: Sidewalk
+      objectReference: {fileID: 0}
+    - target: {fileID: 304590067679914306, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1112898873746797560, guid: a67f725dddd60ee4caef9056fa7d43eb, type: 3}
       propertyPath: m_RootOrder
       value: 57
@@ -21637,6 +22884,10 @@ PrefabInstance:
     - target: {fileID: 5126116886608210477, guid: f9733e1e033039241a78293e8d8edab0, type: 3}
       propertyPath: m_Name
       value: Road (Straight) (39)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5126116886608210477, guid: f9733e1e033039241a78293e8d8edab0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 5505774285653389463, guid: f9733e1e033039241a78293e8d8edab0, type: 3}
       propertyPath: m_RootOrder
@@ -21947,6 +23198,26 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8543557976144761096, guid: ed1937e63be2a454eb81096660c0fe88, type: 3}
   m_PrefabInstance: {fileID: 2128621433}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2130052016 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1895305636466320315, guid: 8de54075da6a049419d6f53794152572, type: 3}
+  m_PrefabInstance: {fileID: 1435558835}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2130052017
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2130052016}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6b6f5bdf80d06446ba161919aada651, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_AverageRating: 0
+  m_AmountOfCustomers: 0
+  m_CustomerRatings: []
 --- !u!1001 &2131530795
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22100,6 +23371,10 @@ PrefabInstance:
     - target: {fileID: 5126116886608210477, guid: f9733e1e033039241a78293e8d8edab0, type: 3}
       propertyPath: m_Name
       value: Road (Straight) (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5126116886608210477, guid: f9733e1e033039241a78293e8d8edab0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 5505774285653389463, guid: f9733e1e033039241a78293e8d8edab0, type: 3}
       propertyPath: m_RootOrder
@@ -22877,6 +24152,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pavement
       objectReference: {fileID: 0}
+    - target: {fileID: 2973208610395260946, guid: 64a1f58237bffae43983f474e73d3193, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 64a1f58237bffae43983f474e73d3193, type: 3}
 --- !u!4 &3263009271430206788 stripped
@@ -23297,6 +24576,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Road (Driveway Double)
       objectReference: {fileID: 0}
+    - target: {fileID: 390401578927169743, guid: fc7f3b41021147b489f235d452c25476, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1018143946897160821, guid: fc7f3b41021147b489f235d452c25476, type: 3}
       propertyPath: m_RootOrder
       value: 20
@@ -23547,6 +24830,10 @@ PrefabInstance:
     - target: {fileID: 2269174844648308941, guid: 4e7433a2866b8284c8356f99ad01e6da, type: 3}
       propertyPath: m_Name
       value: Road (Crosswalk)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2269174844648308941, guid: 4e7433a2866b8284c8356f99ad01e6da, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4e7433a2866b8284c8356f99ad01e6da, type: 3}
@@ -23815,6 +25102,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cliff (Block)
       objectReference: {fileID: 0}
+    - target: {fileID: 5596292736434337444, guid: 5a1b327ccbae1614b9edb8e9b3c86300, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 6245079706852120433, guid: 5a1b327ccbae1614b9edb8e9b3c86300, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -24052,6 +25343,10 @@ PrefabInstance:
     - target: {fileID: 8462136860416363512, guid: ff292cce3d4e10645b3e898d55e3974d, type: 3}
       propertyPath: m_Name
       value: Road (Driveway Single)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8462136860416363512, guid: ff292cce3d4e10645b3e898d55e3974d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 9089491169572491586, guid: ff292cce3d4e10645b3e898d55e3974d, type: 3}
       propertyPath: m_RootOrder

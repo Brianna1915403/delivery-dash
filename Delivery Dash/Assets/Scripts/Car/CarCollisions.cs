@@ -12,6 +12,9 @@ public class CarCollisions : MonoBehaviour
     [Header("Car Components")]
     [SerializeField] private CarController m_CarController;
     [SerializeField] private Car m_Car;
+    [SerializeField] private bool m_IsWheel;
+
+    private float m_PenaltyStartTime;
 
     // Start is called before the first frame update
     void Start()
@@ -26,10 +29,24 @@ public class CarCollisions : MonoBehaviour
     }
 
     private void OnTriggerEnter(Collider other) {
-        if (other.CompareTag("Building") && m_CurrentTime >= m_TargetTime) {
+        if (!m_IsWheel && other.CompareTag("Building") && m_CurrentTime >= m_TargetTime) {
             m_TargetTime = Time.time + m_TriggerDelay;
             m_Car.TakeDamage(0.1f);
             Debug.Log($"Target: {m_TargetTime} | Current: {m_CurrentTime}");
+        }
+        else if (m_IsWheel && other.CompareTag("Sidewalk"))
+        {
+            Debug.Log("Trigger Enter...");
+            m_PenaltyStartTime = Time.deltaTime;
+        }
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (m_IsWheel && other.CompareTag("Sidewalk"))
+        {
+            Debug.Log("Trigger Exit");
+            m_Car.UpdatePenalty(m_CurrentTime - m_PenaltyStartTime);
         }
     }
 

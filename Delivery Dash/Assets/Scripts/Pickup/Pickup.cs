@@ -5,7 +5,7 @@ using UnityEngine;
 public class Pickup : MonoBehaviour
 {
     [SerializeField] private Customer m_Customer;
-    [SerializeField] private CarController m_CarController;
+    [SerializeField] private Car m_Car;
 
     public Customer Customer
     {
@@ -17,9 +17,11 @@ public class Pickup : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            m_CarController = other.transform.parent.GetComponent<CarController>();
-            m_CarController.FullStop();
-            m_Customer.GetInCab(other.transform, m_CarController);
+            Customer.CarController = other.transform.GetComponentInParent<CarController>();
+            Customer.CarController.FullStop();
+            m_Car = other.transform.GetComponentInParent<Car>();
+            m_Car.HasCustomer = true;
+            m_Customer.GetInCab(other.transform, Customer.CarController);
             gameObject.SetActive(false);
         }
     }
