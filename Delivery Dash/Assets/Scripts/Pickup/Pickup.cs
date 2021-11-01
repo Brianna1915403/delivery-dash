@@ -18,7 +18,7 @@ public class Pickup : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             Customer.CarController = other.transform.GetComponentInParent<CarController>();
-            Customer.CarController.FullStop();
+            Customer.CarController.ToggleFullStop();
             m_Car = other.transform.GetComponentInParent<Car>();
             m_Car.HasCustomer = true;
             m_Customer.GetInCab(other.transform, Customer.CarController);

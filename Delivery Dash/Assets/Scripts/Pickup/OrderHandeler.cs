@@ -25,7 +25,9 @@ public class OrderHandeler : MonoBehaviour
     {
         WaypointRadius pickup = m_PickupLocations[Random.Range(0, m_PickupLocations.Length)];
         WaypointRadius dropoff = m_DropOffLocations[Random.Range(0, m_DropOffLocations.Length)];
-        
+
+        Debug.Log($"Drop Off: {dropoff}");
+
         GameObject customerObj = Instantiate(m_CustomerPrefab, Vector3.zero, Quaternion.identity);
         Customer customer = customerObj.GetComponent<Customer>();
         customer.DropOffWaypoint = dropoff;

@@ -18,11 +18,10 @@ public class DropOff : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {   
-            Debug.Log($"Thank you!");
             m_Car = other.transform.GetComponentInParent<Car>();
             m_Car.HasCustomer = false;
             m_Customer.gameObject.SetActive(true);
-            m_Customer.CarController.FullStop();
+            m_Customer.CarController.ToggleFullStop();
             m_Customer.CompleteOrder();
         }
     }
