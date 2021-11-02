@@ -22,13 +22,11 @@ public class Car : MonoBehaviour
         set { m_HasCustomer = value; }
     }
 
-    // Start is called before the first frame update
     void Start()
     {
         m_Emission = m_Smoke.emission;
     }
 
-    // Update is called once per frame
     void Update()
     {
         CheckDamage();

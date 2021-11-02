@@ -15,7 +15,6 @@ public class OrderHandeler : MonoBehaviour
         m_DropOffLocations = transform.GetChild(1).GetComponentsInChildren<WaypointRadius>();        
     }
 
-
     void Start() 
     {
         SpawnCustomer();

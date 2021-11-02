@@ -85,11 +85,6 @@ public class CarController : MonoBehaviour
         transform.rotation = rotation;
     }
 
-    public void FullStop()
-    {
-        GetComponent<Rigidbody>().isKinematic = true;
-    }
-
     public void ToggleFullStop()
     {
         bool isKinematic = GetComponent<Rigidbody>().isKinematic;

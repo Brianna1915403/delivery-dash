@@ -22,6 +22,9 @@ public class GameManager : MonoBehaviour
     [Space]
     [SerializeField] private float m_Rating;
 
+    [Header("Customer Spawning")]
+    [SerializeField] private OrderHandeler m_OrderHandeler;
+
     public float Rating {
         get { return m_Rating; }
         set { m_Rating = value; }

@@ -64,18 +64,18 @@
     <Compile Include="Assets\Scripts\Pickup\WaypointRadius.cs" />
     <Compile Include="Assets\Scripts\Customer\Person.cs" />
     <Compile Include="Assets\Scripts\Pickup\Pickup.cs" />
-    <Compile Include="Assets\simple modular human\scripts\Test_script.cs" />
+    <Compile Include="Assets\Simple Modular Human\scripts\Test_script.cs" />
     <Compile Include="Assets\Scripts\Customer\Customer.cs" />
     <Compile Include="Assets\Scripts\Pickup\OrderHandeler.cs" />
     <Compile Include="Assets\Scripts\Game\GameManager.cs" />
     <Compile Include="Assets\Scripts\Pickup\DropOff.cs" />
-    <Compile Include="Assets\simple modular human\scripts\clothing.cs" />
+    <Compile Include="Assets\Simple Modular Human\scripts\clothing.cs" />
     <Compile Include="Assets\Scripts\Car\CarCollisions.cs" />
     <Compile Include="Assets\Scripts\Building\Building.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
-    <None Include="Assets\simple modular human\readMe.txt" />
+    <None Include="Assets\Simple Modular Human\readMe.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />

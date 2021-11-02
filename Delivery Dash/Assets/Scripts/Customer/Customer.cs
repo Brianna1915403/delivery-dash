@@ -123,7 +123,6 @@ public class Customer : MonoBehaviour
 
     public void GetInCab(Transform car, CarController carController)
     {
-        Debug.Log("Orphans in my basement");
         Walk();
         m_Car = car;
         m_CarController = carController;
