@@ -15,13 +15,9 @@ public class OrderHandeler : MonoBehaviour
         m_DropOffLocations = transform.GetChild(1).GetComponentsInChildren<WaypointRadius>();        
     }
 
-    void Start() 
-    {
-        SpawnCustomer();
-    }
-
     public void SpawnCustomer()
     {
+        Debug.Log("Invoked...");
         WaypointRadius pickup = m_PickupLocations[Random.Range(0, m_PickupLocations.Length)];
         WaypointRadius dropoff = m_DropOffLocations[Random.Range(0, m_DropOffLocations.Length)];
         

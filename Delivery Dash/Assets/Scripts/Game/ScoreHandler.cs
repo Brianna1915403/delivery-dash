@@ -19,6 +19,7 @@ public class ScoreHandler : MonoBehaviour
 
     [Header("Score Keeping")]
     [SerializeField] private float m_AverageRating = 0f;
+    [SerializeField] private Texture2D m_AverageRatingTexture;
     [SerializeField] private int m_AmountOfCustomers = 0;
 
     [Header("Penalties")]
@@ -34,7 +35,7 @@ public class ScoreHandler : MonoBehaviour
 
     public Texture2D AverageRating
     {
-        get { return m_Okay; }
+        get { return m_AverageRatingTexture; }
     }
 
     public float FirstImpressionPenalty
@@ -57,26 +58,36 @@ public class ScoreHandler : MonoBehaviour
         m_CustomerSatisfactionSlider = m_CustomerSatisfaction.GetComponent<Slider>();
     }
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
     void Update()
     {
         m_CustomerSatisfactionSlider.value = m_Rating;
     }
 
-    public void AddRating()
+    /// <summary>
+    /// Sets up for the next client.
+    /// </summary>
+    public void NextClient()
+    {
+        m_AmountOfCustomers++;
+        AddRating();
+        ResetRating();
+        GameManager.Instance.OrderHandeler.SpawnCustomer();
+    }
+
+    /// <summary>
+    /// Adds a rating to the list, updates the average rating.
+    /// </summary>
+    private void AddRating()
     {
         m_CustomerRatings.Add(m_Rating);
         UpdateAverageRating();
         ResetRating();
     }
 
-    public void UpdateAverageRating()
+    /// <summary>
+    /// Computes the average rating across all customers, and updates the texture.
+    /// </summary>
+    private void UpdateAverageRating()
     {
         float sum = 0f;
         foreach (float rating in m_CustomerRatings)
@@ -85,15 +96,39 @@ public class ScoreHandler : MonoBehaviour
         }
 
         m_AverageRating = sum / m_CustomerRatings.Count;
+        UpdateAverageRatingTexture();
     }
 
-    public void NextClient()
+    /// <summary>
+    /// Sets the texture depending on the average rating.
+    /// </summary>
+    private void UpdateAverageRatingTexture()
     {
-        m_AmountOfCustomers++;
-        AddRating();
-        ResetRating();
-    }
+        if (m_AverageRating <= 5 && m_AverageRating > 4)
+        {
+            m_AverageRatingTexture = m_Overjoyed;
+        }
+        else if (m_AverageRating <= 4 && m_AverageRating > 3)
+        {
+            m_AverageRatingTexture = m_Satisfied;
+        }
+        else if (m_AverageRating <= 3 && m_AverageRating > 2)
+        {
+            m_AverageRatingTexture = m_Okay;
+        }
+        else if (m_AverageRating <= 2 && m_AverageRating > 1)
+        {
+            m_AverageRatingTexture = m_Disapointed;
+        }
+        else if (m_AverageRating <= 1)
+        {
+            m_AverageRatingTexture = m_Devestated;
+        }
+    }    
 
+    /// <summary>
+    /// Resets the rating to 5.
+    /// </summary>
     private void ResetRating()
     {
         m_Rating = 5;

@@ -18,10 +18,15 @@ public class GameManager : MonoBehaviour
     #endregion
 
     [Header("Score Keeping")]
-    [SerializeField] private ScoreHandler m_ScoreHandler;    
+    [SerializeField] private ScoreHandler m_ScoreHandler;
 
     [Header("Customer Spawning")]
+    [SerializeField] private GameObject m_OrderHandlerObject;
     [SerializeField] private OrderHandeler m_OrderHandeler;
+
+    [Header("Time")]
+    [SerializeField] private TimeHandler m_TimeHandler;
+    [SerializeField] private bool m_IsOnShift = true;
 
     public ScoreHandler ScoreHandler
     {
@@ -33,6 +38,17 @@ public class GameManager : MonoBehaviour
         get { return m_OrderHandeler; }
     }
 
+    public TimeHandler TimeHandler
+    {
+        get { return m_TimeHandler; }
+    }
+
+    public bool IsOnShift
+    {
+        get { return m_IsOnShift; }
+        set { m_IsOnShift = value; }
+    }
+
     private void Awake()
     {
         DontDestroyOnLoad(gameObject);
@@ -41,12 +57,20 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        InvokeRepeating("SpawnCustomers", 1f, 5f);
+        Debug.Log("Biggus Dickus");
     }
 
     // Update is called once per frame
     void Update()
     {
         
+    }
+
+    private void SpawnCustomers()
+    {
+        Debug.Log("Invoked...");
+        if (IsOnShift)
+            OrderHandeler.SpawnCustomer();
     }
 }
