@@ -22,6 +22,7 @@ public class Pickup : MonoBehaviour
             m_Car = other.transform.GetComponentInParent<Car>();
             m_Car.HasCustomer = true;
             m_Customer.GetInCab(other.transform, Customer.CarController);
+            m_Customer.FirstImpression(m_Car.Damage > 0f);
             gameObject.SetActive(false);
         }
     }

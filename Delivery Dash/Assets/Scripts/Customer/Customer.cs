@@ -78,6 +78,11 @@ public class Customer : MonoBehaviour
 
     // --- ORDER START ---
 
+    public void FirstImpression(bool isCarDamaged)
+    {
+        GameManager.Instance.ScoreHandler.Rating -= isCarDamaged ? GameManager.Instance.ScoreHandler.FirstImpressionPenalty : 0f; 
+    }
+
     public void OrderPickup()
     {
         m_PickupWaypoint.SpawnWaypoint();

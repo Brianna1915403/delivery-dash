@@ -89,6 +89,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1895305636466320314}
+  - component: {fileID: 8150866575893535023}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -109,9 +110,24 @@ Transform:
   m_Children:
   - {fileID: 1895305636065476874}
   - {fileID: 2209740710666438325}
+  - {fileID: 1680219133104501163}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8150866575893535023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1895305636466320315}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6b6f5bdf80d06446ba161919aada651, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ScoreHandler: {fileID: 1147442644252739806}
+  m_OrderHandeler: {fileID: 1895305636065476877}
 --- !u!1 &1895305636556663577
 GameObject:
   m_ObjectHideFlags: 0
@@ -152,6 +168,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2209740710666438325}
+  - component: {fileID: 6582864191624582781}
   m_Layer: 0
   m_Name: TimeHandler
   m_TagString: Untagged
@@ -173,6 +190,117 @@ Transform:
   m_Father: {fileID: 1895305636466320314}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6582864191624582781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3736249357884639938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fad9b99544084c64b8029098aab74ffd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TimeMultiplier: 100
+  m_StartTime: 6
+  m_Sunrise: 7
+  m_Sunset: 20.5
+  m_LightChangeCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 2
+      outSlope: 2
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.08969809
+      value: 0.7729876
+      inSlope: 6.003417
+      outSlope: 6.003417
+      tangentMode: 0
+      weightedMode: 3
+      inWeight: 0.33333334
+      outWeight: 0.040951177
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  m_Sun: {fileID: 0}
+  m_AmbientLightDay: {r: 0.56078434, g: 0.6039216, b: 0.68235296, a: 0}
+  m_MaxSunLightIntensity: 1
+  m_Moon: {fileID: 0}
+  m_AmbientLightNight: {r: 0.15686275, g: 0.3137255, b: 0.39215687, a: 0}
+  m_MaxMoonLightIntensity: 0.5
+  m_Clock: {fileID: 0}
+--- !u!1 &6104703693436441608
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1680219133104501163}
+  - component: {fileID: 1147442644252739806}
+  m_Layer: 0
+  m_Name: ScoreHandeler
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1680219133104501163
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6104703693436441608}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1895305636466320314}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1147442644252739806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6104703693436441608}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6406fba1fcf55004791f091fbe39a9b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_CustomerSatisfaction: {fileID: 0}
+  m_Rating: 5
+  m_Devestated: {fileID: 2800000, guid: 7fe51f9256da2c54bba914c6d3b4dca3, type: 3}
+  m_Disapointed: {fileID: 2800000, guid: 091f83d078f05ee43b9fa22fa44c49a8, type: 3}
+  m_Okay: {fileID: 2800000, guid: 693951c5d28368149a39f03154d16dba, type: 3}
+  m_Satisfied: {fileID: 2800000, guid: 8faf8a134a649484a80483b3f6a1c4a3, type: 3}
+  m_Overjoyed: {fileID: 2800000, guid: 0d0bb6c731b5961459b727483b430367, type: 3}
+  m_AverageRating: 0
+  m_AmountOfCustomers: 0
+  m_FirstImpressionPenalty: 1
+  m_CrashPenalty: 0.5
+  m_SurfacePenalty: 0.1
 --- !u!1001 &1433829470086205743
 PrefabInstance:
   m_ObjectHideFlags: 0

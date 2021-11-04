@@ -9,17 +9,19 @@ public class Car : MonoBehaviour
     [SerializeField] private float m_Damage = 0f;
     [SerializeField] private float m_CrashDamage = 0.1f;
 
-    [Header("Customer Satisfaction")]
-    [SerializeField] private float m_Rating = 5f;
-    [Space]
+    [Header("Customer")]
     [SerializeField] private bool m_HasCustomer = false;
-    [SerializeField] private float m_CrashPenalty = 0.5f;
-    [SerializeField] private float m_SurfacePenalty = 0.1f;
+    
 
     public bool HasCustomer
     {
         get { return m_HasCustomer; }
         set { m_HasCustomer = value; }
+    }
+
+    public float Damage
+    {
+        get { return m_Damage; }
     }
 
     void Start()
@@ -48,11 +50,11 @@ public class Car : MonoBehaviour
     public void TakeCrashDamage()
     {
         m_Damage += m_CrashDamage;
-        GameManager.Instance.Rating -= HasCustomer ? m_CrashPenalty : 0f;
+        GameManager.Instance.ScoreHandler.Rating -= HasCustomer ? GameManager.Instance.ScoreHandler.CrashPenalty : 0f;
     }
 
-    public void UpdatePenalty(float time)
+    public void UpdateSurfacePenalty(float time)
     {
-        GameManager.Instance.Rating -= HasCustomer ? m_SurfacePenalty * (time / 10f) : 0f;
+        GameManager.Instance.ScoreHandler.Rating -= HasCustomer ? GameManager.Instance.ScoreHandler.SurfacePenalty * (time / 10f) : 0f;
     }
 }

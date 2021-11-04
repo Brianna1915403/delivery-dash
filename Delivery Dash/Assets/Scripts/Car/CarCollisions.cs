@@ -37,7 +37,7 @@ public class CarCollisions : MonoBehaviour
     {
         if (m_IsWheel && other.CompareTag("Sidewalk"))
         {
-            m_Car.UpdatePenalty(m_CurrentTime - m_PenaltyStartTime);
+            m_Car.UpdateSurfacePenalty(m_CurrentTime - m_PenaltyStartTime);
         }
     }
 }
