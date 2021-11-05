@@ -42,13 +42,6 @@ public class TimeHandler : MonoBehaviour
         UpdateTimeOfDay();
         RotateSun();
         UpdateLightSettings();
-        CheckShift();
-    }
-
-    private void CheckShift()
-    {
-        if (m_CurrentTime.TimeOfDay < m_SunriseTime || m_CurrentTime.TimeOfDay > m_SunsetTime)
-            GameManager.Instance.IsOnShift = false;
     }
 
     /// <summary>

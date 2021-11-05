@@ -132,7 +132,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_ScoreHandler: {fileID: 1147442644252739806}
+  m_OrderHandlerObject: {fileID: 1895305636065476875}
   m_OrderHandeler: {fileID: 1895305636065476877}
+  m_IsOccupied: 0
+  m_TimeHandler: {fileID: 6582864191624582781}
 --- !u!1 &1895305636556663577
 GameObject:
   m_ObjectHideFlags: 0
@@ -307,6 +310,7 @@ MonoBehaviour:
   m_Satisfied: {fileID: 2800000, guid: 8faf8a134a649484a80483b3f6a1c4a3, type: 3}
   m_Overjoyed: {fileID: 2800000, guid: 0d0bb6c731b5961459b727483b430367, type: 3}
   m_AverageRating: 0
+  m_AverageRatingTexture: {fileID: 0}
   m_AmountOfCustomers: 0
   m_FirstImpressionPenalty: 1
   m_CrashPenalty: 0.5

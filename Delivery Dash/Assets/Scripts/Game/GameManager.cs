@@ -21,12 +21,11 @@ public class GameManager : MonoBehaviour
     [SerializeField] private ScoreHandler m_ScoreHandler;
 
     [Header("Customer Spawning")]
-    [SerializeField] private GameObject m_OrderHandlerObject;
     [SerializeField] private OrderHandeler m_OrderHandeler;
+    [SerializeField] private bool m_IsOccupied = false;
 
     [Header("Time")]
     [SerializeField] private TimeHandler m_TimeHandler;
-    [SerializeField] private bool m_IsOnShift = true;
 
     public ScoreHandler ScoreHandler
     {
@@ -43,10 +42,10 @@ public class GameManager : MonoBehaviour
         get { return m_TimeHandler; }
     }
 
-    public bool IsOnShift
+    public bool IsOccupied
     {
-        get { return m_IsOnShift; }
-        set { m_IsOnShift = value; }
+        get { return m_IsOccupied; }
+        set { m_IsOccupied = value; }
     }
 
     private void Awake()
@@ -57,7 +56,7 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        InvokeRepeating("SpawnCustomers", 1f, 5f);
+        StartCoroutine(SpawnCustomers());
         Debug.Log("Biggus Dickus");
     }
 
@@ -67,10 +66,16 @@ public class GameManager : MonoBehaviour
         
     }
 
-    private void SpawnCustomers()
+    IEnumerator SpawnCustomers()
     {
-        Debug.Log("Invoked...");
-        if (IsOnShift)
-            OrderHandeler.SpawnCustomer();
+        while (true)
+        {
+            yield return new WaitForSeconds(5f);
+            if (!m_IsOccupied)
+            {
+                OrderHandeler.SpawnCustomer();
+            }                   
+        }
+        
     }
 }
