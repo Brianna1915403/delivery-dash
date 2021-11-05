@@ -24,6 +24,7 @@ public class DropOff : MonoBehaviour
             m_Customer.gameObject.SetActive(true);
             m_Customer.CompleteOrder();
             gameObject.SetActive(false);
+            GameManager.Instance.IsOccupied = !GameManager.Instance.IsOccupied;
         }
     }
 }

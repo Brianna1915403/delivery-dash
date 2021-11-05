@@ -132,7 +132,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_ScoreHandler: {fileID: 1147442644252739806}
-  m_OrderHandlerObject: {fileID: 1895305636065476875}
   m_OrderHandeler: {fileID: 1895305636065476877}
   m_IsOccupied: 0
   m_TimeHandler: {fileID: 6582864191624582781}
@@ -314,7 +313,7 @@ MonoBehaviour:
   m_AmountOfCustomers: 0
   m_FirstImpressionPenalty: 1
   m_CrashPenalty: 0.5
-  m_SurfacePenalty: 0.1
+  m_SurfacePenalty: 0.01
 --- !u!1001 &1433829470086205743
 PrefabInstance:
   m_ObjectHideFlags: 0

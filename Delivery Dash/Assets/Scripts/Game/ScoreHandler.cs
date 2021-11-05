@@ -25,7 +25,7 @@ public class ScoreHandler : MonoBehaviour
     [Header("Penalties")]
     [SerializeField] private float m_FirstImpressionPenalty = 1f;
     [SerializeField] private float m_CrashPenalty = 0.5f;
-    [SerializeField] private float m_SurfacePenalty = 0.1f;
+    [SerializeField] private float m_SurfacePenalty = 0.01f;
 
     public float Rating
     {
@@ -70,8 +70,6 @@ public class ScoreHandler : MonoBehaviour
     {
         m_AmountOfCustomers++;
         AddRating();
-        ResetRating();
-        GameManager.Instance.OrderHandeler.SpawnCustomer();
     }
 
     /// <summary>

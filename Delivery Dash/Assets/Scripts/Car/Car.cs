@@ -32,7 +32,6 @@ public class Car : MonoBehaviour
     void Update()
     {
         CheckDamage();
-        GameManager.Instance.IsOccupied = m_HasCustomer;
     }
 
     private void CheckDamage()

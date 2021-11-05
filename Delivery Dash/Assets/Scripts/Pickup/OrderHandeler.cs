@@ -15,17 +15,19 @@ public class OrderHandeler : MonoBehaviour
         m_DropOffLocations = transform.GetChild(1).GetComponentsInChildren<WaypointRadius>();        
     }
 
-    public void SpawnCustomer()
+    public bool SpawnCustomer()
     {
-        Debug.Log("Invoked...");
         WaypointRadius pickup = m_PickupLocations[Random.Range(0, m_PickupLocations.Length)];
         WaypointRadius dropoff = m_DropOffLocations[Random.Range(0, m_DropOffLocations.Length)];
         
         GameObject customerObj = Instantiate(m_CustomerPrefab, Vector3.zero, Quaternion.identity);
-        Customer customer = customerObj.GetComponent<Customer>();
-        customer.DropOffWaypoint = dropoff;
-        customer.PickupWaypoint = pickup;
-
-        customer.OrderPickup();
+        if (customerObj) {
+            Customer customer = customerObj.GetComponent<Customer>();
+            customer.DropOffWaypoint = dropoff;
+            customer.PickupWaypoint = pickup;
+            customer.OrderPickup();
+            return true;
+        }
+        return false;
     }
 }

@@ -2,8 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public enum RATING { }
-
 public class GameManager : MonoBehaviour
 {
     #region Singleton
@@ -53,14 +51,12 @@ public class GameManager : MonoBehaviour
         DontDestroyOnLoad(gameObject);
     }
 
-    // Start is called before the first frame update
     void Start()
     {
         StartCoroutine(SpawnCustomers());
         Debug.Log("Biggus Dickus");
     }
 
-    // Update is called once per frame
     void Update()
     {
         
@@ -68,12 +64,13 @@ public class GameManager : MonoBehaviour
 
     IEnumerator SpawnCustomers()
     {
+        //float ordertime = Random.Range();
         while (true)
         {
             yield return new WaitForSeconds(5f);
             if (!m_IsOccupied)
             {
-                OrderHandeler.SpawnCustomer();
+                m_IsOccupied = OrderHandeler.SpawnCustomer();
             }                   
         }
         

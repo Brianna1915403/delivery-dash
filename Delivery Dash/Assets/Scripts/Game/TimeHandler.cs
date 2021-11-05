@@ -22,8 +22,7 @@ public class TimeHandler : MonoBehaviour
     [SerializeField] private Light m_Moon;
     [SerializeField] private Color m_AmbientLightNight;
     [SerializeField] private float m_MaxMoonLightIntensity;
-
-    [Header("Clock")]
+    [Space]
     [SerializeField] private TextMeshProUGUI m_Clock;
 
     private DateTime m_CurrentTime;
