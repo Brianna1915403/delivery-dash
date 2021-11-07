@@ -29,6 +29,11 @@ public class TimeHandler : MonoBehaviour
     private TimeSpan m_SunriseTime;
     private TimeSpan m_SunsetTime;
 
+    public DateTime CurrentTime
+    {
+        get { return m_CurrentTime; }
+    }
+
     void Start()
     {
         m_CurrentTime = DateTime.Now.Date + TimeSpan.FromHours(m_StartTime);

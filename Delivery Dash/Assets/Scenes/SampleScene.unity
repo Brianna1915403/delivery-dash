@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -316,7 +316,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 180489542}
-  m_LocalRotation: {x: 0.12993279, y: -0.000000017060518, z: 0.0000000022356728, w: 0.99152285}
+  m_LocalRotation: {x: 0.12993279, y: 0.000000017060522, z: -0.0000000022356732, w: 0.99152285}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -508,7 +508,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 316743126}
-  m_LocalRotation: {x: 0.11187599, y: -5.575806e-18, z: 1.1656464e-17, w: 0.9937222}
+  m_LocalRotation: {x: 0.11187598, y: 0.0000000074038082, z: -8.335411e-10, w: 0.9937222}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -2123,6 +2123,10 @@ PrefabInstance:
       value: GameManager
       objectReference: {fileID: 0}
     - target: {fileID: 1895305636466320315, guid: 8de54075da6a049419d6f53794152572, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1895305636466320315, guid: 8de54075da6a049419d6f53794152572, type: 3}
       propertyPath: m_TagString
       value: GameManager
       objectReference: {fileID: 0}
@@ -2208,6 +2212,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 664955938555197249, guid: f40518ddd3c7b8f4295c7afd09e4949d, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 664955938555197249, guid: f40518ddd3c7b8f4295c7afd09e4949d, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 664955938555197249, guid: f40518ddd3c7b8f4295c7afd09e4949d, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3161331111955332858, guid: f40518ddd3c7b8f4295c7afd09e4949d, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -2295,6 +2311,18 @@ PrefabInstance:
     - target: {fileID: 3161331111955332862, guid: f40518ddd3c7b8f4295c7afd09e4949d, type: 3}
       propertyPath: m_Name
       value: UI
+      objectReference: {fileID: 0}
+    - target: {fileID: 3161331111955332862, guid: f40518ddd3c7b8f4295c7afd09e4949d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6063938103119932584, guid: f40518ddd3c7b8f4295c7afd09e4949d, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6063938103119932584, guid: f40518ddd3c7b8f4295c7afd09e4949d, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f40518ddd3c7b8f4295c7afd09e4949d, type: 3}

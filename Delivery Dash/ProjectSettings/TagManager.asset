@@ -15,6 +15,10 @@ TagManager:
   - Player Wheels
   - Terrain
   - Sidewalk
+  - Sun
+  - Moon
+  - Timer
+  - Customer Satisfaction
   layers:
   - Default
   - TransparentFX

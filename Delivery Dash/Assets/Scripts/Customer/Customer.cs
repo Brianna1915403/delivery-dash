@@ -1,9 +1,9 @@
-using System.Collections;
+using System;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.AI;
 
-public class Customer : MonoBehaviour {
+public class Customer : MonoBehaviour 
+{
     [Header("Taxi Order")]
     [SerializeField] private WaypointRadius m_PickupWaypoint;
     [SerializeField] private WaypointRadius m_DropOffWaypoint;
@@ -11,30 +11,34 @@ public class Customer : MonoBehaviour {
     [Header("Person")]
     [SerializeField] private Vector3 m_Target;
     [SerializeField] private float m_Distance;
-    [SerializeField] private float m_StoppingDistance = 0.25f;
     [Space]
     [SerializeField] private Animator m_Animator;
 
     private bool m_IsBeingPickedUp;
     private bool m_IsBeingDroppedOff;
+    private bool m_HasBeenHit;
 
     private int m_Offset = 2;
+    [SerializeField] TimeSpan m_WaitTime;
 
     private Transform m_Car;
     private CarController m_CarController;
     private Transform m_Building;
 
-    public CarController CarController {
+    public CarController CarController 
+    {
         set { m_CarController = value; }
         get { return m_CarController; }
     }
 
-    public WaypointRadius PickupWaypoint {
+    public WaypointRadius PickupWaypoint 
+    {
         set { m_PickupWaypoint = value; }
         get { return m_PickupWaypoint; }
     }
 
-    public WaypointRadius DropOffWaypoint {
+    public WaypointRadius DropOffWaypoint 
+    {
         set { m_DropOffWaypoint = value; }
         get { return m_DropOffWaypoint; }
     }
@@ -43,24 +47,43 @@ public class Customer : MonoBehaviour {
 
     public void Start() {
         Idle();
+        m_Distance = Vector3.Distance(transform.position, m_Target);
+        m_WaitTime = GameManager.Instance.TimeHandler.CurrentTime.TimeOfDay + TimeSpan.FromMinutes(m_Distance);        
+        Debug.Log($"Wait Time: {m_WaitTime}");
     }
 
     public void FixedUpdate() {
-        if (m_IsBeingPickedUp) {
+        if (m_IsBeingPickedUp) 
+        {
             m_Target = m_Car.position;
             transform.position = Vector3.MoveTowards(transform.position, m_Target, 0.1f);
-            m_Distance = Vector3.Distance(transform.position, m_Target);
-            if (m_Distance <= m_StoppingDistance) {
-                GetPickedUp();
-            }
-        } else if (m_IsBeingDroppedOff) {
+        } 
+        else if (m_IsBeingDroppedOff) 
+        {
             m_Target = m_Building.position;            
-            transform.position = Vector3.MoveTowards(transform.position, m_Target, 0.1f);
-            m_Distance = Vector3.Distance(transform.position, m_Target);
-            if (m_Distance <= m_StoppingDistance) {
-                m_CarController.ToggleFullStop();
-                CleanUpOrder();
-            }
+            transform.position = Vector3.MoveTowards(transform.position, m_Target, 0.1f);            
+        } 
+        else if (GameManager.Instance.TimeHandler.CurrentTime.TimeOfDay >= m_WaitTime)
+        {
+            CancelOrder();
+        }
+    }
+
+    public void OnCollisionEnter(Collision collision)
+    {
+        if (m_IsBeingPickedUp && collision.collider.CompareTag("Player"))
+        {
+            GetPickedUp();
+        }
+        else if (!m_IsBeingPickedUp && collision.collider.CompareTag("Player"))
+        {
+            m_HasBeenHit = true;
+            CancelOrder();
+        }
+        if (m_IsBeingDroppedOff && collision.collider.CompareTag("Building"))
+        {
+            m_CarController.ToggleFullStop();
+            CleanUpOrder();
         }
     }
 
@@ -104,8 +127,21 @@ public class Customer : MonoBehaviour {
     private void CleanUpOrder() {        
         Destroy(m_PickupWaypoint.Waypoint.gameObject);
         Destroy(m_DropOffWaypoint.Waypoint.gameObject);
-        GameManager.Instance.ScoreHandler.NextClient();
+        if (!m_HasBeenHit) GameManager.Instance.ScoreHandler.NextClient();
+        GameManager.Instance.IsOccupied = false;
         Destroy(this.gameObject);
+    }
+
+    private void CancelOrder()
+    {
+        if (m_HasBeenHit)
+        {
+            GameManager.Instance.ScoreHandler.Rating = 1;
+            Invoke("CleanUpOrder", 1f);
+        } else
+        {
+            CleanUpOrder();
+        }
     }
 
     // --- ORDER END ---

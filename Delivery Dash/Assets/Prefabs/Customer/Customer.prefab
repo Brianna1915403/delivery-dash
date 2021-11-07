@@ -3353,11 +3353,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7286748721722583092}
-  - component: {fileID: 6929806176706466622}
   - component: {fileID: 1680524703428023385}
+  - component: {fileID: 3291911512751241042}
+  - component: {fileID: 8174386674752417212}
   - component: {fileID: 4587989731720476159}
   - component: {fileID: 4587989731720476156}
-  - component: {fileID: 3291911512751241042}
   m_Layer: 0
   m_Name: Customer
   m_TagString: Customer
@@ -3381,28 +3381,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!195 &6929806176706466622
-NavMeshAgent:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4742870908161551034}
-  m_Enabled: 1
-  m_AgentTypeID: 0
-  m_Radius: 0.3
-  m_Speed: 3.5
-  m_Acceleration: 8
-  avoidancePriority: 50
-  m_AngularSpeed: 120
-  m_StoppingDistance: 0
-  m_AutoTraverseOffMeshLink: 1
-  m_AutoBraking: 1
-  m_AutoRepath: 1
-  m_Height: 1.75
-  m_BaseOffset: 0
-  m_WalkableMask: 4294967295
-  m_ObstacleAvoidanceType: 4
 --- !u!95 &1680524703428023385
 Animator:
   serializedVersion: 3
@@ -3422,6 +3400,35 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!65 &3291911512751241042
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4742870908161551034}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.41339684, y: 1.7691765, z: 0.6639672}
+  m_Center: {x: 0.01719305, y: 0.8969114, z: -0.025006026}
+--- !u!54 &8174386674752417212
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4742870908161551034}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!114 &4587989731720476159
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3436,12 +3443,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PickupWaypoint: {fileID: 0}
   m_DropOffWaypoint: {fileID: 0}
-  m_Agent: {fileID: 6929806176706466622}
   m_Target: {x: 0, y: 0, z: 0}
   m_Distance: 0
-  m_StoppingDistance: 0.25
+  m_StoppingDistance: 1
   m_Animator: {fileID: 1680524703428023385}
-  m_Trigger: {fileID: 0}
 --- !u!114 &4587989731720476156
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3762,19 +3767,6 @@ MonoBehaviour:
   - {fileID: 2800000, guid: 22970075f27e84a4087aee30488b15bc, type: 3}
   - {fileID: 2800000, guid: 4b79be85516013a469fa0607827f4d6f, type: 3}
   - {fileID: 2800000, guid: 7e3520a303086884581a031ec2cf89c7, type: 3}
---- !u!65 &3291911512751241042
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4742870908161551034}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.41339684, y: 1.7907677, z: 0.6639672}
-  m_Center: {x: 0.01719305, y: 0.8861158, z: -0.025006026}
 --- !u!1 &4844200788609293123
 GameObject:
   m_ObjectHideFlags: 0
