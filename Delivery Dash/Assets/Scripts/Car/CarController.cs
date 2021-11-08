@@ -63,7 +63,6 @@ public class CarController : MonoBehaviour
     }
 
     void Flip() {
-        Debug.Log("Orphans in my basement");
         if (transform.rotation.eulerAngles.x > 1 && transform.rotation.eulerAngles.z > 1)
             transform.rotation = new Quaternion(0, transform.rotation.y, 0, 1);
     }

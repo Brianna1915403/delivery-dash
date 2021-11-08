@@ -19,6 +19,7 @@ TagManager:
   - Moon
   - Timer
   - Customer Satisfaction
+  - Obstacle
   layers:
   - Default
   - TransparentFX

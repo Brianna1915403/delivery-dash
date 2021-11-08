@@ -1,6 +1,5 @@
 using System;
 using UnityEngine;
-using TMPro;
 
 public class TimeHandler : MonoBehaviour
 {
@@ -22,8 +21,6 @@ public class TimeHandler : MonoBehaviour
     [SerializeField] private Light m_Moon;
     [SerializeField] private Color m_AmbientLightNight;
     [SerializeField] private float m_MaxMoonLightIntensity;
-    [Space]
-    [SerializeField] private TextMeshProUGUI m_Clock;
 
     private DateTime m_CurrentTime;
     private TimeSpan m_SunriseTime;
@@ -32,6 +29,17 @@ public class TimeHandler : MonoBehaviour
     public DateTime CurrentTime
     {
         get { return m_CurrentTime; }
+        set { m_CurrentTime = value; }
+    }
+
+    public Light Moon
+    {
+        get { return m_Moon; }
+    }
+
+    public Light Sun
+    {
+        get { return m_Moon; }
     }
 
     void Start()
@@ -43,9 +51,12 @@ public class TimeHandler : MonoBehaviour
 
     void Update()
     {
-        UpdateTimeOfDay();
-        RotateSun();
-        UpdateLightSettings();
+        if (GameManager.Instance.IsInGame)
+        {
+            UpdateTimeOfDay();
+            RotateSun();
+            UpdateLightSettings();
+        }
     }
 
     /// <summary>
@@ -54,7 +65,12 @@ public class TimeHandler : MonoBehaviour
     private void UpdateTimeOfDay()
     {
         m_CurrentTime = m_CurrentTime.AddSeconds(Time.deltaTime * m_TimeMultiplier);
-        if (m_Clock) m_Clock.text = m_CurrentTime.ToString("HH:mm");
+        GameManager.Instance.SceneHandler.Clock = m_CurrentTime.ToString("HH:mm");
+        if (m_CurrentTime.Hour == 0 && m_CurrentTime.Minute == 0)
+        {
+            m_CurrentTime = m_CurrentTime.AddSeconds(0.1 * m_TimeMultiplier); // Needs to advance time to work
+            GameManager.Instance.SceneHandler.NextDay();
+        }
     }
 
     /// <summary>

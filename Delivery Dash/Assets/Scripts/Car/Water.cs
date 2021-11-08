@@ -10,6 +10,7 @@ public class Water : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             other.gameObject.transform.parent.GetComponentInParent<Rigidbody>().isKinematic = true;
+            GameManager.Instance.SceneHandler.GameOver();
         }
     }
 }

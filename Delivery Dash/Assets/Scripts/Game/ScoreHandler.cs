@@ -6,21 +6,27 @@ using UnityEngine.UI;
 public class ScoreHandler : MonoBehaviour
 {
     [Header("Customer Satisfaction")]
-    [SerializeField] private GameObject m_CustomerSatisfaction;
-    private Slider m_CustomerSatisfactionSlider;
+    [SerializeField] private Slider m_CustomerSatisfaction;
     [SerializeField] private float m_Rating = 5f;
     [Space]
-    [SerializeField] private Texture2D m_Devestated;
-    [SerializeField] private Texture2D m_Disapointed;
-    [SerializeField] private Texture2D m_Okay;
-    [SerializeField] private Texture2D m_Satisfied;
-    [SerializeField] private Texture2D m_Overjoyed;
+    [SerializeField] private Sprite m_Devestated;
+    [SerializeField] private Sprite m_Disapointed;
+    [SerializeField] private Sprite m_Okay;
+    [SerializeField] private Sprite m_Satisfied;
+    [SerializeField] private Sprite m_Overjoyed;
     private List<float> m_CustomerRatings = new List<float>();
 
     [Header("Score Keeping")]
     [SerializeField] private float m_AverageRating = 0f;
-    [SerializeField] private Texture2D m_AverageRatingTexture;
+    [SerializeField] private Sprite m_AverageRatingTexture;
     [SerializeField] private int m_AmountOfCustomers = 0;
+    [Space]
+    [SerializeField] private float m_Debt = 20000f;
+    [SerializeField] private float m_Balance;
+    [SerializeField] private float m_Earnings = 0f;
+    [SerializeField] private float m_TotalEarnings = 0f;
+    [Space]
+    [SerializeField] private int m_Day = 1;
 
     [Header("Penalties")]
     [SerializeField] private float m_FirstImpressionPenalty = 1f;
@@ -33,9 +39,40 @@ public class ScoreHandler : MonoBehaviour
         set { m_Rating = value; }
     }
 
-    public Texture2D AverageRating
+    public Sprite AverageRating
     {
         get { return m_AverageRatingTexture; }
+    }
+
+    public int AmountOfCustomers
+    {
+        get { return m_AmountOfCustomers; }
+    }
+
+    public float Debt
+    {
+        get { return m_Debt; }
+    }
+
+    public float Balance
+    {
+        get { return m_Balance; }
+    }
+
+    public float Earnings
+    {
+        get { return m_Earnings; }
+    }
+
+    public float TotalEarnings
+    {
+        get { return m_TotalEarnings; }
+    }
+
+    public int Day
+    {
+        get { return m_Day; }
+        set { m_Day = value; }
     }
 
     public float FirstImpressionPenalty
@@ -53,14 +90,14 @@ public class ScoreHandler : MonoBehaviour
         get { return m_SurfacePenalty; }
     }
 
-    void Awake()
+    private void Start()
     {
-        m_CustomerSatisfactionSlider = m_CustomerSatisfaction.GetComponent<Slider>();
+        m_Balance = m_Debt;
     }
 
     void Update()
     {
-        m_CustomerSatisfactionSlider.value = m_Rating;
+        m_CustomerSatisfaction.value = m_Rating;
     }
 
     /// <summary>
@@ -77,9 +114,17 @@ public class ScoreHandler : MonoBehaviour
     /// </summary>
     private void AddRating()
     {
+        UpdateEarnings();
         m_CustomerRatings.Add(m_Rating);
         UpdateAverageRating();
         ResetRating();
+    }
+
+    private void UpdateEarnings()
+    {
+        m_Earnings += ConvertRatingToEarnings(m_Rating);
+        m_Balance -= m_Earnings;
+        GameManager.Instance.SceneHandler.Money = m_Earnings.ToString("f2");
     }
 
     /// <summary>
@@ -118,11 +163,32 @@ public class ScoreHandler : MonoBehaviour
         {
             m_AverageRatingTexture = m_Disapointed;
         }
-        else if (m_AverageRating <= 1)
+        else
         {
             m_AverageRatingTexture = m_Devestated;
         }
     }    
+
+    private float ConvertRatingToEarnings(float rating)
+    {
+        if (rating <= 5 && rating > 4)
+        {
+            return Random.Range(40f, 50f);
+        }
+        else if (rating <= 4 && rating > 3)
+        {
+            return Random.Range(30f, 40f);
+        }
+        else if (rating <= 3 && rating > 2)
+        {
+            return Random.Range(20f, 30f);
+        }
+        else if (rating <= 2 && rating > 1)
+        {
+            return Random.Range(10f, 20f);
+        }
+        return 0f;
+    }
 
     /// <summary>
     /// Resets the rating to 5.
@@ -130,5 +196,15 @@ public class ScoreHandler : MonoBehaviour
     private void ResetRating()
     {
         m_Rating = 5;
+    }
+
+    /// <summary>
+    /// Resets Earnings and Debt.
+    /// </summary>
+    private void ResetEarnings()
+    {
+        m_Debt = m_Balance;
+        m_TotalEarnings += m_Earnings;
+        m_Earnings = 0f;
     }
 }

@@ -12,11 +12,12 @@ public class OrderHandeler : MonoBehaviour
     void Awake()
     {
         m_PickupLocations = transform.GetChild(0).GetComponentsInChildren<WaypointRadius>();
-        m_DropOffLocations = transform.GetChild(1).GetComponentsInChildren<WaypointRadius>();        
+        m_DropOffLocations = transform.GetChild(1).GetComponentsInChildren<WaypointRadius>();
     }
 
     public bool SpawnCustomer()
     {
+        ActivateWaypoints();
         WaypointRadius pickup = m_PickupLocations[Random.Range(0, m_PickupLocations.Length)];
         WaypointRadius dropoff = m_DropOffLocations[Random.Range(0, m_DropOffLocations.Length)];
         
@@ -29,5 +30,31 @@ public class OrderHandeler : MonoBehaviour
             return true;
         }
         return false;
+    }
+
+    private void ActivateWaypoints()
+    {
+        foreach (WaypointRadius radius in m_PickupLocations)
+        {
+            if (radius.Buildings == null || radius.Buildings.Count == 0) 
+                radius.GetBuildings();
+        }
+        foreach (WaypointRadius radius in m_DropOffLocations)
+        {
+            if (radius.Buildings == null || radius.Buildings.Count == 0)
+                radius.GetBuildings();
+        }
+    }
+
+    public void ClearWaypoints()
+    {
+        foreach (WaypointRadius radius in m_PickupLocations)
+        {
+            radius.Buildings.Clear();
+        }
+        foreach (WaypointRadius radius in m_DropOffLocations)
+        {
+            radius.Buildings.Clear();
+        }
     }
 }

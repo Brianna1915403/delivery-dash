@@ -9,7 +9,7 @@ public class WaypointRadius : MonoBehaviour
     [SerializeField] private RADIUS_TYPE m_RadiusType;
     [SerializeField] private GameObject m_WaypointPrefab;
     [Space]
-    [SerializeField] private float m_Radius = 5f;
+    [SerializeField] private float m_Radius;
     [SerializeField] private List<GameObject> m_Buildings;
     [SerializeField] private Building m_Building;
     [SerializeField] private GameObject m_Waypoint;
@@ -24,9 +24,16 @@ public class WaypointRadius : MonoBehaviour
         get { return m_Waypoint; }
     }
 
-    private void Awake() {
+    public List<GameObject> Buildings
+    {
+        get { return m_Buildings; }
+    }
+
+    public void GetBuildings()
+    {
         Collider[] colliders = Physics.OverlapSphere(transform.position, m_Radius);
-        foreach (Collider collider in colliders) {
+        foreach (Collider collider in colliders)
+        {
             if (collider.gameObject.CompareTag("Building"))
                 m_Buildings.Add(collider.gameObject);
         }

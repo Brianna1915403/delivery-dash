@@ -17,6 +17,7 @@ public class GameManager : MonoBehaviour
 
     [Header("Scene")]
     [SerializeField] private SceneHandler m_SceneHandler;
+    [SerializeField] private bool m_IsInGame = false;
 
     [Header("Score Keeping")]
     [SerializeField] private ScoreHandler m_ScoreHandler;
@@ -30,7 +31,9 @@ public class GameManager : MonoBehaviour
     [Header("Time")]
     [SerializeField] private TimeHandler m_TimeHandler;
 
-    private bool m_InGame = false;
+    [Header("Save Data")]
+    [SerializeField] private DataHandler m_DataHandler;
+
 
     public SceneHandler SceneHandler
     {
@@ -52,37 +55,56 @@ public class GameManager : MonoBehaviour
         get { return m_TimeHandler; }
     }
 
+    public DataHandler DataHandler
+    {
+        get { return m_DataHandler; }
+    }
+
+    public bool IsInGame
+    {
+        get { return m_IsInGame; }
+        set { m_IsInGame = value; }
+    }
+
     public bool IsOccupied
     {
         get { return m_IsOccupied; }
         set { m_IsOccupied = value; }
     }
+    
 
     private void Awake()
     {
         DontDestroyOnLoad(gameObject);
     }
 
-    void Start()
-    {
-        StartCoroutine(SpawnCustomers());
+    public void Start()
+    {        
+            StartGame();
     }
 
-    void Update()
+    public void StartGame()
     {
-        
+        StartCoroutine(SpawnCustomers());
     }
 
     IEnumerator SpawnCustomers()
     {        
         while (true)
         {
-            float ordertime = Random.Range(m_MinOrderTime, m_MaxOrderTime);
-            yield return new WaitForSeconds(ordertime);
-            if (!m_IsOccupied)
+            if (m_IsInGame)
             {
-                m_IsOccupied = OrderHandeler.SpawnCustomer();
-            }                   
+                float ordertime = Random.Range(m_MinOrderTime, m_MaxOrderTime);
+                yield return new WaitForSeconds(ordertime);
+                if (!m_IsOccupied)
+                {
+                    m_IsOccupied = OrderHandeler.SpawnCustomer();
+                }
+            } 
+            else
+            {
+                yield return new WaitForSecondsRealtime(1f);
+            }
         }
         
     }

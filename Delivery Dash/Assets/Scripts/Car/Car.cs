@@ -45,6 +45,7 @@ public class Car : MonoBehaviour
         {
             m_Smoke.Stop();
         }
+        GameManager.Instance.SceneHandler.DamageIndicator = m_Damage;
     }
 
     public void TakeCrashDamage()

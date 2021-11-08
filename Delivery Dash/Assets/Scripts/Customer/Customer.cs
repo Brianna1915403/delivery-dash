@@ -48,8 +48,9 @@ public class Customer : MonoBehaviour
     public void Start() {
         Idle();
         m_Distance = Vector3.Distance(transform.position, m_Target);
-        m_WaitTime = GameManager.Instance.TimeHandler.CurrentTime.TimeOfDay + TimeSpan.FromMinutes(m_Distance);        
-        Debug.Log($"Wait Time: {m_WaitTime}");
+        m_WaitTime = GameManager.Instance.TimeHandler.CurrentTime.TimeOfDay + TimeSpan.FromMinutes(m_Distance);
+        GameManager.Instance.SceneHandler.CancelationTimer = $"{m_WaitTime.Hours}:{m_WaitTime.Minutes}";
+        Debug.Log($"Wait Time: {m_WaitTime} | {m_WaitTime.Hours}:{m_WaitTime.Minutes}");        
     }
 
     public void FixedUpdate() {
@@ -127,7 +128,7 @@ public class Customer : MonoBehaviour
     private void CleanUpOrder() {        
         Destroy(m_PickupWaypoint.Waypoint.gameObject);
         Destroy(m_DropOffWaypoint.Waypoint.gameObject);
-        if (!m_HasBeenHit) GameManager.Instance.ScoreHandler.NextClient();
+        GameManager.Instance.ScoreHandler.NextClient();
         GameManager.Instance.IsOccupied = false;
         Destroy(this.gameObject);
     }
@@ -140,7 +141,10 @@ public class Customer : MonoBehaviour
             Invoke("CleanUpOrder", 1f);
         } else
         {
-            CleanUpOrder();
+            Destroy(m_PickupWaypoint.Waypoint.gameObject);
+            Destroy(m_DropOffWaypoint.Waypoint.gameObject);
+            GameManager.Instance.IsOccupied = false;
+            Destroy(this.gameObject);
         }
     }
 

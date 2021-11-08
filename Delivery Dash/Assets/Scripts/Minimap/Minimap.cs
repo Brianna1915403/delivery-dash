@@ -9,7 +9,12 @@ public class Minimap : MonoBehaviour
 
     private void LateUpdate()
     {
-        Vector3 position = new Vector3(m_Player.transform.position.x, transform.position.y, m_Player.transform.position.z);
-        transform.position = position;
+        if (!m_Player)
+            m_Player = GameObject.FindGameObjectWithTag("Player").transform;
+        else
+        {
+            Vector3 position = new Vector3(m_Player.transform.position.x, transform.position.y, m_Player.transform.position.z);
+            transform.position = position;
+        }
     }
 }

@@ -22,7 +22,7 @@ public class CarCollisions : MonoBehaviour
     }
 
     private void OnTriggerEnter(Collider other) {
-        if (!m_IsWheel && other.CompareTag("Building") && m_CurrentTime >= m_TargetTime) 
+        if (!m_IsWheel && (other.CompareTag("Building") || other.CompareTag("Obstacle")) && m_CurrentTime >= m_TargetTime) 
         {
             m_TargetTime = Time.time + m_TriggerDelay;
             m_Car.TakeCrashDamage();
